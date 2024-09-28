@@ -1,7 +1,7 @@
 # Witchlight Woods
 
 Welcome to our Devtober Game Jam! 🎮✨  
-This repository contains the game we're creating together as a team for the [Devtober Game Jam](https://itch.io/jam/devtober).
+This repository contains the game we're creating together as a team for the [Devtober Game Jam]([https://itch.io/jam/devtober](https://itch.io/jam/devtober-2024).
 
 ## Project Overview
 
