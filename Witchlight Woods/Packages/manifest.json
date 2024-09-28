@@ -1,11 +1,19 @@
 {
   "dependencies": {
+    "com.cammin.ldtkunity": "6.4.5",
+    "com.crashkonijn.goap": "3.0.17-beta",
+    "com.cysharp.unitask": "2.5.7",
+    "com.unity.addressables": "2.2.2",
+    "com.unity.behavior": "1.0.2",
+    "com.unity.cinemachine": "3.1.1",
     "com.unity.collab-proxy": "2.5.2",
+    "com.unity.editorcoroutines": "1.0.0",
     "com.unity.feature.2d": "2.0.1",
     "com.unity.ide.rider": "3.0.31",
     "com.unity.ide.visualstudio": "2.0.22",
     "com.unity.inputsystem": "1.11.0",
     "com.unity.multiplayer.center": "1.0.0",
+    "com.unity.recorder": "5.1.1",
     "com.unity.render-pipelines.universal": "17.0.3",
     "com.unity.test-framework": "1.4.5",
     "com.unity.timeline": "1.8.7",
@@ -44,5 +52,16 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.cammin.ldtkunity",
+        "com.crashkonijn.goap",
+        "com.cysharp.unitask"
+      ]
+    }
+  ]
 }

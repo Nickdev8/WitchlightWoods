@@ -14,6 +14,17 @@ This is a collaborative game development project where we aim to build a fun and
 - **Berukkla** - Sound Designer
 - **Nick** - Artist
 
+## Used Software
+- Unity 6 Preview, 6000.0.20f1
+- LDTK - https://ldtk.io/
+- Aseprite - https://www.aseprite.org/
+
+## Used Plugins
+- A* Pathfinding - https://arongranberg.com/astar/
+- UniTask - https://openupm.com/packages/com.cysharp.unitask/
+- GOAP - https://github.com/crashkonijn/GOAP
+- LDTK to Unity - https://openupm.com/packages/com.cammin.ldtkunity/
+
 ## Getting Started
 
 To download:
