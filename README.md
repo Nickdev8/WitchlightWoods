@@ -9,7 +9,7 @@ This is a collaborative game development project where we aim to build a fun and
 
 ## Team Members
 
-- **Marcin** - Programmer
+- **fcolor04** - Programmer
 - **Rami** - Writer, Designer
 - **Berukkla** - Sound Designer
 - **Nick** - Artist
