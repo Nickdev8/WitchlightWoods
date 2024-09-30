@@ -1,0 +1,4351 @@
+fileFormatVersion: 2
+guid: cf0c272fb900d174196840d19f170410
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _overrideTexture: {instanceID: 0}
+  _sprites:
+  - name: Bigassets_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 249
+      width: 16
+      height: 16
+    spriteID: c4cd58c99a541d547961068ccb976126
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 249
+      width: 16
+      height: 16
+    spriteID: 902b522df01a06944841eae58f416e2d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 249
+      width: 16
+      height: 16
+    spriteID: 78b8ae2fe1937324497348f5863f8735
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 249
+      width: 16
+      height: 16
+    spriteID: 73f874b2b39022749b96016be3307cb5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 249
+      width: 16
+      height: 16
+    spriteID: 0bd38353aff52f6428d7e063fb12537f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 249
+      width: 16
+      height: 16
+    spriteID: 2eebfb3599159bf4598058f400f40c6f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 249
+      width: 16
+      height: 16
+    spriteID: 959531a0a231d0348b07728dd3631808
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 249
+      width: 16
+      height: 16
+    spriteID: 4471a6cf3b5496842acd76c962863e82
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 249
+      width: 16
+      height: 16
+    spriteID: 373b3e4be4238594aa8704f61f111875
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 249
+      width: 16
+      height: 16
+    spriteID: 1e8c33b8509348d4b96efb15dc5f3905
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 249
+      width: 16
+      height: 16
+    spriteID: 4b93504ec812b5c4abc55b70e52a5e86
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 249
+      width: 16
+      height: 16
+    spriteID: 04c20234e0e0e784b88b9ef463de0216
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 249
+      width: 16
+      height: 16
+    spriteID: 3acd73a0e77056f48bb10a0dfc9d1f70
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 249
+      width: 16
+      height: 16
+    spriteID: d4c293e4ece3f8545b893a2a22d191f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 249
+      width: 16
+      height: 16
+    spriteID: b946a77be2b71674d9c9fdffa19829fd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 249
+      width: 16
+      height: 16
+    spriteID: 2d466746a151dbb4eb9e3000e101c031
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 249
+      width: 9
+      height: 16
+    spriteID: bd5f57b62bdbbad4f85986a5cd4ebc86
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 233
+      width: 16
+      height: 16
+    spriteID: 4ca5e571720b34346bb371f21537fd0a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 233
+      width: 16
+      height: 16
+    spriteID: ed69f0391dbdfd345a3a092d64a8e238
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 233
+      width: 16
+      height: 16
+    spriteID: 2eb0a37642e56944d91848be00fa9eff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 233
+      width: 16
+      height: 16
+    spriteID: 80c1517b942e8e448b41b4e56471e164
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 233
+      width: 16
+      height: 16
+    spriteID: 7ffacb607a757d444830b077224b329e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 233
+      width: 16
+      height: 16
+    spriteID: 03d237d5f3962c14fae787d9e08ee655
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 233
+      width: 16
+      height: 16
+    spriteID: aeed4995e095cfc499c2c869653f1ddc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 233
+      width: 16
+      height: 16
+    spriteID: fa19d49e24f841c46a94bbe5d513c32c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 233
+      width: 16
+      height: 16
+    spriteID: 551a141e6171434449428599220d3752
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 233
+      width: 16
+      height: 16
+    spriteID: 79d566eb7a3c94d43854bb75ed7943c4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 233
+      width: 16
+      height: 16
+    spriteID: 5a96b368021d14e4dbf692348b5fb21d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 233
+      width: 16
+      height: 16
+    spriteID: 0d292aa831cd9b84c8f0c20427824abe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 233
+      width: 16
+      height: 16
+    spriteID: 87d9315096f5d4c40a31dab4f3ef67ec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 233
+      width: 16
+      height: 16
+    spriteID: 9ef8d08d6d659e042be04a53fe8d6c1f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 233
+      width: 16
+      height: 16
+    spriteID: 3dd8ae51cd122bd4eb425bf716409538
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 233
+      width: 16
+      height: 16
+    spriteID: f33c2cc38a750f14db4bcf1aa05e8947
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 233
+      width: 9
+      height: 16
+    spriteID: 3b060e6599dc709488f756292c71252b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 217
+      width: 16
+      height: 16
+    spriteID: 792e33cf5c6b97a4ebd14e9a99258ee1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 217
+      width: 16
+      height: 16
+    spriteID: 80c78ac102473b44ba778a79c07eb283
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 217
+      width: 16
+      height: 16
+    spriteID: 91552a5be42108f45a22bd727be0d8dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 217
+      width: 16
+      height: 16
+    spriteID: e56b0535cd029d14b9c9a8513e2fa6f0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 217
+      width: 16
+      height: 16
+    spriteID: 2dde11cb8b240f8419208a9de90205e1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 217
+      width: 16
+      height: 16
+    spriteID: 7d6de2a5d81923f46b7f6d85513667ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 217
+      width: 16
+      height: 16
+    spriteID: 003eeb8b89360754698f36bf41952060
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 217
+      width: 16
+      height: 16
+    spriteID: 8a09d4c047923a2439ab9b50ab72d94f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 217
+      width: 16
+      height: 16
+    spriteID: 18dba20aec8d155458ff74b148dd142a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 217
+      width: 16
+      height: 16
+    spriteID: 988d90b2a652b2a4fbfc25602d8b7c0e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 217
+      width: 16
+      height: 16
+    spriteID: 3b762138fcb77934287c1256ff390309
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 217
+      width: 16
+      height: 16
+    spriteID: 846da0fdc4da9c14192021484091a98a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 217
+      width: 16
+      height: 16
+    spriteID: e5ed48f2420f5714d8110407d4359b5f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 217
+      width: 16
+      height: 16
+    spriteID: aab697200440e7941aa5a64ebc783f66
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 217
+      width: 16
+      height: 16
+    spriteID: 24764e49efa7e2e4b811c9d6423fa4f8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 217
+      width: 16
+      height: 16
+    spriteID: 4eb36a0ec9858324baa2ae001b2f2cd1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 217
+      width: 9
+      height: 16
+    spriteID: 692afa2859b597d4bb605912f0fc5fd7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 201
+      width: 16
+      height: 16
+    spriteID: aebeb5d26bfbd0f4bb954ae589f62e60
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 201
+      width: 16
+      height: 16
+    spriteID: c823e8988e4752d47be251176bf12334
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 201
+      width: 16
+      height: 16
+    spriteID: 7a28f41618c179743b690ef838023f92
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 201
+      width: 16
+      height: 16
+    spriteID: 9f51c3223580e374b82e454372ae5142
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 201
+      width: 16
+      height: 16
+    spriteID: 25bf135c08138474f940263f3c9b0ff7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 201
+      width: 16
+      height: 16
+    spriteID: 61c6cbecb3016bb4695f32c459ce849d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 201
+      width: 16
+      height: 16
+    spriteID: 471a6badb461e174795c641a4b6e50d8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 201
+      width: 16
+      height: 16
+    spriteID: c394321f8b9eb9f4999a7d5fd2bc085c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 201
+      width: 16
+      height: 16
+    spriteID: c9d83357a1cfefa4c97563e78c5cec81
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 201
+      width: 16
+      height: 16
+    spriteID: 23e365e5d1a541949911178c788485d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 201
+      width: 16
+      height: 16
+    spriteID: 26e87c6de78a0e74f819e1489aff945c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 201
+      width: 16
+      height: 16
+    spriteID: d7cce30d9392ae046af328851a7d73c3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 201
+      width: 16
+      height: 16
+    spriteID: 8eabe71edeb48e8469d72564f9f35601
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 201
+      width: 16
+      height: 16
+    spriteID: bf9ad0246f11a8048ab4074f2e646163
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 201
+      width: 16
+      height: 16
+    spriteID: f74637e2f5a608f46a8f21e1435469eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 201
+      width: 16
+      height: 16
+    spriteID: 9ed57a224528ded4d97e91f3bb4dd78b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 201
+      width: 9
+      height: 16
+    spriteID: e83e20018d85a24409d9a1963827cce1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 185
+      width: 16
+      height: 16
+    spriteID: 3eec4b29fd48b55468c83db96985b4e0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 185
+      width: 16
+      height: 16
+    spriteID: 7be1ff505b4d0bc469e0b10146a52c6a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 185
+      width: 16
+      height: 16
+    spriteID: 68864d114937c6049a492a5679781c73
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 185
+      width: 16
+      height: 16
+    spriteID: 56682679461fbc54b92a13889cd08fb7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 185
+      width: 16
+      height: 16
+    spriteID: 58e1ae4fe8c05324f8feff23213bef91
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 185
+      width: 16
+      height: 16
+    spriteID: 369460299f1cde947a9766f0ef611e77
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 185
+      width: 16
+      height: 16
+    spriteID: 6240e8aceb318f948b04107ecf00a976
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 185
+      width: 16
+      height: 16
+    spriteID: f96242b3c9859844eb206607968dcb4c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 185
+      width: 16
+      height: 16
+    spriteID: 50d8f9ed0c72b8648a8e4bc46951d7d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 185
+      width: 16
+      height: 16
+    spriteID: 752fb2ce9ebac30418fde7469ca07eb9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 185
+      width: 16
+      height: 16
+    spriteID: e1f8dae9bb33cbd41a156b8b900dd124
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 185
+      width: 16
+      height: 16
+    spriteID: e645b2326fccc8c4aa393633baf031c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 185
+      width: 16
+      height: 16
+    spriteID: f64cb01c728ec584fb3c363a0c9104ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 185
+      width: 16
+      height: 16
+    spriteID: 9ece8bf0862bbb441963a48b25e2a651
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 185
+      width: 16
+      height: 16
+    spriteID: e60da734a9de8b0429e26cebc2136eeb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 185
+      width: 16
+      height: 16
+    spriteID: b70cab0db77a2f240a576bdbb90e90d2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 185
+      width: 9
+      height: 16
+    spriteID: e19bf484645cca249b612e972a77a5be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 169
+      width: 16
+      height: 16
+    spriteID: 6f800c20e8cfa234aa74735a6fa97439
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 169
+      width: 16
+      height: 16
+    spriteID: 2f5815b8ed949d442b807cdb61b51f7a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 169
+      width: 16
+      height: 16
+    spriteID: c75fd56fc53237241b9a3fa71aab0427
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 169
+      width: 16
+      height: 16
+    spriteID: 8cb0a7a463394ae4daa1d0161fc8e633
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 169
+      width: 16
+      height: 16
+    spriteID: 4d6a8ea22ed72cd4d92b0c82b38b75f2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 169
+      width: 16
+      height: 16
+    spriteID: 130fcb9aa09135c41b43479749e4ad34
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 169
+      width: 16
+      height: 16
+    spriteID: 8e6ed1ea611d94b4694eb5ddebc00be6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 169
+      width: 16
+      height: 16
+    spriteID: de2e851ec190cf14a8da5df1a8b51e33
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 169
+      width: 16
+      height: 16
+    spriteID: 6010670bc8560d6419202fb9857279ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 169
+      width: 16
+      height: 16
+    spriteID: 87efc1f7a2b14bf4b8956a360ac8b91b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 169
+      width: 16
+      height: 16
+    spriteID: 947c481f874b03a43a5985764b63bc21
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 169
+      width: 16
+      height: 16
+    spriteID: 189575c1cdd2f9346b2dd113484f162f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 169
+      width: 16
+      height: 16
+    spriteID: ca255e677e9272249833622f667311e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 169
+      width: 16
+      height: 16
+    spriteID: 8eaf41a9304b3444dae351bffcfd23dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 169
+      width: 16
+      height: 16
+    spriteID: 75837479433ad5446b897d86befd7a8c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 169
+      width: 16
+      height: 16
+    spriteID: 327a998b954b9ef4d88d2f5cd2c3c19a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 169
+      width: 9
+      height: 16
+    spriteID: 38ec027ef6478b249815965fa583f527
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 153
+      width: 16
+      height: 16
+    spriteID: 9ca405c843f48404ca8f6e056c8b493a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 153
+      width: 16
+      height: 16
+    spriteID: b0c52f0b081c02e41854ea8bedd9ed2f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 153
+      width: 16
+      height: 16
+    spriteID: 784dea4ceb877ec4a87e6580e9e222ab
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 153
+      width: 16
+      height: 16
+    spriteID: e9b4424dadedcad4b817f0e05c0ae52f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 153
+      width: 16
+      height: 16
+    spriteID: b9a14f11e989431459adbd5d889e0eea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 153
+      width: 16
+      height: 16
+    spriteID: 1432507e6cfed7648b5ec1f9e5c250cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 153
+      width: 16
+      height: 16
+    spriteID: 1e8f1e23ea98ec143bdb30b6d484f6d0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 153
+      width: 16
+      height: 16
+    spriteID: 183b926ad88c4a640ad4f2d2992b213c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 153
+      width: 16
+      height: 16
+    spriteID: 30fc7e13f4a172e4f9069a9e2a120287
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 153
+      width: 16
+      height: 16
+    spriteID: afc20b0df477f054486e871ec6711ce7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 153
+      width: 16
+      height: 16
+    spriteID: 9123f249bf9988e4c94536ff5da8148f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 153
+      width: 16
+      height: 16
+    spriteID: 3b604ce2da9e57846abf12d0d38273bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 153
+      width: 16
+      height: 16
+    spriteID: 317c05d6892350b438027541a8b82de1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 153
+      width: 16
+      height: 16
+    spriteID: b1b8e23fa13395f47b23a55f1eae2f76
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 153
+      width: 16
+      height: 16
+    spriteID: 20d2614ba89247949bd029cd95076b45
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 153
+      width: 16
+      height: 16
+    spriteID: 1119d3df774318a49a4fc7ccda8ddf73
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 153
+      width: 9
+      height: 16
+    spriteID: cf7bad2bbe6f5d9428c767335318aa97
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 137
+      width: 16
+      height: 16
+    spriteID: 8d589f9d04da1234fb38409011321e5b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 137
+      width: 16
+      height: 16
+    spriteID: 56e2d6f181c8e224f878b4935454d847
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 137
+      width: 16
+      height: 16
+    spriteID: 4cb86c27f51208243a1d75f941242d54
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 137
+      width: 16
+      height: 16
+    spriteID: c1a83a4d53ba5e548baca44ac969f320
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 137
+      width: 16
+      height: 16
+    spriteID: bdd364c2f2f4680439410c8a77bb2216
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 137
+      width: 16
+      height: 16
+    spriteID: e78e31037a85dc64087ca5f2edb0595c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 137
+      width: 16
+      height: 16
+    spriteID: 105b687d178d05b47b53eacba8b5b15d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 137
+      width: 16
+      height: 16
+    spriteID: 19e094d00c6e2ea4e929a2f3f4f35bc8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 137
+      width: 16
+      height: 16
+    spriteID: 69ca8921fc584f347af0f9cd964f3b57
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 137
+      width: 16
+      height: 16
+    spriteID: 76d7d22bbc664f6469dadbd83f5be3bb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 137
+      width: 16
+      height: 16
+    spriteID: a98e8d7ac032f574caf12db3d9999cbc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 137
+      width: 16
+      height: 16
+    spriteID: 020af3edb95df8e469d0212d9c22b91d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 137
+      width: 16
+      height: 16
+    spriteID: 36cec628bfe564e40ae508543f718696
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 137
+      width: 16
+      height: 16
+    spriteID: 15c2a770aca0d8c4c949a1c00ff80e58
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 137
+      width: 16
+      height: 16
+    spriteID: 1b7a71c1de35dc24d82924702fc31fb6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 137
+      width: 16
+      height: 16
+    spriteID: f56a1229d3af7794083d69cb49a2af95
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 137
+      width: 9
+      height: 16
+    spriteID: 7173aa87c276a764aaff2840aa544e4a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 121
+      width: 16
+      height: 16
+    spriteID: 5113b995eab8e444ba408429d9607399
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 121
+      width: 16
+      height: 16
+    spriteID: a165145c91630a149971a6568201777b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 121
+      width: 16
+      height: 16
+    spriteID: 11f2c271dcab64147ae6db444e2f63ae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 121
+      width: 16
+      height: 16
+    spriteID: 05a3c823fa0056240bb109cc12c146e4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 121
+      width: 16
+      height: 16
+    spriteID: f1537cf771dd2424f92d01f42ea28841
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 121
+      width: 16
+      height: 16
+    spriteID: 00889bdf93c2ce74e9d8c4febcd1ae09
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 121
+      width: 16
+      height: 16
+    spriteID: 46ca8365519009248963f30139a28778
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 121
+      width: 16
+      height: 16
+    spriteID: 276416224930a5540902e67213deab95
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 121
+      width: 16
+      height: 16
+    spriteID: a5fa1b65deaa59744a88465d3bf7fb39
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 121
+      width: 16
+      height: 16
+    spriteID: e367baf3d08634447b850669afd9ed42
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 121
+      width: 16
+      height: 16
+    spriteID: 913664d4074f88a4295978129902e2d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 121
+      width: 16
+      height: 16
+    spriteID: 95c666ed7d8fa2547957fef114ed2d60
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 121
+      width: 16
+      height: 16
+    spriteID: 87b2c6a01b4b3c74d97758fbbcd00ca0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 121
+      width: 16
+      height: 16
+    spriteID: 52c906cb2dc62824a9bc2bee5760b089
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 121
+      width: 16
+      height: 16
+    spriteID: 1be42d55c53b2f54186c5c366fe73a6d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 121
+      width: 16
+      height: 16
+    spriteID: ebd383cfc86f893479d999a27c840c30
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 121
+      width: 9
+      height: 16
+    spriteID: 9cad2b0218c6b4240b1cd260dc8271da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 105
+      width: 16
+      height: 16
+    spriteID: f48a85bc9504d1b4c92e78eff45b380b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 105
+      width: 16
+      height: 16
+    spriteID: 4cd5d795cdf719d40b11c6d7a0beb1c3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 105
+      width: 16
+      height: 16
+    spriteID: 2752565851bd78e4cb97f05822e0e631
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 105
+      width: 16
+      height: 16
+    spriteID: 1cf09c4d227a35343bd222ff2afefafd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 105
+      width: 16
+      height: 16
+    spriteID: 9de42352ff8b58847b68caab922837bd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 105
+      width: 16
+      height: 16
+    spriteID: b21895ca6a6459c49bb29401c446bb6f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 105
+      width: 16
+      height: 16
+    spriteID: feafff7e87026fc409c404744ccfcc1f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 105
+      width: 16
+      height: 16
+    spriteID: a667ec71cee113747916c34373009b41
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 105
+      width: 16
+      height: 16
+    spriteID: 04072a4c2b56f7248810ea2b69ace901
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 105
+      width: 16
+      height: 16
+    spriteID: 4b3d0133df17fe04b893424e4ee7d519
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 105
+      width: 16
+      height: 16
+    spriteID: 7f1dae6a07acf2a4083f9e5288c24616
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 105
+      width: 16
+      height: 16
+    spriteID: ea23bf01269f66f428f6f8e1ce56ece8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 105
+      width: 16
+      height: 16
+    spriteID: 8bdbe99e24248da4fa8910c479429f7d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 105
+      width: 16
+      height: 16
+    spriteID: 91ba8462a9e907647b4695adc5525f67
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 105
+      width: 16
+      height: 16
+    spriteID: aec187dc1fdbc7244b7bd3ff1fa92234
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 105
+      width: 16
+      height: 16
+    spriteID: 46fe7d5134f5dc346ba5a79194f9d4c4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 105
+      width: 9
+      height: 16
+    spriteID: 9091d78dd9f8f824a891ea187ff67812
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 89
+      width: 16
+      height: 16
+    spriteID: e733249182b082248a5af8ebd1ede7d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 89
+      width: 16
+      height: 16
+    spriteID: a2e27cd66a981804f8ad0eebaed0311c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 89
+      width: 16
+      height: 16
+    spriteID: 674533f474e21b64f9d16846aa929446
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 89
+      width: 16
+      height: 16
+    spriteID: 83b0db2ad29dd4945beb2d505ddd71a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 89
+      width: 16
+      height: 16
+    spriteID: 087e18d337ec78846a57e9ef0deb3774
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 89
+      width: 16
+      height: 16
+    spriteID: 7ff43bc716d065e4dbfc2276f0932bf7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 89
+      width: 16
+      height: 16
+    spriteID: 8840674e621109546be92674f74fecbe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 89
+      width: 16
+      height: 16
+    spriteID: 10dd0475759d3ab46b87a7a528cb3a01
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 89
+      width: 16
+      height: 16
+    spriteID: 5de439d053eea0a4bbb40f8fd60dd475
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 89
+      width: 16
+      height: 16
+    spriteID: de4e056e4364de84983efde1e2eccda8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 89
+      width: 16
+      height: 16
+    spriteID: 0bd229c430f199a47a16247f9d1a0ee1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_181
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 89
+      width: 16
+      height: 16
+    spriteID: 97074ccbbcb135e478f0b7745e789541
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_182
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 89
+      width: 16
+      height: 16
+    spriteID: 2f625818842531a43bfc686bc17e8916
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 89
+      width: 16
+      height: 16
+    spriteID: 602feb8af513fe54e98251036c2a001a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_184
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 89
+      width: 16
+      height: 16
+    spriteID: eb3779b193d1376458d69b8a89202187
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_185
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 89
+      width: 16
+      height: 16
+    spriteID: b25666b045a9b0548a7de9f93fee1dec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 89
+      width: 9
+      height: 16
+    spriteID: 317c5dc652a9acc4b95c0e33d6472110
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_187
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 73
+      width: 16
+      height: 16
+    spriteID: 4c6b65922db88b64894c6873c661a1f3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_188
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 73
+      width: 16
+      height: 16
+    spriteID: 433b02d4dbeb84141a96bd85f4586ee4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 73
+      width: 16
+      height: 16
+    spriteID: e1e6ba0ecf90d7342b4df8babbde60b5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_190
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 73
+      width: 16
+      height: 16
+    spriteID: a698a58bbc795c8458d5552a68e60f9f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_191
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 73
+      width: 16
+      height: 16
+    spriteID: 7d0c9d7a7adfccb4692e9796b3db7e4f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 73
+      width: 16
+      height: 16
+    spriteID: 463796c14ce13494f913c5a265e5ff35
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_193
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 73
+      width: 16
+      height: 16
+    spriteID: d9e1c1ed63917e647a18efc4349b42ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_194
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 73
+      width: 16
+      height: 16
+    spriteID: 5930e74874f8eed499dc20bb1001ae20
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_195
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 73
+      width: 16
+      height: 16
+    spriteID: 75bf55d6dff6bb7448857bdc11f65e85
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_196
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 73
+      width: 16
+      height: 16
+    spriteID: 4d3faf52ea3e9c34ba5d9799fa8cda56
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_197
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 73
+      width: 16
+      height: 16
+    spriteID: d42656d06f096af4e9fb0783323522bb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_198
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 73
+      width: 16
+      height: 16
+    spriteID: 7c69908b43a228b49b67328b1789dd69
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_199
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 73
+      width: 16
+      height: 16
+    spriteID: a5f5f8b45bb5ad248880884f162ef0fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_200
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 73
+      width: 16
+      height: 16
+    spriteID: acd4267d7ddeb8a4c9cf4cd27989575d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_201
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 73
+      width: 16
+      height: 16
+    spriteID: f35643b49469e8a4d9f30d06b07eff03
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_202
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 73
+      width: 16
+      height: 16
+    spriteID: 2ac10f40ff7ac8c478912a4b91d02af1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_203
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 73
+      width: 9
+      height: 16
+    spriteID: 7c9af6bb42073b847aac74a2a1b7718c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_204
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 57
+      width: 16
+      height: 16
+    spriteID: 610907eda2f60a74dbfce3b15eb661dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_205
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 57
+      width: 16
+      height: 16
+    spriteID: 93417c82bd3c5164a820674af26f3097
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_206
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 57
+      width: 16
+      height: 16
+    spriteID: 5526b96dda77fc946bcab2fe40714437
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_207
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 57
+      width: 16
+      height: 16
+    spriteID: 7d08defe44a07be448d587b7fb4a615b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_208
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 57
+      width: 16
+      height: 16
+    spriteID: d9f0f3afb121b4d4a87cf250d20ac1e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_209
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 57
+      width: 16
+      height: 16
+    spriteID: e59fa27874843f449adc4c0ed7eb5b5e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_210
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 57
+      width: 16
+      height: 16
+    spriteID: 04990452521325a4c940f79c42932159
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_211
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 57
+      width: 16
+      height: 16
+    spriteID: d9efc3bc5bd1ec54580b341a8cef02e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_212
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 57
+      width: 16
+      height: 16
+    spriteID: d425b8314285ed34e8bcc03e2f44f7fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_213
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 57
+      width: 16
+      height: 16
+    spriteID: 04223f3ad370a0e459ec1e8b25f36742
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_214
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 57
+      width: 16
+      height: 16
+    spriteID: 261fc515cafcb1d45bea3858c68ba3e1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_215
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 57
+      width: 16
+      height: 16
+    spriteID: fdeca02cfd95fa143a009b52d2b5d2c9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_216
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 57
+      width: 16
+      height: 16
+    spriteID: da0e30c5f48300549b0810db52b3ae58
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_217
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 57
+      width: 16
+      height: 16
+    spriteID: f2cf0b34c46314f4ab21c21483c4c8a0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_218
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 57
+      width: 16
+      height: 16
+    spriteID: 30eb05e91ac62074e814d1288415852d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_219
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 57
+      width: 16
+      height: 16
+    spriteID: b68411152f155944197ac04a89739dee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_220
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 57
+      width: 9
+      height: 16
+    spriteID: 005bd777a5537d0429dea9be1ef2b9cf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_221
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 41
+      width: 16
+      height: 16
+    spriteID: 008cd74277815a848bbbba985c4e185a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_222
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 41
+      width: 16
+      height: 16
+    spriteID: f10c9349305206c46ba6c254a75580e2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_223
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 41
+      width: 16
+      height: 16
+    spriteID: d9bbf48a6a07fdb41b134bcb1d2d9db3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_224
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 41
+      width: 16
+      height: 16
+    spriteID: 628c683dc1295c941adaeed91002a8a6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_225
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 41
+      width: 16
+      height: 16
+    spriteID: 8800e38f65500004bbbbcef687d9cde6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_226
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 41
+      width: 16
+      height: 16
+    spriteID: 4e563f82e57f26f418b37e1d957663fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_227
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 41
+      width: 16
+      height: 16
+    spriteID: f7edae43ce7799a4ab5364d1b55fbc0a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_228
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 41
+      width: 16
+      height: 16
+    spriteID: dfc4370847c0ece44b45827051782161
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_229
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 41
+      width: 16
+      height: 16
+    spriteID: ff35c92aee12f25419c1acc930a77ae1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_230
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 41
+      width: 16
+      height: 16
+    spriteID: 7bf41b77902e2334d976eecf0a536773
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_231
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 41
+      width: 16
+      height: 16
+    spriteID: fdfe6b5be46c5bf479f588cfb16cd0b2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_232
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 41
+      width: 16
+      height: 16
+    spriteID: 1f724a074dfef3a4b9075402ce75b6f5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_233
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 41
+      width: 16
+      height: 16
+    spriteID: 065570a7d7044934d95b4d2d28960f28
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_234
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 41
+      width: 16
+      height: 16
+    spriteID: 4d0c05740ee373c49a1ac7011d163e3d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_235
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 41
+      width: 16
+      height: 16
+    spriteID: af9e49555ac721d45a6460f35c5ddcee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_236
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 41
+      width: 16
+      height: 16
+    spriteID: cdd8db478a84e3e47a66c9c8a4f4ac7b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_237
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 41
+      width: 9
+      height: 16
+    spriteID: 9efb6e1018423b14a9ed522fd1054570
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_238
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 25
+      width: 16
+      height: 16
+    spriteID: af15824e6775b744a958fbac5551755f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_239
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 25
+      width: 16
+      height: 16
+    spriteID: be1256194b0d33042a79d4adca8bf532
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_240
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 25
+      width: 16
+      height: 16
+    spriteID: d4d2bdb09cf14054280bdb9bb44ec913
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_241
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 25
+      width: 16
+      height: 16
+    spriteID: c95521600dcfe4046b64cf563588cc4c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_242
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 25
+      width: 16
+      height: 16
+    spriteID: 6478c28829fcac7489adfe6ea10993db
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_243
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 25
+      width: 16
+      height: 16
+    spriteID: 42b116bb940f0594289253f5acbb336c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_244
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 25
+      width: 16
+      height: 16
+    spriteID: a126ffac9c7b74d4daa9f9a4ed0c47f0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_245
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 25
+      width: 16
+      height: 16
+    spriteID: 5b9c089d4d3b8f042ae28985893904f1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_246
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 25
+      width: 16
+      height: 16
+    spriteID: 65eddc0eff57386498130f0c255810f2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_247
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 25
+      width: 16
+      height: 16
+    spriteID: 0f6ba1f8ed3625c4fa3b0c3efcc40861
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_248
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 25
+      width: 16
+      height: 16
+    spriteID: dac9d8fe11eae2a49b227121889b9ceb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_249
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 25
+      width: 16
+      height: 16
+    spriteID: cf2790a7793c0314181981620936ab1a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_250
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 25
+      width: 16
+      height: 16
+    spriteID: bb342ba8814e3094eb25b071f02cd022
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_251
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 25
+      width: 16
+      height: 16
+    spriteID: b2fcd5c7e9c6d62428660756bf277d5d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_252
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 25
+      width: 16
+      height: 16
+    spriteID: 473a87dec4548e1419110d0cfe01353d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_253
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 25
+      width: 16
+      height: 16
+    spriteID: 029cceaff0ab6d94a81bd4accb45c99d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_254
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 25
+      width: 9
+      height: 16
+    spriteID: 915df328abe9d914e970b11143fe1f3f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_255
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 9
+      width: 16
+      height: 16
+    spriteID: a2069dde08ab3c349aa777dcb50d3380
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_256
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 9
+      width: 16
+      height: 16
+    spriteID: cf1450354ad77e84199a60526cb76dc9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_257
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 9
+      width: 16
+      height: 16
+    spriteID: cb3dfdddb94af6545992a11b33ac0dc3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_258
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 9
+      width: 16
+      height: 16
+    spriteID: 9d9061c7492fb4445acdd2ae0982fe2c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_259
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 9
+      width: 16
+      height: 16
+    spriteID: 3ff3a7a4264e67340849a91bacfe10fd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_260
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 9
+      width: 16
+      height: 16
+    spriteID: ef21b41ab69752245a387d3c97fb5ba1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_261
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 9
+      width: 16
+      height: 16
+    spriteID: e2050c2512a9d734fb1ac08b05a8f823
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_262
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 9
+      width: 16
+      height: 16
+    spriteID: 4b66636ef0a15b941bba960248bc9787
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_263
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 9
+      width: 16
+      height: 16
+    spriteID: ec77b2b0d2746cf4e8486bed0b60c252
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_264
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 9
+      width: 16
+      height: 16
+    spriteID: bb8382f9b5c52e044b2c4e0642fa0785
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_265
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 9
+      width: 16
+      height: 16
+    spriteID: b71ee4b15954bcb4ea1990505e701ae3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_266
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 9
+      width: 16
+      height: 16
+    spriteID: 4e43f9c8abf8a824d8348a5c5fb7eacf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_267
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 9
+      width: 16
+      height: 16
+    spriteID: 17ca558041102d046a7e3e0da67fe922
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_268
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 9
+      width: 16
+      height: 16
+    spriteID: e217359f89427aa44a3844c6e24cf0c8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_269
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 9
+      width: 16
+      height: 16
+    spriteID: af398de4677c90e4a9800d905b20e782
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_270
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 9
+      width: 16
+      height: 16
+    spriteID: 93c406f0405facb4b828b40c7b4b7165
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_271
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 9
+      width: 9
+      height: 16
+    spriteID: 43defee18aa06cf47b41036572afc2d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_272
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 9
+    spriteID: a742a01b988d1d748a68d8c53ecf4196
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_273
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 9
+    spriteID: 15dcd6a4e61d32c4f84f37425bb201c3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_274
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 9
+    spriteID: 36430f03bf653384d8196522f5cbb9f3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_275
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 9
+    spriteID: 9899b77f84cbbed478fb4e6a5f902a11
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_276
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 9
+    spriteID: 4a52915235de1e54a99283d40749bcfb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_277
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 9
+    spriteID: 999e56b0db5374340af89ba2ddd6edfd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_278
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 9
+    spriteID: d360e5dbb39b5464d87b351e3fd371ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_279
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 9
+    spriteID: 6b34a3e9200b9fd459d9711532d78d11
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_280
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 9
+    spriteID: c335e133a1df6cb4e9e8c2d0b34a9aa7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_281
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 9
+    spriteID: ca4e32918ca75c74d8b3fbba408434e1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_282
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 9
+    spriteID: ec9d2e8c14e5f8e429122314fd2470da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_283
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 9
+    spriteID: 3c6959646ebb34d4da0926016979ed9b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_284
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 9
+    spriteID: 079957383178777469f86e4c1e7844e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_285
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 9
+    spriteID: 3d690c9184ca860489f05cc0f63ca5bb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_286
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 9
+    spriteID: 19c411f73c4d60c469f8349f245e13d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_287
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 9
+    spriteID: 10e4c1bb687c63b49a814d48f8bfb1a0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Bigassets_288
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 0
+      width: 9
+      height: 9
+    spriteID: 333dbaa62d12ddb47aa4205cf8933107
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}

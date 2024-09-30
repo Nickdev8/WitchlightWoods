@@ -1,0 +1,3856 @@
+fileFormatVersion: 2
+guid: 4250eb3a8b440a74bb1ac81f0abf683f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _overrideTexture: {instanceID: 0}
+  _sprites:
+  - name: Witchscene_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 48d17284d4a9ebc43a1761ceae4b95f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 37a58b3bbb3d770488cf1a95de1e60c8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 96083528cb35eb74c8039f1416be39a7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 65fe45dc5fc8e0c4c9023b4f0fcd4607
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 92c39714d4be57c4ab6107294f2316dd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 240
+      width: 16
+      height: 16
+    spriteID: c562d62a85e73864db0ab6c89749e854
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 55251f5087bcc944ea9af31c9ce4b7d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 240
+      width: 16
+      height: 16
+    spriteID: eba9f9117e0f3d14e92b97db7e1dc181
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 191149c84b3891946970f768b756a2b6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 240
+      width: 16
+      height: 16
+    spriteID: ee35caa7dc3665b4d9fd3446f6a73e9f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 283ab8abf36a5d243b00d44bad83b761
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 32c9257adf529f14baa08b60b3edb5e4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 5b4aa87ea4b8a364a9a363816dd7644e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 240
+      width: 16
+      height: 16
+    spriteID: a07c0b0b959b4344fb3852450123f25b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 240
+      width: 16
+      height: 16
+    spriteID: d6d37ed301ab0ec499d091091a42e0bd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 240
+      width: 16
+      height: 16
+    spriteID: 60f777b1d0368ac41957c254b34fe63f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 224
+      width: 16
+      height: 16
+    spriteID: feef8d961c72c3f45b28075a93b4c707
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 8474841a70ecaf64688719db7851f990
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 93b35192e57760f44815c0bc06e3cab1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 3cdde48f66ba2a54a9e31da769ecf7b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 4112f768ed798dd47818965889cf6d6e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 224
+      width: 16
+      height: 16
+    spriteID: d83e9572ccf37ca4f8b922d4d78a84b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 224
+      width: 16
+      height: 16
+    spriteID: db3f381f2cfdd474c9660f9e7048e90b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 857fa93dfddadac499079906ada07f9f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 578c03d2726690848ae89ad49dfd0ff1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 7cc4b60bc702a6d4aa43412ed50f2aa9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 80f2341ea0f0a404d848cbbb1d143d91
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 9969d2aea94eb2049b71692c4af699da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 6f198dc9a2eaf9647a7adb6478170a72
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 224
+      width: 16
+      height: 16
+    spriteID: a3bb1f78054ff5f459cbd5efaac0fd54
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 68e9361faad6b8e48957983a6b051ff2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 224
+      width: 16
+      height: 16
+    spriteID: 0aed47aa8d542c84aaf4da30f769816c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 208
+      width: 16
+      height: 16
+    spriteID: c908972a34f533148ac3ba60a45a51ac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 9c4e277e42c3b324999cc64aec6d1313
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 8919548fb04e76648a97e836bcbbfe50
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 208
+      width: 16
+      height: 16
+    spriteID: e96909501b085804598cdff88f4e6d61
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 208
+      width: 16
+      height: 16
+    spriteID: b221ccfb28e2a9d46a3c35f378f3fda3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 8cce9a5e1e6c97843bd14661faa5e588
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 208
+      width: 16
+      height: 16
+    spriteID: a1c9622448d62e046b3cda1170d25f37
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 208
+      width: 16
+      height: 16
+    spriteID: c253c7d467aa260488773d82a802a1e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 19caeddfc524ac0408976d08b97c9b67
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 97ec98ea4a62b664f9f85ab7bc73b789
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 50b02b8d0ded3ef4395fb89eaf572e13
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 208
+      width: 16
+      height: 16
+    spriteID: bb1510828abe8574998e413b516ab045
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 3ffd86db733e133438d275d5ca6e762f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 208
+      width: 16
+      height: 16
+    spriteID: 9a67160ef6b0d914ca6aeb1aeaf1e37d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 208
+      width: 16
+      height: 16
+    spriteID: bd9314c986bfb4945a136ab4dc8d8cce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 208
+      width: 16
+      height: 16
+    spriteID: d30822180ca9e5d40bb677f98aed87b4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 21a2b37967560034ca400b2390974e3b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 192
+      width: 16
+      height: 16
+    spriteID: f96b81b0978028a4994bd8195a35227d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 192
+      width: 16
+      height: 16
+    spriteID: dd642cc4156993c4cb7574c598c9a795
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 192
+      width: 16
+      height: 16
+    spriteID: ce2a70a4241a9f141b7321b6033b2dae
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 421386acf44dbe24bb90453b5105eb21
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 152cc0442c5c6c84995c37628218c207
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c97c14b629ef4a54a9c982df2c2af2be
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 328a282b7da30b1488e4e1a5da22c67f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 68b79995b15961944a7dd631706a9dcd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 5372a80a6ac9a7c448e3ef3404632eff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 192
+      width: 16
+      height: 16
+    spriteID: e5b636f89f9d2b0449ae1a4fa5499d61
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 192
+      width: 16
+      height: 16
+    spriteID: fdde27c06fc847e4d970834d6c7c6478
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 192
+      width: 16
+      height: 16
+    spriteID: e962fdc12456dd140aa582c72be363dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 192
+      width: 16
+      height: 16
+    spriteID: c57beeb98cc8f6946a9a4c310769d8b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 192
+      width: 16
+      height: 16
+    spriteID: ce3875921cc543448a3edbbd3fb5ebb7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 192
+      width: 16
+      height: 16
+    spriteID: 3298ab43876ee0b48ae767cb8d9e37cd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 176
+      width: 16
+      height: 16
+    spriteID: a13df66193e62ee4b992fb0c7d87d781
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 1258eff519c05414787fa3333797a4c1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b639f545c794834478dd2463683f1be0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 8e973726b55e1cb41b060fe12e58a769
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 37117ac0a7368e141a1db2ef9d0eef1d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 176
+      width: 16
+      height: 16
+    spriteID: d5139c568134aaa44b4bb93ecef51647
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 176
+      width: 16
+      height: 16
+    spriteID: f49908c64f00d9b4db241fb400b5beec
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 2e983f2809e3b6743b084da259296030
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 176
+      width: 16
+      height: 16
+    spriteID: ca8dac9eace8141429c5c4ca3789d166
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 982f0334e15b385479f3ff26c2981118
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 176
+      width: 16
+      height: 16
+    spriteID: e2945d0695f26a84abf0149685510ee2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 2ffc71393e20cb44c9ec645d8c4dfdff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 19ce523a11b2a584ab43044b0c9cbf3b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 5ef58b99c1a819f46a2c441d552b4bba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 176
+      width: 16
+      height: 16
+    spriteID: 48f1e574ed5e294408e8c9428d942134
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 176
+      width: 16
+      height: 16
+    spriteID: b2f98a8aee8d8e142a9dd49060896e55
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ff89fead13e948348b6ef8664e3e6142
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 3b64b8b99f8dc9c488f178f321215d35
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 16
+      height: 16
+    spriteID: acf9c6e804cd56048a0f72ed622a2f15
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 160
+      width: 16
+      height: 16
+    spriteID: b99af8ee6fd668c4dbdf7cbb8194a029
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 01e3c95c11ce6fb418c1328019166189
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 160
+      width: 16
+      height: 16
+    spriteID: bc7bebb36fc4ca34b8d4698b74da318d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 6232fa1c1e5dbaf4bbf272eb6dec7e0b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 160
+      width: 16
+      height: 16
+    spriteID: a30198a3a3f3b114792cf0e4091110ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 4bbc5d1e4982c234d81bd9317f28b39f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 8a20af040c5e81d4babf67d5b5002502
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 160
+      width: 16
+      height: 16
+    spriteID: c58da37c979d88a43905aecc788e2469
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 5600fded5a7574a4496372c149ece592
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 160
+      width: 16
+      height: 16
+    spriteID: ab26f0b888d35f14da5d3b665af944ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 160
+      width: 16
+      height: 16
+    spriteID: a2340b0143c35a74091a50d2a9c83346
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 53e71a07c0fe29c4eaa616a6c50fb916
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 160
+      width: 16
+      height: 16
+    spriteID: 679cb425d56ceb64fa23be49e9a3f272
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 144
+      width: 16
+      height: 16
+    spriteID: f4c18a1d03f5843408db737fb64b3a5b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 803873095ef89604bab84af99c769875
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 49c0d85c9fb0a2248bac50175c7303fb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 14e3b77b4982289469478fbadf9acc8a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 178caccd76edf454b822367ceb0bb844
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 144
+      width: 16
+      height: 16
+    spriteID: da1d57c6503d5fa48b9275479275c22e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 143729ddcfd3ae9468d6fb660c794d25
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 144
+      width: 16
+      height: 16
+    spriteID: e77127981f08daf41a4e3eb8c2a9657d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 144
+      width: 16
+      height: 16
+    spriteID: c345b2b051d628945b402e3843eb23eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 91d7633344b39db45bba834d5f9ffb37
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 9391d47b93b0069439643d495e944533
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 144
+      width: 16
+      height: 16
+    spriteID: b697d9a7df4cda242ab808d0a2a6fd33
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 144
+      width: 16
+      height: 16
+    spriteID: a1d28c2c9db059440a74d6980fb087fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 9f1680a587e1b5f4e80e0eb22b9312d5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 144
+      width: 16
+      height: 16
+    spriteID: 50851119296e8cd4ab8474e2de872310
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 144
+      width: 16
+      height: 16
+    spriteID: a169b3176a65332498e2f24886063ab6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 89cfd0ea605f8d848a0dd97a66f0e802
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 00c5697e1ad2f9d44a2f86254b3545a7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 6de616215fa00574d9367b2671312bc4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ddb8f8a08fe2b344eb95bdee29ce9334
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 1d7dc65041ae0134796d3300addfc5c2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: abd331f0ef9790446aeacb08338cfa7a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ff8b993ecaae4744f9bceb64b84bc6d8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 8cc40e1336a6675419f7c2bec6d77b6f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 030e1954123d8ce43b3fe33516c586c5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 989b65a084ca0024fa83af04f588ac17
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 6a32b104476576544a7147bf637aab19
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: aad58b66c91a0ac419b9cb45f1a6178e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 667dbb4b12615df4ea788628b6e17f0e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: dac8632fccadda74db823b434f4d2bcf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 3a7576062aa0cd848a86e95cd441a999
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 128
+      width: 16
+      height: 16
+    spriteID: b9dad2166a031554fbd2b4488335b473
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 562834871fb82b042b754e963a76feb8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 1ee6be20b93e44946b71a9cfa55ac5b5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 4e7295813d6247043be900e24724c79b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 4ff98b5e34ceae54aa0a8e2770e51d49
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: b2ea1f417740a2f4e88f3f9bd587a595
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: afb4996b0ef00db4fab876836c7ed471
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 1fff2f7463ba33544a3bd5928c267b06
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 1420b58af5dffb14b9a51546bd12f213
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 2d025c63974b2864d8e7a0a3631c8e8e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 1d34c6848d06e5942964921f0cfeb2d5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 4364586bf681c9847a68920d1bfea7d0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c248cebe96ac8844bb8a26868e069161
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: d17d18a07bb4a19419c10391a4e2ad46
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 4aa1f034b69e0784091ee053d748c972
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c9319ccc18cdcad46abb8812cce9426a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 112
+      width: 16
+      height: 16
+    spriteID: a343e4f6677fc36479b4bd048a5ea018
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: e4e9d132f3cc28343a21c45b6d410f1d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 5a556564130be604fba7310031e55d1a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 361dfd8528acc61448749f381db3ff06
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 1ce3b9b39db941e449959c587d105a46
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 917b19dd1a622d64a9ee6f759083b82a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c530f6ad338a00440af0771743df47e1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f9815922743e1664eafa3ae027f1bb98
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 6566bfaab823e4a44aaa6746eb312465
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 61d51dbb11c4c0244ac8a92689693cc9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: e1e07999030157d45a9b229aba131b34
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: b1c3f943e1953f64d891cd3dac1d0320
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: dd04ddf275d99d944b7a1de9c8b70610
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: e36fda4e695e9274e8593d2735905288
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 8dcef14a0b181cf479ac30b089386b1e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 6b78472e16cb4bf4aa3318c6f22271cc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 96
+      width: 16
+      height: 16
+    spriteID: fb34f68fdbf9e2c478ea720bd9715213
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 2df26c377b80d754d8ecd0a74bf78a4b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 138405a1dfb63304d9ea811c2f174c67
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: dbf3bbc6c748b044d91df8e7e7758e83
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 1b2709c4c54a9b14ab7b4800b622669a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: ea1c116bcbca2bf44b8c7457230856fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 0f6a4cc07d41e3042ad703f9dc01fdad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: e20160608330e504ab6ab6f57e576c90
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 24c2521bb06eab94285ac8937c9f12fd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 6803d70cd94b4c941a5bcf67b03f896d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 37e31589a4f905d4e823ac267509d791
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 972cdc6a2809a314c9add9a10d86f875
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 07ac812142819294da7617728a5ad7ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 8c2c3b82c4fad624cadbda933ff028f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: c1d1edc455ba39d49a5c24130d902532
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: fcfc0b1877515884a8084fb7120a0160
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 96d501b4e70713247b31304132d7cb5b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: f43f74521430bf6468f18e7241f6fa0c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 6d4a9bba784823746b963ee4208bd220
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: a9ef57fbcfb15194cb6faba260887817
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 92f2a5f917230924bb998170c1b2aeff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 27733c9227f14af4eb6cff11a4c049ca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_181
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: ffe42dca29f33e444a02ffe5de17c5bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_182
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: b55a3fce1185557418ff08760fae33ed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4e271d19dc683474897c6128b9fe0d14
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_184
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 22891df9a6ba9e0428d00516bcbd543b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_185
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 156e031c411de8c4aae0a3e3b4a5c566
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 0e910e809ba673645b8265f88c598688
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_187
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4c863464d1335a5429302c1b25fabc9b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_188
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 97568ae46743e364d9a91a36ebc8accd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 6b023d3f28403ac4cac5b303bf5e34ed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_190
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 1f20947011b325d45989a31f0b469f36
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_191
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 2a454352bc739c846b693e7aaf6d3739
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: f16b1f8269f947048a7fe4c10eb586f3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_193
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: fdf911c43f7ecee4da4b2e9a7151ece4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_194
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 8f1da1c9875fd974ea7198e8295cc35e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_195
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ff6986411ed7d084e8c955b0364d6c08
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_196
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 84e41287e4521d046bdece3c5d54954b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_197
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 039fcff1afa687f43819764d59d3e19b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_198
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: b69ae500f8469554893c7ca7587ff8eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_199
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: b4fbbfdfbcbae31458ca98c0fe836739
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_200
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ad0581f08fc4fd54bb2f28dfa4d50f13
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_201
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ca58be165c991d74e8f1b191473387b6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_202
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 5958597434f416a4abfc5e0765fe2f0f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_203
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c1518d0181abd4441b153f94f02a914f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_204
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 392558c624d0a43458cde5d152398abd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_205
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 009863a3482c070459ba5082e7c342a6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_206
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: e1aa09f1dcb304e4c873be23450d8075
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_207
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 03abd57f6df179040b088436ef7a1302
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_208
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 8d399a2b7d5ec534b83cb316f2f5caed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_209
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f9ac8259c58564649b4baef315dbcb80
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_210
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f47b13b38db7d3244b064e9e7a10bba0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_211
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 43f7e0e8de7bfe7428df56837d077062
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_212
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: ea589ab6d6f95a446affa2dcd5b1e82f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_213
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 6aedead3e3bc19e4db5021589e271338
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_214
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: ba622357c97f2b24a83fce35acaf4d2f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_215
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: fcef894aceeac6d4cb41b7d62b97254a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_216
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: c12d034fd81e6c045990998b8e2db72b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_217
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 3f520ad99725b4c40a64c44724be5110
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_218
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: d932248601f619845be6c558db558c4c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_219
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0b6fced985ddcef49beb222ac000a412
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_220
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 9c9bb567fa9d0b645881eaf1b3c4c6de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_221
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 9e3e2942649197e4198e35568ef4c18e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_222
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 87c6128d6dbe41b4ba5e442b9ff9fc6e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_223
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 521b96aa3f7e7b54b9f8688bc550af33
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_224
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: f7a882d3eeca8b5429a790aa10d33f50
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_225
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 809ad00747981ee4ab275eef6ede1c38
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_226
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 6efda2500e936744a857fbea4dd467a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_227
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 3800fca7c8d07484db1fa20201c98e71
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_228
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 9f95f316aaa5c5443bf4d855673a8d77
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_229
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 0a2f4076616af0c45b84e7a73e03cce0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_230
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 7a60ad73fa94eb545bee19eb44cbd3fa
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_231
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 0c8218ef2bef8a6418aa38f457692516
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_232
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 61e09d5f66ba17a42b991d6ae35e90dd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_233
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e0907f05530cb944188e72d1f484b410
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_234
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 532ba1b54028f0a4a82f8ca9f4994642
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_235
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 15398baa0e41ce745b851c7eb72dc9ed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_236
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 621ba60e3a1c133459fa9555ffacbcb3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_237
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: afa81a436af3864439a7ed79c3d4109b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_238
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 8781a176e3f71164aaa1e8174a1bbbef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_239
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 4d834b131a2604e42918ed1e7a019523
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_240
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: edc9f98fc46c8674788e34fbe218fc99
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_241
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: a6c6b245316d48c45ad2fb4a8f157652
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_242
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: fe545adc7799a7543ac862a859a24f8c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_243
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 05233f5f7c5d1864c8b8b86383dc9d44
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_244
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 8a9596e43f9935940a1afd86b7049578
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_245
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 4918b3c0968cbeb4e857aecb3a1ab7fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_246
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: cd151635f2e55f944afbd62682dd8716
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_247
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: c776d7366452b134cb46bb80f3e88a43
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_248
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 44c562dd2acb99c49a89d4aefe351b1e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_249
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 6eb113e2fbdacbb41be3927ff3027975
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_250
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: d59a91846ebb1224fb498c7fdddae2bb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_251
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 453b785fe8459b148b21319a5936a614
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_252
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: ee145ed9f1bbaa04da1e0224f806ed65
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_253
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 0f84cfe6b432b1e4a901b18ae86b5f15
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_254
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: eca513ad3b4438d48b1b3ce4f58a97b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: Witchscene_255
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 93586495878ada849b212a2465b241c7
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []
+  _artifacts: {instanceID: 0}
