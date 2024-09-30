@@ -24,9 +24,9 @@ ScriptedImporter:
   - _key: ForGround_2
     _asset: {instanceID: 0}
   - _key: Main_1
-    _asset: {instanceID: 0}
+    _asset: {fileID: 11400000, guid: a41948f7cb1f42542b05f88fa0fb719c, type: 2}
   - _key: Main_3
-    _asset: {instanceID: 0}
+    _asset: {fileID: 11400000, guid: a41948f7cb1f42542b05f88fa0fb719c, type: 2}
   _entities: []
   _enumGenerate: 0
   _enumPath: 
