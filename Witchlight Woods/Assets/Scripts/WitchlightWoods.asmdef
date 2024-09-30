@@ -1,6 +1,6 @@
 {
     "name": "WitchlightWoods",
-    "rootNamespace": "",
+    "rootNamespace": "WitchlightWoods",
     "references": [
         "GUID:0d347051544a4880a72466503e27985a",
         "GUID:4d9088d80ac84f52b9b07421f95af69c",
