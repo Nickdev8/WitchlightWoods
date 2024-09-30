@@ -5,11 +5,15 @@ using UnityEngine;
 
 namespace WitchlightWoods
 {
-    public class NavAgent2D : MonoBehaviour
+    public class PlatformerAgent : MonoBehaviour
     {
-        public NavAgentConfig baseConfig;
-        public readonly List<Func<NavAgentConfig, NavAgentConfig>> Modifiers = new ();
-        public NavAgentConfig Config => Modifiers.Aggregate(baseConfig, (current, fn) => fn(current));
+        public PlatformerAgentConfig baseConfig;
+        public readonly List<Func<PlatformerAgentConfig, PlatformerAgentConfig>> Modifiers = new ();
+        public PlatformerAgentConfig Config => Modifiers.Aggregate(baseConfig, (current, fn) => fn(current));
+        
+        public PlatformerAgentExtrasConfig BaseExtrasConfig;
+        public readonly List<Func<PlatformerAgentConfig, PlatformerAgentConfig>> ExtrasModifiers = new ();
+        public PlatformerAgentConfig ExtrasConfig => Modifiers.Aggregate(baseConfig, (current, fn) => fn(current));
 
         protected float MoveInput;
         protected float MoveTimer;
@@ -17,6 +21,7 @@ namespace WitchlightWoods
         protected float PreviousDirection;
         protected float SameDirectionMoveTimer;
         protected bool WantsToJump;
+        protected ulong FrameTimer;
         
         public void SetMoveInput(float moveInput)
         {
@@ -49,7 +54,7 @@ namespace WitchlightWoods
     }
 
     [Serializable]
-    public struct NavAgentConfig
+    public struct PlatformerAgentConfig
     {
         [Header("Movement")]
         public float runSpeed;
@@ -67,8 +72,12 @@ namespace WitchlightWoods
         public int coyoteFrames;
         public int jumpBufferFrames;
         public float ascendGravityMultiplier;
-        public float descendGravityMultiplier;
+        public float neutralGravityMultiplier;
         public float descendLimit;
+    }
+
+    public class PlatformerAgentExtrasConfig
+    {
         [Header("Movement Curves")] 
         public AnimationCurve accelerationCurve;
         public AnimationCurve decelerationCurve;
