@@ -13,5 +13,6 @@ namespace WitchlightWoods
         [Header("Jump Curves")]
         public AnimationCurve ascendMovementSpeedCurve = AnimationCurve.EaseInOut(0, 1, 1, 1.2f);
         public AnimationCurve ascendGravityCurve = AnimationCurve.Constant(0, 1, 1);
+        public AnimationCurve wallJumpControlCurve = AnimationCurve.Linear(0, 0, 1, 1);
     }
 }

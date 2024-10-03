@@ -10,6 +10,9 @@ namespace WitchlightWoods
         public bool controllable;
         [Header("Movement")]
         public float stunFactor;
+        public ContactFilter2D groundCheckFilter;
+        public ContactFilter2D wallCheckFilter;
+        public ContactFilter2D climbableWallCheckFilter;
         
         [Range(0, 60)] public byte accelerationFrames;
         [Range(0, 60)] public byte decelerationFrames;
@@ -44,9 +47,12 @@ namespace WitchlightWoods
         [Header("Wall climbing")]
         public bool canWallClimb;
 
-        public float wallJumpForce;
+        public Vector2 wallJumpForce;
         public bool wallHoldIndefinitely;
         public byte wallHoldFrames;
         public float wallGravityMultiplier;
+        public float wallDescendLimit;
+        public byte wallJumpZeroControlFrames;
+        public byte wallJumpControlCurveFrames;
     }
 }

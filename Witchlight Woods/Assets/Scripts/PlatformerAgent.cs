@@ -16,7 +16,6 @@ namespace WitchlightWoods
         // public readonly List<Func<PlatformerAgentExtrasConfig, PlatformerAgentExtrasConfig>> ExtrasModifiers = new ();
         // public PlatformerAgentExtrasConfig ExtrasConfig => ExtrasModifiers.Aggregate(baseExtrasConfig, (current, fn) => fn(current));
 
-        public ContactFilter2D groundCheckFilter;
         public float groundCheckRadius;
         
         public bool Grounded => (FrameTimer - LastGroundedFrame) <= Config.coyoteFrames;
@@ -31,7 +30,7 @@ namespace WitchlightWoods
         protected float PreviousDirection;
         protected bool WantsToJump;
         protected bool Crouching;
-        protected bool OnWall;
+        protected bool OnClimbableWall;
         protected bool WallHitBottom;
         protected bool WallHitTop;
         
@@ -44,7 +43,10 @@ namespace WitchlightWoods
         protected ulong SameDirectionMoveFrames;
         protected ulong LastGroundedFrame;
         protected ulong JumpInputFrame;
-
+        protected ulong OnWallFrames;
+        protected ulong WallJumpFrame;
+        protected ulong WallJumpNoControlFrames;
+        
         private Collider2D _collider;
         private Rigidbody2D _rigidbody2D;
         private float _colliderLowestYPointOffset;
@@ -100,66 +102,40 @@ namespace WitchlightWoods
 
         private void FixedUpdate()
         {
+            Physics2D.SyncTransforms();
+            
             var position = _rigidbody2D.position;
-            var velocity = _rigidbody2D.linearVelocity;
+            var rigidbodyVelocity = _rigidbody2D.linearVelocity;
+            var velocityX = rigidbodyVelocity.x;
+            var velocityY = rigidbodyVelocity.y;
             var config = Config; // Copy config, so it doesn't run getter multiple times
             var extrasConfig = ExtrasConfig;
             var movementSpeedFactor = 1f;
+            var gravity = config.neutralGravityMultiplier;
+            
             //Ground check
-            if (Physics2D.OverlapCircle(position + new Vector2(0, (_colliderLowestYPointOffset - groundCheckRadius)), groundCheckRadius, groundCheckFilter, _groundCheckCollisionBuffer) > 0)
+            if (Physics2D.OverlapCircle(position + new Vector2(0, (_colliderLowestYPointOffset - groundCheckRadius)), groundCheckRadius, config.groundCheckFilter, _groundCheckCollisionBuffer) > 0)
             {
                 //On Grounded
                 LastGroundedFrame = FrameTimer;
                 JumpCount = 0;
-                _rigidbody2D.gravityScale = config.neutralGravityMultiplier;
             }
             
             if (config.active)
             {
                 var groundedForJump = FrameTimer - LastGroundedFrame < config.coyoteFrames;
                 var jumpFrameDiff = FrameTimer - JumpFrame;
-                if (jumpFrameDiff < config.maxJumpFrames) // While jumping/jumped
-                {
-                    if (WantsToJump) // Keep ascending
-                    {
-                        var jumpProgress = 1f;
-                        if(config.maxJumpFrames != 0)
-                            jumpProgress = (float) jumpFrameDiff / config.maxJumpFrames;
-                        _rigidbody2D.gravityScale = config.ascendGravityMultiplier * extrasConfig.ascendGravityCurve.Evaluate(jumpProgress);
-                        movementSpeedFactor *= extrasConfig.ascendMovementSpeedCurve.Evaluate(jumpProgress);
-                    }
-                    else if(!groundedForJump)
-                    {
-                        JumpFrame = FrameTimer - config.maxJumpFrames;//Cancel jump
-                        _rigidbody2D.gravityScale = config.descendGravityMultiplier;
-                    }
-                }
-                else if (jumpFrameDiff > config.maxJumpFrames && !groundedForJump)
-                {
-                    _rigidbody2D.gravityScale = config.descendGravityMultiplier;
-                }
-
-                if (config.canJump &&
-                    FrameTimer - JumpFrame > config.minJumpFrames &&
-                    config.jumpCount - JumpCount > 0 &&
-                    FrameTimer - JumpInputFrame < config.jumpBufferFrames &&
-                    (groundedForJump || config.jumpCount - 1 - JumpCount > 0))
-                {
-                    JumpInputFrame = 0;
-                    //Start jump
-                    if (!groundedForJump)
-                        JumpCount++;
-                    JumpFrame = FrameTimer;
-                    velocity.y = config.jumpForce;
-                    _rigidbody2D.gravityScale = config.ascendGravityMultiplier;
-                    OnJump(JumpCount);
-                    JumpCount++;
-                }
-
+                
                 //Decide speed
                 var speed = 0f;
                 var controlFactor = Mathf.Clamp01(1f - config.stunFactor);
-                
+
+                if (WallJumpNoControlFrames > 0 && config.wallJumpControlCurveFrames > 0)
+                {
+                    controlFactor *= extrasConfig.wallJumpControlCurve.Evaluate((config.wallJumpControlCurveFrames - WallJumpNoControlFrames) / (float) config.wallJumpControlCurveFrames);
+                    WallJumpNoControlFrames--;
+                }
+
                 if (config.canWalk)
                 {
                     if (WalkInput)
@@ -174,6 +150,62 @@ namespace WitchlightWoods
                 else
                 {
                     speed = config.runSpeed;
+                }
+                
+                //Jump
+                if (jumpFrameDiff < config.maxJumpFrames) // While jumping/jumped
+                {
+                    if (WantsToJump) // Keep ascending
+                    {
+                        var jumpProgress = 1f;
+                        if(config.maxJumpFrames != 0)
+                            jumpProgress = (float) jumpFrameDiff / config.maxJumpFrames;
+                        gravity = config.ascendGravityMultiplier * extrasConfig.ascendGravityCurve.Evaluate(jumpProgress);
+                        movementSpeedFactor *= extrasConfig.ascendMovementSpeedCurve.Evaluate(jumpProgress);
+                    }
+                    else if(!groundedForJump)
+                    {
+                        JumpFrame = FrameTimer - config.maxJumpFrames;//Cancel jump
+                        gravity = config.descendGravityMultiplier;
+                    }
+                }
+                else if (jumpFrameDiff > ((uint)config.maxJumpFrames + config.holdFrames) && !groundedForJump)
+                {
+                    gravity = config.descendGravityMultiplier;
+                }
+
+                if (config.canJump && 
+                          OnClimbableWall && 
+                          config.canWallClimb && 
+                          FrameTimer - JumpFrame > config.minJumpFrames &&
+                          FrameTimer - JumpInputFrame < config.jumpBufferFrames)
+                {
+                    JumpInputFrame = 0;
+                    //Wall jump
+                    JumpFrame = FrameTimer;
+                    WallJumpFrame = FrameTimer;
+                    WallJumpNoControlFrames = (uint)config.wallJumpControlCurveFrames + config.wallJumpZeroControlFrames;
+                    velocityX = config.wallJumpForce.x;
+                    velocityY = config.wallJumpForce.y;
+                    velocityX *= MoveInput;
+                    gravity = config.ascendGravityMultiplier;
+                    OnJump(0);
+                    JumpCount = 1;
+                }else if (config.canJump &&
+                          FrameTimer - JumpFrame > config.minJumpFrames &&
+                          config.jumpCount - JumpCount > 0 &&
+                          FrameTimer - JumpInputFrame < config.jumpBufferFrames &&
+                          (groundedForJump || config.jumpCount - 1 - JumpCount > 0))
+                {
+                    JumpInputFrame = 0;
+                    //Start jump
+                    if (!groundedForJump)
+                        JumpCount++;
+                    JumpFrame = FrameTimer;
+                    velocityY = config.jumpForce;
+                    gravity = config.ascendGravityMultiplier;
+                    OnJump(JumpCount);
+                    JumpCount++;
                 }
                 
                 if (MoveInput != 0)
@@ -195,41 +227,69 @@ namespace WitchlightWoods
                     movementSpeedFactor *= extrasConfig.alteringDirectionCurve.Evaluate(alterDirectionProgress);
                     SameDirectionMoveFrames++;
 
-                    var wantedVelocityX = Mathf.LerpUnclamped(velocity.x, MoveInput * speed * movementSpeedFactor, controlFactor);
-                    var absoluteVelocityX = Mathf.Max(Mathf.Abs(wantedVelocityX), Mathf.Abs(MoveInput), Mathf.Abs(velocity.x)) * Time.fixedDeltaTime;
+                    var wantedVelocityX = Mathf.LerpUnclamped(velocityX, (MoveInput * speed * movementSpeedFactor) + Momentum, controlFactor);
+                    var absoluteVelocityX = Mathf.Max(Mathf.Abs(wantedVelocityX), Mathf.Abs(MoveInput), Mathf.Abs(velocityX)) * Time.fixedDeltaTime;
+
+                    var wallCheckDirection = MoveInput < 0 ? Vector2.left : Vector2.right;
+                    var wallCheckDistance = absoluteVelocityX + _colliderBounds.extents.x + 0.01f;
                     
-                    var wallCheckDirection = new Vector2(Mathf.Sign(MoveInput), 0);
-                    var wallCheckDistance = absoluteVelocityX + _colliderBounds.extents.x;
+                    var bottomWallHits = Physics2D.Raycast(position + new Vector2(0, _colliderLowestYPointOffset + 0.01f), wallCheckDirection, config.wallCheckFilter, _wallHitBuffer, wallCheckDistance);
+                    var topWallHits = Physics2D.Raycast(position + new Vector2(0, _colliderHighestYPointOffset - 0.01f), wallCheckDirection, config.wallCheckFilter, _wallHitBuffer, wallCheckDistance);
                     
-                    var bottomWallHits = Physics2D.Raycast(position + new Vector2(0, _colliderLowestYPointOffset + 0.01f), wallCheckDirection, groundCheckFilter, _wallHitBuffer, wallCheckDistance);
-                    var topWallHits = Physics2D.Raycast(position + new Vector2(0, _colliderHighestYPointOffset - 0.01f), wallCheckDirection, groundCheckFilter, _wallHitBuffer, wallCheckDistance);
+                    var bottomClimbableWallHits = Physics2D.Raycast(position + new Vector2(0, _colliderLowestYPointOffset + 0.01f), wallCheckDirection, config.climbableWallCheckFilter, _wallHitBuffer, wallCheckDistance);
+                    var topClimbableWallHits = Physics2D.Raycast(position + new Vector2(0, _colliderHighestYPointOffset - 0.01f), wallCheckDirection, config.climbableWallCheckFilter, _wallHitBuffer, wallCheckDistance);
                     
                     WallHitBottom = bottomWallHits > 0;
                     WallHitTop = topWallHits > 0;
                     
-                    var closestWallDistance = absoluteVelocityX * Time.fixedDeltaTime;
-                    for (var i = 0; i < bottomWallHits; i++) 
-                        closestWallDistance = Mathf.Min(_wallHitBuffer[i].distance, closestWallDistance);
+                    OnClimbableWall = config.canWallClimb && bottomClimbableWallHits > 0 && topClimbableWallHits > 0 && !groundedForJump;
+
+                    var wallJumpInProgress = FrameTimer - config.wallJumpZeroControlFrames <= WallJumpFrame;
                     
-                    if (!WallHitBottom && !WallHitTop)
+                    if (!WallHitBottom && !WallHitTop && !wallJumpInProgress)
                     {
-                        _rigidbody2D.linearVelocityX = wantedVelocityX + Momentum;
+                        velocityX = wantedVelocityX;
                         MomentumFrames = 0;
                         Momentum = 0;
+                        OnWallFrames = 0;
                     }
                     else
                     {
+                        if(!wallJumpInProgress)
+                            velocityX = 0;
                         if (MomentumFrames <= config.momentumHoldFrames)
+                        {
                             Momentum = wantedVelocityX > 0
                                 ? Mathf.Max(Momentum, wantedVelocityX)
                                 : Mathf.Min(Momentum, wantedVelocityX);
+                            Momentum = Mathf.Clamp(Momentum, -speed / 2f, speed / 2f);
+                        }
                         else
                         {
                             Momentum = 0;
 
-                            if (config.canWallClimb)
+                            if (OnClimbableWall && !wallJumpInProgress)
                             {
                                 
+                                if (OnWallFrames > config.wallHoldFrames && !config.wallHoldIndefinitely)
+                                {
+                                    if (velocityY <= 0){
+                                        velocityX *= 0.1f;
+                                        velocityY = Mathf.Max(velocityY, -config.wallDescendLimit);
+                                        gravity = config.wallGravityMultiplier;
+                                    }
+                                }
+                                else
+                                {
+                                    gravity = 0;
+                                    velocityY = 0;
+                                }
+                                
+                                OnWallFrames++;
+                            }
+                            else
+                            {
+                                OnWallFrames = 0;
                             }
                         }
                         MomentumFrames++;
@@ -239,31 +299,40 @@ namespace WitchlightWoods
                 {
                     //Decelerate
                     DecelerationFrames++;
+                    WallHitBottom = false;
+                    WallHitTop = false;
+                    OnClimbableWall = false;
+                    Momentum = 0;
+                    MomentumFrames = 0;
+                    OnWallFrames = 0;
                     
-                    var decelerationProgress = 1f;
-                    if(config.decelerationFrames != 0)
-                        decelerationProgress = (float)DecelerationFrames / config.decelerationFrames;
-                    
-                    if (decelerationProgress > 1f) decelerationProgress = 1f;
-                    
-                    var previousDecelerationProgress = 0f;
-                    if(config.decelerationFrames != 0)
-                        previousDecelerationProgress = decelerationProgress - (1f / config.decelerationFrames);
+                    // var decelerationProgress = 1f;
+                    // if(config.decelerationFrames != 0)
+                    //     decelerationProgress = (float)DecelerationFrames / config.decelerationFrames;
+                    //
+                    // if (decelerationProgress > 1f) decelerationProgress = 1f;
+                    //
+                    // var previousDecelerationProgress = 0f;
+                    // if(config.decelerationFrames != 0)
+                    //     previousDecelerationProgress = decelerationProgress - (1f / config.decelerationFrames);
 
                     var decelerationStep = 1f;
                     if(config.decelerationFrames != 0)
                         decelerationStep = 1f / config.decelerationFrames;
-                    decelerationStep *= (extrasConfig.decelerationCurve.Evaluate(decelerationProgress) - extrasConfig.decelerationCurve.Evaluate(previousDecelerationProgress));
-                    decelerationStep = Mathf.Clamp01(decelerationStep);
                     
-                    _rigidbody2D.linearVelocityX = Mathf.LerpUnclamped(velocity.x, 0f, decelerationStep * controlFactor);
+                    velocityX = Mathf.LerpUnclamped(velocityX, 0f, decelerationStep * controlFactor);
                 }
+                
+                velocityY = Mathf.Max(velocityY, -config.descendLimit);
+                var velocity = new Vector2(velocityX, velocityY);
+                
+                Debug.DrawRay(position, velocity, Color.magenta, Time.fixedDeltaTime);
+                _rigidbody2D.gravityScale = gravity;
+                _rigidbody2D.linearVelocity = velocity;
             }
 
-            _rigidbody2D.linearVelocityY = Mathf.Max(velocity.y, -config.descendLimit);
-
+            
             //todo: crouch
-            //todo: wall climb
             //todo: slope friction
             FrameTimer++;
         }
