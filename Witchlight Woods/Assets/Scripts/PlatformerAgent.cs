@@ -24,6 +24,7 @@ namespace WitchlightWoods
         
         protected float PreviousMoveInput;
         protected float MoveInput;
+        protected float Momentum;
         protected bool WalkInput;
         protected bool CrouchInput;
         protected float CurrentDirection;
@@ -31,10 +32,13 @@ namespace WitchlightWoods
         protected bool WantsToJump;
         protected bool Crouching;
         protected bool OnWall;
+        protected bool WallHitBottom;
+        protected bool WallHitTop;
         
         protected ulong FrameTimer = 60;
         protected ulong AccelerationFrames;
         protected ulong DecelerationFrames;
+        protected ulong MomentumFrames;
         protected ulong JumpFrame;
         protected byte JumpCount;
         protected ulong SameDirectionMoveFrames;
@@ -44,6 +48,9 @@ namespace WitchlightWoods
         private Collider2D _collider;
         private Rigidbody2D _rigidbody2D;
         private float _colliderLowestYPointOffset;
+        private float _colliderHighestYPointOffset;
+        private Bounds _colliderBounds;
+        private readonly RaycastHit2D[] _wallHitBuffer = new RaycastHit2D[6];
         private readonly Collider2D[] _groundCheckCollisionBuffer = new Collider2D[6];
 
         private void Awake()
@@ -52,6 +59,9 @@ namespace WitchlightWoods
             _collider = GetComponent<Collider2D>();
             _rigidbody2D = GetComponent<Rigidbody2D>();
             _colliderLowestYPointOffset = _collider.bounds.min.y - transform.position.y;
+            _colliderHighestYPointOffset = _collider.bounds.max.y - transform.position.y;
+            _colliderBounds = _collider.bounds;
+            _colliderBounds.center -= transform.position;
         }
 
         public void SetMoveInput(float moveInput, bool force = false)
@@ -91,6 +101,7 @@ namespace WitchlightWoods
         private void FixedUpdate()
         {
             var position = _rigidbody2D.position;
+            var velocity = _rigidbody2D.linearVelocity;
             var config = Config; // Copy config, so it doesn't run getter multiple times
             var extrasConfig = ExtrasConfig;
             var movementSpeedFactor = 1f;
@@ -139,7 +150,7 @@ namespace WitchlightWoods
                     if (!groundedForJump)
                         JumpCount++;
                     JumpFrame = FrameTimer;
-                    _rigidbody2D.linearVelocityY = config.jumpForce;
+                    velocity.y = config.jumpForce;
                     _rigidbody2D.gravityScale = config.ascendGravityMultiplier;
                     OnJump(JumpCount);
                     JumpCount++;
@@ -183,8 +194,46 @@ namespace WitchlightWoods
                     
                     movementSpeedFactor *= extrasConfig.alteringDirectionCurve.Evaluate(alterDirectionProgress);
                     SameDirectionMoveFrames++;
+
+                    var wantedVelocityX = Mathf.LerpUnclamped(velocity.x, MoveInput * speed * movementSpeedFactor, controlFactor);
+                    var absoluteVelocityX = Mathf.Max(Mathf.Abs(wantedVelocityX), Mathf.Abs(MoveInput), Mathf.Abs(velocity.x)) * Time.fixedDeltaTime;
                     
-                    _rigidbody2D.linearVelocityX = Mathf.LerpUnclamped(_rigidbody2D.linearVelocityX, MoveInput * speed * movementSpeedFactor, controlFactor);
+                    var wallCheckDirection = new Vector2(Mathf.Sign(MoveInput), 0);
+                    var wallCheckDistance = absoluteVelocityX + _colliderBounds.extents.x;
+                    
+                    var bottomWallHits = Physics2D.Raycast(position + new Vector2(0, _colliderLowestYPointOffset + 0.01f), wallCheckDirection, groundCheckFilter, _wallHitBuffer, wallCheckDistance);
+                    var topWallHits = Physics2D.Raycast(position + new Vector2(0, _colliderHighestYPointOffset - 0.01f), wallCheckDirection, groundCheckFilter, _wallHitBuffer, wallCheckDistance);
+                    
+                    WallHitBottom = bottomWallHits > 0;
+                    WallHitTop = topWallHits > 0;
+                    
+                    var closestWallDistance = absoluteVelocityX * Time.fixedDeltaTime;
+                    for (var i = 0; i < bottomWallHits; i++) 
+                        closestWallDistance = Mathf.Min(_wallHitBuffer[i].distance, closestWallDistance);
+                    
+                    if (!WallHitBottom && !WallHitTop)
+                    {
+                        _rigidbody2D.linearVelocityX = wantedVelocityX + Momentum;
+                        MomentumFrames = 0;
+                        Momentum = 0;
+                    }
+                    else
+                    {
+                        if (MomentumFrames <= config.momentumHoldFrames)
+                            Momentum = wantedVelocityX > 0
+                                ? Mathf.Max(Momentum, wantedVelocityX)
+                                : Mathf.Min(Momentum, wantedVelocityX);
+                        else
+                        {
+                            Momentum = 0;
+
+                            if (config.canWallClimb)
+                            {
+                                
+                            }
+                        }
+                        MomentumFrames++;
+                    }
                 }
                 else
                 {
@@ -207,15 +256,14 @@ namespace WitchlightWoods
                     decelerationStep *= (extrasConfig.decelerationCurve.Evaluate(decelerationProgress) - extrasConfig.decelerationCurve.Evaluate(previousDecelerationProgress));
                     decelerationStep = Mathf.Clamp01(decelerationStep);
                     
-                    _rigidbody2D.linearVelocityX = Mathf.LerpUnclamped(_rigidbody2D.linearVelocityX, 0f, decelerationStep * controlFactor);
+                    _rigidbody2D.linearVelocityX = Mathf.LerpUnclamped(velocity.x, 0f, decelerationStep * controlFactor);
                 }
             }
 
-            _rigidbody2D.linearVelocityY = Mathf.Max(_rigidbody2D.linearVelocityY, -config.descendLimit);
+            _rigidbody2D.linearVelocityY = Mathf.Max(velocity.y, -config.descendLimit);
 
             //todo: crouch
             //todo: wall climb
-            //todo: wall: keep velocity if soon to be out of way
             //todo: slope friction
             FrameTimer++;
         }
@@ -224,8 +272,13 @@ namespace WitchlightWoods
         {
             if (_rigidbody2D == null) Awake();
             var position = _rigidbody2D.position;
+            var velocity = _rigidbody2D.linearVelocity;
             Gizmos.color = Grounded ? Color.green : Color.red;
             Gizmos.DrawWireSphere(position + new Vector2(0, (_colliderLowestYPointOffset - groundCheckRadius)), groundCheckRadius);
+            // var colliderEdge = MoveInput < 0 ? _colliderBounds.min.x + 0.01f : _colliderBounds.max.x - 0.01f;
+            // Gizmos.color = WallHitBottom ? Color.red : Color.green;
+            // Gizmos.DrawLine(position + new Vector2(colliderEdge, _colliderLowestYPointOffset + 0.05f), position + new Vector2(colliderEdge + DesiredVelocityX, _colliderLowestYPointOffset + 0.05f));
+            
         }
     }
 }

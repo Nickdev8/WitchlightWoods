@@ -737,6 +737,7 @@ MonoBehaviour:
     accelerationFrames: 8
     decelerationFrames: 3
     runSpeed: 6
+    momentumHoldFrames: 8
     canWalk: 1
     walkSpeed: 2
     canCrouch: 0
@@ -753,10 +754,10 @@ MonoBehaviour:
     descendGravityMultiplier: 6
     neutralGravityMultiplier: 2
     descendLimit: 12
-    canWallClimb: 0
-    wallJumpForce: 0
+    canWallClimb: 1
+    wallJumpForce: 14
     wallHoldIndefinitely: 0
-    wallHoldFrames: 0
+    wallHoldFrames: 100
     wallGravityMultiplier: 0
   ExtrasConfig:
     accelerationCurve:
@@ -1074,7 +1075,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.37456918, g: 0.17696013, b: 0.17696013, a: 1}
+  m_Color: {r: 0.7840853, g: 0.3580806, b: 0.3580806, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

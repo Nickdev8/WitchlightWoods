@@ -14,6 +14,8 @@ namespace WitchlightWoods
         [Range(0, 60)] public byte accelerationFrames;
         [Range(0, 60)] public byte decelerationFrames;
         public float runSpeed;
+        [Tooltip("When agent jumps, hits the wall, but doesn't after until this amount of frames, it keeps its momentum")]
+        [Range(0, 20)] public byte momentumHoldFrames;
         
         public bool canWalk;
         public float walkSpeed;
