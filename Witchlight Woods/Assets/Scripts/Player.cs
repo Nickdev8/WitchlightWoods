@@ -1,13 +1,18 @@
 ﻿using System;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using WitchlightWoods.Levels;
 
 namespace WitchlightWoods
 {
     [RequireComponent(typeof(PlatformerAgent))]
     public class Player : MonoBehaviour
     {
-        public float inputOverride;
+        public new Camera camera;
+        public CinemachineClearShot cameraController;
+        public CinemachineConfiner2D cameraConfiner;
+        
         [SerializeField] private InputActionReference move;
         [SerializeField] private InputActionReference jump;
         [SerializeField] private InputActionReference walk;
@@ -21,7 +26,7 @@ namespace WitchlightWoods
 
         private void Update()
         {
-            _agent.SetMoveInput(inputOverride != 0 ? inputOverride : move.action.ReadValue<Vector2>().x);
+            _agent.SetMoveInput(move.action.ReadValue<Vector2>().x);
             _agent.SetJump(jump.action.IsPressed());
             _agent.SetWalk(walk.action.IsPressed());
             _agent.SetCrouch(crouch.action.IsPressed());
