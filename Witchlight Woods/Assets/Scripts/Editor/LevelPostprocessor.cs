@@ -12,6 +12,7 @@ namespace Editor
     {
         protected override void OnPostprocessLevel(GameObject root, LdtkJson projectJson)
         {
+            if (AstarPath.active == null) return;
             var level = root.GetComponent<LDtkComponentLevel>();
             var graphIndex = Array.FindIndex(AstarPath.active.data.graphs, graph => graph is CustomGridLevelGraph levelGraph && levelGraph.ParentGuid == level.Identifier);
             CustomGridLevelGraph graph;
@@ -29,7 +30,7 @@ namespace Editor
             
             graph.is2D = true;
             graph.collision.use2D = true;
-            graph.center = root.transform.position + new Vector3(w / 2f, h / 2f);
+            graph.center = root.transform.position + new Vector3(w / 2f, h / 2f) + AstarPath.active.transform.position;
             graph.SetDimensions(w, h, 1f);
 
             graph.erodeIterations = 0;
@@ -40,6 +41,11 @@ namespace Editor
             graph.showMeshOutline = false;
             graph.showMeshSurface = false;
             graph.showNodeConnections = false;
+
+            graph.penaltyPosition = true;
+            graph.penaltyPositionFactor = 1;
+
+            graph.penaltyRaycastPosition = true;
         }
 
         protected override void OnPostprocessProject(GameObject root)

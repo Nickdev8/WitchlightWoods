@@ -63,7 +63,7 @@ Transform:
   m_GameObject: {fileID: 6206359543236822605}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -43.000004, y: -12, z: -10}
+  m_LocalPosition: {x: -42.999996, y: 17.625, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -96,15 +96,15 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.4380098
+    x: 0.42754778
     y: 0
-    width: 0.78303427
-    height: 0.8351482
+    width: 0.7643312
+    height: 0.79100275
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 6
+  orthographic size: 5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -376,7 +376,7 @@ MonoBehaviour:
       useOutsideNormalAngle: 0
       layerMask:
         serializedVersion: 2
-        m_Bits: 1
+        m_Bits: 129
       minDepth: 0
       maxDepth: 0
       minNormalAngle: 0

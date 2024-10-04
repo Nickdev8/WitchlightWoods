@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using Math = System.Math;
 using UnityEngine;
 #if UNITY_5_5_OR_NEWER
@@ -330,7 +331,24 @@ namespace Pathfinding {
 		/// <summary>Use position (y-coordinate) to calculate penalty</summary>
 		[JsonMember]
 		public bool penaltyPosition;
+		[JsonMember]
+		public bool penaltyRaycastPosition;
+        [JsonMember]
+        public float penaltyRaycastPositionFactor = -1F;
+		public ContactFilter2D groundLayers = new ContactFilter2D()
+        {
+            useLayerMask = true,
+            layerMask = LayerMask.GetMask("Default", "Climbable Wall")
+        };
 
+        public ContactFilter2D wallClimbLayers = new ContactFilter2D()
+        {
+            useLayerMask = true,
+            layerMask = LayerMask.GetMask("Climbable Wall")
+        };
+
+        private RaycastHit2D[] _resultBuffer = new RaycastHit2D[6];
+        
 		/// <summary>
 		/// Scale factor for penalty when calculating from position.
 		/// See: penaltyPosition
@@ -1149,13 +1167,31 @@ namespace Pathfinding {
 				node.Penalty = initialPenalty;
 
 				// Calculate a penalty based on the y coordinate of the node
-				if (penaltyPosition) {
-					node.Penalty += (uint)Mathf.RoundToInt((node.position.y-penaltyPositionOffset)*penaltyPositionFactor);
-				}
+				if (penaltyRaycastPosition)
+                {
+                    var groundHits = Physics2D.Raycast(position, Vector2.down, groundLayers, _resultBuffer, 1f);
+                    if (groundHits != 0)
+                    {
+                        node.Penalty = 1;
+                    }
+                    else if (penaltyPosition)
+                    {
+                        node.Penalty += (uint)Mathf.RoundToInt((node.position.y - penaltyPositionOffset) * penaltyPositionFactor);
+                    }
+                }else if (penaltyPosition) {
+                    node.Penalty += (uint)Mathf.RoundToInt((node.position.y-penaltyPositionOffset)*penaltyPositionFactor);
+                }
 			}
 
 			if (resetTags) {
+                var climbableWallHits =
+                    Physics2D.Raycast(position, Vector2.right, wallClimbLayers, _resultBuffer, 1f) +
+                    Physics2D.Raycast(position, Vector2.left, wallClimbLayers, _resultBuffer, 1f);
 				node.Tag = 0;
+                
+                if (climbableWallHits != 0){
+                     node.Tag = 31;
+                }
 			}
 
 			// Check if the node is on a slope steeper than permitted

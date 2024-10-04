@@ -30,7 +30,7 @@ namespace WitchlightWoods
         protected float PreviousDirection;
         protected bool WantsToJump;
         protected bool Crouching;
-        protected bool OnClimbableWall;
+        public bool OnClimbableWall { get; protected set; }
         protected bool WallHitBottom;
         protected bool WallHitTop;
         
@@ -48,7 +48,7 @@ namespace WitchlightWoods
         protected ulong WallJumpNoControlFrames;
         
         private Collider2D _collider;
-        private Rigidbody2D _rigidbody2D;
+        public Rigidbody2D Rigidbody2D { get; protected set; }
         private float _colliderLowestYPointOffset;
         private float _colliderHighestYPointOffset;
         private Bounds _colliderBounds;
@@ -59,7 +59,7 @@ namespace WitchlightWoods
         {
             //This is called from OnDrawGizmosSelected
             _collider = GetComponent<Collider2D>();
-            _rigidbody2D = GetComponent<Rigidbody2D>();
+            Rigidbody2D = GetComponent<Rigidbody2D>();
             _colliderLowestYPointOffset = _collider.bounds.min.y - transform.position.y;
             _colliderHighestYPointOffset = _collider.bounds.max.y - transform.position.y;
             _colliderBounds = _collider.bounds;
@@ -69,6 +69,7 @@ namespace WitchlightWoods
         public void SetMoveInput(float moveInput, bool force = false)
         {
             if (!force && !Config.controllable) return;
+            moveInput = Mathf.Clamp(moveInput, -1, 1);
             PreviousMoveInput = MoveInput;
             MoveInput = moveInput;
             if (moveInput == 0 && PreviousMoveInput == 0)
@@ -104,8 +105,8 @@ namespace WitchlightWoods
         {
             Physics2D.SyncTransforms();
             
-            var position = _rigidbody2D.position;
-            var rigidbodyVelocity = _rigidbody2D.linearVelocity;
+            var position = Rigidbody2D.position;
+            var rigidbodyVelocity = Rigidbody2D.linearVelocity;
             var velocityX = rigidbodyVelocity.x;
             var velocityY = rigidbodyVelocity.y;
             var config = Config; // Copy config, so it doesn't run getter multiple times
@@ -327,8 +328,8 @@ namespace WitchlightWoods
                 var velocity = new Vector2(velocityX, velocityY);
                 
                 Debug.DrawRay(position, velocity, Color.magenta, Time.fixedDeltaTime);
-                _rigidbody2D.gravityScale = gravity;
-                _rigidbody2D.linearVelocity = velocity;
+                Rigidbody2D.gravityScale = gravity;
+                Rigidbody2D.linearVelocity = velocity;
             }
 
             
@@ -339,9 +340,9 @@ namespace WitchlightWoods
 
         private void OnDrawGizmosSelected()
         {
-            if (_rigidbody2D == null) Awake();
-            var position = _rigidbody2D.position;
-            var velocity = _rigidbody2D.linearVelocity;
+            if (Rigidbody2D == null) Awake();
+            var position = Rigidbody2D.position;
+            var velocity = Rigidbody2D.linearVelocity;
             Gizmos.color = Grounded ? Color.green : Color.red;
             Gizmos.DrawWireSphere(position + new Vector2(0, (_colliderLowestYPointOffset - groundCheckRadius)), groundCheckRadius);
             // var colliderEdge = MoveInput < 0 ? _colliderBounds.min.x + 0.01f : _colliderBounds.max.x - 0.01f;
