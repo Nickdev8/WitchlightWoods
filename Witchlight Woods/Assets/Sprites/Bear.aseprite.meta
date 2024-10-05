@@ -124,7 +124,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Boar
     originalName: 
-    pivot: {x: 0, y: -0.33333334}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -132,8 +132,8 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 6
-      height: 9
+      width: 24
+      height: 15
     spriteID: bde239a473b83124a958be7f2add01f8
     spriteBone: []
     spriteOutline: []
@@ -156,10 +156,10 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 16
-        y: 3
-        width: 6
-        height: 9
+        x: 4
+        y: 0
+        width: 24
+        height: 15
       spriteId: bde239a473b83124a958be7f2add01f8
     linkedCells: []
     parentIndex: -1

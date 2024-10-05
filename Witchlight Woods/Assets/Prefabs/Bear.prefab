@@ -394,7 +394,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8653719598885068355, guid: bf4358adc0172ea448750977eeae3c3f, type: 3}
       propertyPath: m_Name
-      value: Boar
+      value: Bear
       objectReference: {fileID: 0}
     - target: {fileID: -8180276871119621910, guid: bf4358adc0172ea448750977eeae3c3f, type: 3}
       propertyPath: m_LocalRotation.w

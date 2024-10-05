@@ -103,8 +103,6 @@ namespace WitchlightWoods
 
         private void FixedUpdate()
         {
-            Physics2D.SyncTransforms();
-            
             var position = Rigidbody2D.position;
             var rigidbodyVelocity = Rigidbody2D.linearVelocity;
             var velocityX = rigidbodyVelocity.x;

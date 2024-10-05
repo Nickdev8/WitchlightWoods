@@ -43,10 +43,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5280659265604660288}
   - component: {fileID: 7429058718588825035}
-  - component: {fileID: 4438627457701103736}
   - component: {fileID: 5127710640894118835}
   - component: {fileID: 2825099919485322743}
   - component: {fileID: 2214118299216474803}
+  - component: {fileID: 6404259181599362138}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -63,7 +63,7 @@ Transform:
   m_GameObject: {fileID: 6206359543236822605}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -42.999996, y: 17.625, z: -10}
+  m_LocalPosition: {x: -58.168236, y: 17.242146, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -96,15 +96,15 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.42754778
+    x: 0.48400557
     y: 0
-    width: 0.7643312
-    height: 0.79100275
+    width: 0.44506258
+    height: 0.5651059
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 0
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -120,14 +120,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &4438627457701103736
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6206359543236822605}
-  m_Enabled: 1
 --- !u!114 &5127710640894118835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,6 +220,20 @@ MonoBehaviour:
   m_CropFrameX: 0
   m_CropFrameY: 0
   m_StretchFill: 0
+--- !u!114 &6404259181599362138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6206359543236822605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nonRigidbodyVelocity: 0
+  attenuationObject: {fileID: 0}
 --- !u!1 &6769733368001561197
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,8 +666,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 7429058718588825035}
-  cameraController: {fileID: 0}
-  cameraConfiner: {fileID: 0}
   move: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   jump: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   walk: {fileID: -7471211009204490832, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

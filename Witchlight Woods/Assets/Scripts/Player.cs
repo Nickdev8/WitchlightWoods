@@ -10,8 +10,6 @@ namespace WitchlightWoods
     public class Player : MonoBehaviour
     {
         public new Camera camera;
-        public CinemachineClearShot cameraController;
-        public CinemachineConfiner2D cameraConfiner;
         
         [SerializeField] private InputActionReference move;
         [SerializeField] private InputActionReference jump;
