@@ -3,8 +3,8 @@ using UnityEngine;
 
 namespace WitchlightWoods
 {
-    [Serializable]
-    public class PlatformerAgentExtrasConfig
+    [CreateAssetMenu]
+    public class PlatformerAgentExtrasConfig : ScriptableObject
     {
         [Header("Movement Curves")]
         public AnimationCurve accelerationCurve = AnimationCurve.Linear(0f, 0f, 1f, 1f);

@@ -8,13 +8,10 @@ namespace WitchlightWoods
     [RequireComponent(typeof(Rigidbody2D))]
     public class PlatformerAgent : MonoBehaviour
     {
-        public PlatformerAgentConfig baseConfig;
-        public readonly List<Func<PlatformerAgentConfig, PlatformerAgentConfig>> Modifiers = new ();
-        public PlatformerAgentConfig Config => Modifiers.Aggregate(baseConfig, (current, fn) => fn(current));
-        
-        public PlatformerAgentExtrasConfig /*base*/ExtrasConfig = new ();
-        // public readonly List<Func<PlatformerAgentExtrasConfig, PlatformerAgentExtrasConfig>> ExtrasModifiers = new ();
-        // public PlatformerAgentExtrasConfig ExtrasConfig => ExtrasModifiers.Aggregate(baseExtrasConfig, (current, fn) => fn(current));
+        [field: SerializeField]
+        public PlatformerAgentConfigBox ConfigSource { get; private set; }
+        public PlatformerAgentConfig Config => ConfigSource!.Config;
+        public PlatformerAgentExtrasConfig ExtrasConfig;
 
         public float groundCheckRadius;
         
@@ -23,6 +20,7 @@ namespace WitchlightWoods
         
         protected float PreviousMoveInput;
         protected float MoveInput;
+        public float LastMoveInput => MoveInput;
         protected float Momentum;
         protected bool WalkInput;
         protected bool CrouchInput;
@@ -49,6 +47,8 @@ namespace WitchlightWoods
         
         private Collider2D _collider;
         public Rigidbody2D Rigidbody2D { get; protected set; }
+        public bool JumpAscendingPhase { get; protected set; }
+
         private float _colliderLowestYPointOffset;
         private float _colliderHighestYPointOffset;
         private Bounds _colliderBounds;
@@ -66,7 +66,7 @@ namespace WitchlightWoods
             _colliderBounds.center -= transform.position;
         }
 
-        public void SetMoveInput(float moveInput, bool force = false)
+        public virtual void SetMoveInput(float moveInput, bool force = false)
         {
             if (!force && !Config.controllable) return;
             moveInput = Mathf.Clamp(moveInput, -1, 1);
@@ -90,7 +90,7 @@ namespace WitchlightWoods
             SameDirectionMoveFrames = 0;
         }
 
-        public void SetJump(bool wantsToJump, bool force = false)
+        public virtual void SetJump(bool wantsToJump, bool force = false)
         {
             if (!force && !Config.controllable) return;
             if(wantsToJump && !WantsToJump)
@@ -98,10 +98,10 @@ namespace WitchlightWoods
             WantsToJump = wantsToJump;
         }
 
-        public void SetCrouch(bool state) => CrouchInput = state;
-        public void SetWalk(bool state) => WalkInput = state;
+        public virtual void SetCrouch(bool state) => CrouchInput = state;
+        public virtual void SetWalk(bool state) => WalkInput = state;
 
-        private void FixedUpdate()
+        protected virtual void FixedUpdate()
         {
             var position = Rigidbody2D.position;
             var rigidbodyVelocity = Rigidbody2D.linearVelocity;
@@ -156,6 +156,7 @@ namespace WitchlightWoods
                 {
                     if (WantsToJump) // Keep ascending
                     {
+                        JumpAscendingPhase = true;
                         var jumpProgress = 1f;
                         if(config.maxJumpFrames != 0)
                             jumpProgress = (float) jumpFrameDiff / config.maxJumpFrames;
@@ -164,12 +165,14 @@ namespace WitchlightWoods
                     }
                     else if(!groundedForJump)
                     {
+                        JumpAscendingPhase = false;
                         JumpFrame = FrameTimer - config.maxJumpFrames;//Cancel jump
                         gravity = config.descendGravityMultiplier;
                     }
                 }
                 else if (jumpFrameDiff > ((uint)config.maxJumpFrames + config.holdFrames) && !groundedForJump)
                 {
+                    JumpAscendingPhase = false;
                     gravity = config.descendGravityMultiplier;
                 }
 

@@ -41,6 +41,7 @@ namespace WitchlightWoods.Levels
             var player = GameObject.FindWithTag("Player");
             if (player != null) 
                 follower.Target.TrackingTarget = player.transform;
+            confiner.InvalidateBoundingShapeCache();
         }
     }
 }
