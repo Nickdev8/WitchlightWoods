@@ -60,15 +60,15 @@ MonoBehaviour:
       maxNormalAngle: 0
     accelerationFrames: 8
     decelerationFrames: 3
-    runSpeed: 5
+    runSpeed: 5.3
     momentumHoldFrames: 3
     canWalk: 1
-    walkSpeed: 2
+    walkSpeed: 2.6
     canCrouch: 1
     crouchSpeed: 2
     jumpCount: 2
     canJump: 1
-    jumpForce: 16
+    jumpForce: 13
     minJumpFrames: 4
     maxJumpFrames: 33
     holdFrames: 2

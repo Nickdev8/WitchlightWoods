@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../FMod/WitchlightWoods/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638637627247020024
+  lastModified: 638637611097275853
   FileSizes:
   - Name: Desktop
     Value: 712
@@ -41,7 +41,7 @@ MonoBehaviour:
   - {fileID: 8549671795852504970}
   StringsBanks:
   - {fileID: -4281794235416475119}
-  cacheTime: 638637627247020024
+  cacheTime: 638637611097275853
   cacheVersion: 131620
 --- !u!114 &8549671795852504970
 MonoBehaviour:
@@ -58,7 +58,7 @@ MonoBehaviour:
   Path: ../FMod/WitchlightWoods/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638637627247006761
+  lastModified: 638637611097255541
   FileSizes:
   - Name: Desktop
     Value: 1036
