@@ -15,6 +15,7 @@ namespace WitchlightWoods
     /// </summary>
     public enum Biome
     {
-        Grass
+        Grass,
+        DarkForest
     }
 }
