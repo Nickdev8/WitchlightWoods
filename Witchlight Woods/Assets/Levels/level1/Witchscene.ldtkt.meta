@@ -4181,5 +4181,7 @@ ScriptedImporter:
     spriteID: 93586495878ada849b212a2465b241c7
     spriteOutline: []
     tessellationDetail: 0
-  _secondaryTextures: []
+  _secondaryTextures:
+  - name: _NormalMap
+    texture: {fileID: 2800000, guid: 1351ae2e913611a44936aa1cc9a67194, type: 3}
   _artifacts: {fileID: -2988177865379244337, guid: 4250eb3a8b440a74bb1ac81f0abf683f, type: 3}
