@@ -3738,7 +3738,24 @@
 					"seed": 7766607,
 					"overrideTilesetUid": null,
 					"gridTiles": [],
-					"entityInstances": []
+					"entityInstances": [
+						{
+							"__identifier": "Player",
+							"__grid": [4,9],
+							"__pivot": [0.5,1],
+							"__tags": [],
+							"__tile": { "tilesetUid": 131, "x": 0, "y": 0, "w": 16, "h": 32 },
+							"__smartColor": "#BE4A2F",
+							"iid": "df50eca0-73f0-11ef-925f-5bdcaa8843ab",
+							"width": 16,
+							"height": 32,
+							"defUid": 130,
+							"px": [65,160],
+							"fieldInstances": [],
+							"__worldX": 49,
+							"__worldY": 64
+						}
+					]
 				},
 				{
 					"__identifier": "Tiles",
