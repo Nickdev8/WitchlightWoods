@@ -1,4 +1,5 @@
 ﻿using System;
+using FMOD.Studio;
 using FMODUnity;
 using JetBrains.Annotations;
 using UnityEngine;
@@ -14,8 +15,10 @@ namespace WitchlightWoods
         [SerializeField] private EventReference wallClimb;
         [SerializeField] private RemapFloat footstepsInterval = new (0.3f, 1f, 0.5f, 0.2f);
 
+        private float _footstepTimer;
         [NotNull] private PlatformerAgent _platformerAgent;
-
+        private EventInstance _footstepsInstance;
+        
         private void Awake()
         {
             _platformerAgent = GetComponent<PlatformerAgent>()!;
@@ -24,11 +27,13 @@ namespace WitchlightWoods
         private void OnEnable()
         {
             _platformerAgent.OnJump += PlayJumpSfx;
+            _footstepsInstance = RuntimeManager.CreateInstance(footsteps);
         }
 
         private void OnDisable()
         {
             _platformerAgent.OnJump -= PlayJumpSfx;
+            _footstepsInstance.release();
         }
 
         private void PlayJumpSfx(int jumpCount)
@@ -38,7 +43,20 @@ namespace WitchlightWoods
 
         private void Update()
         {
-            var currentFootstepsInterval = footstepsInterval.Get(_platformerAgent.Speed);
+            if (_platformerAgent.LastMoveInput != 0)
+            {
+                var currentFootstepsInterval = footstepsInterval.Get(_platformerAgent.Speed);
+                _footstepTimer += Time.deltaTime;
+                if (_platformerAgent.LastPreviousMoveInput == 0)
+                    _footstepTimer = currentFootstepsInterval;
+                _footstepTimer = Mathf.Min(_footstepTimer, currentFootstepsInterval * 2);
+                if (_footstepTimer >= currentFootstepsInterval)
+                {
+                    _footstepTimer -= currentFootstepsInterval;
+                    _footstepsInstance.start();
+                    _footstepsInstance.setParameterByName("Terrain", 0);
+                }
+            }
         }
     }
 

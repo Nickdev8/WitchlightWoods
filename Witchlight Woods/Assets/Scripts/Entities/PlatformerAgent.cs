@@ -20,6 +20,7 @@ namespace WitchlightWoods
         
         protected float PreviousMoveInput;
         protected float MoveInput;
+        public float LastPreviousMoveInput => PreviousMoveInput;
         public float LastMoveInput => MoveInput;
         protected float Momentum;
         protected bool WalkInput;
@@ -327,7 +328,7 @@ namespace WitchlightWoods
                 }
                 
                 velocityY = Mathf.Max(velocityY, -config.descendLimit);
-                Speed = velocityX * controlFactor;
+                Speed = Mathf.Abs(velocityX) * controlFactor;
                 var velocity = new Vector2(velocityX, velocityY);
                 
                 Debug.DrawRay(position, velocity, Color.magenta, Time.fixedDeltaTime);

@@ -64,7 +64,7 @@ Transform:
   m_GameObject: {fileID: 6206359543236822605}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.5, y: 15.5, z: -10}
+  m_LocalPosition: {x: -19.499996, y: 18, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -97,15 +97,15 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
+    x: 0.43446752
     y: 0
-    width: 1
-    height: 1
+    width: 0.46189237
+    height: 0.56704366
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5.203125
+  orthographic size: 7.15625
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -642,7 +642,7 @@ MonoBehaviour:
       Data4: 0
     Path: 
   footstepsInterval:
-    from: 0.3
-    to: 1
+    from: 2
+    to: 5
     fromValue: 0.5
-    toValue: 0.2
+    toValue: 0.3
