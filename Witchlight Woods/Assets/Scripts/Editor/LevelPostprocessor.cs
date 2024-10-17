@@ -18,7 +18,15 @@ namespace Editor
             CustomGridLevelGraph graph;
             if (graphIndex < 0)
             {
-                graph = (CustomGridLevelGraph)AstarPath.active.data.AddGraph(typeof(CustomGridLevelGraph));
+                try
+                {
+                    graph = (CustomGridLevelGraph)AstarPath.active.data.AddGraph(typeof(CustomGridLevelGraph));
+                }
+                catch (Exception e)
+                {
+                    Debug.LogException(e);
+                    return;
+                }
                 graph.ParentGuid = level.Identifier;
             }
             else

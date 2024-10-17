@@ -8,14 +8,33 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WitchlightWoods
+/// <summary>
+/// LDtk Enum for level1
+/// </summary>
+public enum Biome
 {
-    /// <summary>
-    /// LDtk Enum for level1
-    /// </summary>
-    public enum Biome
-    {
-        Grass,
-        DarkForest
-    }
+    Grass,
+    DarkForest
+}
+
+/// <summary>
+/// LDtk Enum for level1
+/// </summary>
+public enum PostProcessProfile
+{
+    Scanlines_Off,
+    Scanlines_Low,
+    Scanlines_High,
+    Scanlines_Max
+}
+
+/// <summary>
+/// LDtk Enum for level1
+/// </summary>
+public enum Light
+{
+    High,
+    Medium,
+    Low,
+    None
 }
