@@ -18,9 +18,10 @@ namespace WitchlightWoods
         {
             animator.SetFloat("control", 1f - _agent.Config.stunFactor);
             animator.SetFloat("facingDir", _agent.LastMoveInput);
-            animator.SetFloat("velocityX", _agent.Rigidbody2D.linearVelocityX);
+            var rb = _agent.Rigidbody2D;
+            animator.SetFloat("velocityX", rb.linearVelocityX);
+            animator.SetFloat("velocityY", rb.linearVelocityY);
             animator.SetBool("grounded", _agent.Grounded);
-            animator.SetBool("ascending", _agent.JumpAscendingPhase);
         }
     }
 }
