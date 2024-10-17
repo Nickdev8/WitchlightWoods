@@ -108,97 +108,19 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 31
-      y: 20
+      x: 35
+      y: 4
       width: 6
       height: 4
-    spriteID: 9a36e945b61066b4b86cf5ff25b94e1c
-    spriteBone:
-    - name: Butt
-      guid: edfb6e9bf4ba6f346bd0f3dea2656c2b
-      position: {x: 5.8848305, y: 0.56062317, z: 0}
-      rotation: {x: 0, y: 0, z: -0.9999859, w: 0.0053179245}
-      length: 3.1997561
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4278255360
-    - name: BR Leg
-      guid: 0f22c11c390f31842a6b01fafad1b0f2
-      position: {x: 2.193396, y: -1.6393449, z: 0}
-      rotation: {x: 0, y: 0, z: 0.40875727, w: 0.91264313}
-      length: 3.6799026
-      parentId: 0
-      color:
-        serializedVersion: 2
-        rgba: 4279894271
-    spriteOutline:
-    - outline:
-      - {x: 3, y: 2}
-      - {x: -3, y: 2}
-      - {x: -3, y: -2}
-      - {x: 3, y: -2}
-    vertices:
-    - position: {x: 6, y: 4}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 1.002, y: 4}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0.19499993, y: 1.954}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 6, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
+    spriteID: effa554506998e54ab2e69433987d314
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
     spritePhysicsOutline: []
-    indices: 000000000400000001000000010000000400000002000000020000000400000003000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 4}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
-    - {x: 3, y: 4}
+    indices: 
+    edges: []
     tessellationDetail: 0
-    uvTransform: {x: 31, y: 20}
+    uvTransform: {x: 35, y: 4}
     spritePosition: {x: 4, y: 6}
   - name: BR Knee
     originalName: 
@@ -208,77 +130,19 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 4
-      y: 49
+      x: 22
+      y: 35
       width: 4
-      height: 5
-    spriteID: 72041245c01cee448b686cb9c5c59184
-    spriteBone:
-    - name: BR Knee
-      guid: e317026fbadf3824fbc3749321c2362f
-      position: {x: 1.2532587, y: 3.4050713, z: 0}
-      rotation: {x: 0, y: 0, z: -0.53782684, w: 0.84305537}
-      length: 5.2286983
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4278190847
-    spriteOutline:
-    - outline:
-      - {x: 2, y: 2.5}
-      - {x: -2, y: 2.5}
-      - {x: -2, y: -2.5}
-      - {x: 2, y: -2.5}
-    vertices:
-    - position: {x: 4, y: 1}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 4, y: 5}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 4}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
+      height: 6
+    spriteID: fb30c7a7448a2074eb8d6528ddcc3629
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
     spritePhysicsOutline: []
-    indices: 000000000200000001000000000000000300000002000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 3}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
+    indices: 
+    edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 49}
+    uvTransform: {x: 22, y: 35}
     spritePosition: {x: 4, y: 2}
   - name: BR Foot
     originalName: 
@@ -288,78 +152,20 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 32
-      y: 37
-      width: 3
-      height: 3
-    spriteID: f897ee9f258560a4d96c978d88e1bf0a
-    spriteBone:
-    - name: BR Foot
-      guid: 9530ab1544469eb488f0c606c24a6ee2
-      position: {x: 1.457077, y: 0.66350174, z: 0}
-      rotation: {x: 0, y: 0, z: 0.48039174, w: 0.87705404}
-      length: 1.0634685
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4280353023
-    spriteOutline:
-    - outline:
-      - {x: 1.5, y: 1.5}
-      - {x: -1.5, y: 1.5}
-      - {x: -1.5, y: -1.5}
-      - {x: 1.5, y: -1.5}
-    vertices:
-    - position: {x: 3, y: 3}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 3}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 3, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
+      x: 35
+      y: 52
+      width: 4
+      height: 4
+    spriteID: ab940fe4fca575e48810feb5e73d9f70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
     spritePhysicsOutline: []
-    indices: 000000000300000001000000010000000300000002000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 3}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
+    indices: 
+    edges: []
     tessellationDetail: 0
-    uvTransform: {x: 32, y: 37}
-    spritePosition: {x: 6, y: 0}
+    uvTransform: {x: 35, y: 52}
+    spritePosition: {x: 5, y: 0}
   - name: FR Leg
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -368,106 +174,19 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 45
-      y: 20
+      x: 35
+      y: 16
       width: 6
       height: 4
-    spriteID: 7b453216fa9b2d641bc6c6f23de0f61b
-    spriteBone:
-    - name: Neck
-      guid: e5ca556cdcedc4f4bb80a582546faea5
-      position: {x: 4.1423035, y: 1.5254097, z: 0}
-      rotation: {x: 0, y: 0, z: -0.32730857, w: -0.94491756}
-      length: 2.996023
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4278251775
-    - name: FR Leg
-      guid: a821dc3e552aa7941adfb473ca3aba2a
-      position: {x: 3.7916946, y: 2.4937572, z: 0}
-      rotation: {x: 0, y: 0, z: -0.9118937, w: 0.4104265}
-      length: 4.104041
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4278452479
-    - name: Head
-      guid: 3742c3027514c9647925a52350cf63b3
-      position: {x: 2.9960222, y: 0.0000024938633, z: 0}
-      rotation: {x: 0, y: 0, z: 0.43973163, w: 0.8981292}
-      length: 2.487709
-      parentId: 0
-      color:
-        serializedVersion: 2
-        rgba: 4293198079
-    spriteOutline:
-    - outline:
-      - {x: 3, y: 2}
-      - {x: -3, y: 2}
-      - {x: -3, y: -2}
-      - {x: 3, y: -2}
-    vertices:
-    - position: {x: 6, y: 4}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 1.002, y: 4}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0.19499993, y: 1.954}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 6, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
+    spriteID: 04756369bcdf46640888a6beaf247c1f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
     spritePhysicsOutline: []
-    indices: 000000000400000001000000010000000400000002000000020000000400000003000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 4}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
-    - {x: 3, y: 4}
+    indices: 
+    edges: []
     tessellationDetail: 0
-    uvTransform: {x: 45, y: 20}
+    uvTransform: {x: 35, y: 16}
     spritePosition: {x: 14, y: 6}
   - name: FR Knee
     originalName: 
@@ -477,77 +196,19 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 54
-      y: 4
+      x: 4
+      y: 52
       width: 5
-      height: 5
-    spriteID: 3a18eee7ba5696e4f96777ef75736728
-    spriteBone:
-    - name: FR Knee
-      guid: e89bccef399ea744184a853b82b66f84
-      position: {x: 1.070301, y: 3.4217558, z: 0}
-      rotation: {x: 0, y: 0, z: -0.49079588, w: 0.87127465}
-      length: 5.895554
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4278452479
-    spriteOutline:
-    - outline:
-      - {x: 2.5, y: 2.5}
-      - {x: -2.5, y: 2.5}
-      - {x: -2.5, y: -2.5}
-      - {x: 2.5, y: -2.5}
-    vertices:
-    - position: {x: 5, y: 5}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 5}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 5, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
+      height: 6
+    spriteID: 36e68b11411fa5948b3cbaf91d51e6db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
     spritePhysicsOutline: []
-    indices: 000000000300000001000000010000000300000002000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 3}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
+    indices: 
+    edges: []
     tessellationDetail: 0
-    uvTransform: {x: 54, y: 4}
+    uvTransform: {x: 4, y: 52}
     spritePosition: {x: 14, y: 2}
   - name: FR Foot
     originalName: 
@@ -557,292 +218,21 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 43
-      y: 37
-      width: 3
-      height: 3
-    spriteID: 08234d20570feab48a04a2f388f3500e
-    spriteBone:
-    - name: FR Foot
-      guid: 2e19a0de4fac6d14bb5e57501aca38bb
-      position: {x: 1.1256065, y: 0.37966537, z: 0}
-      rotation: {x: 0, y: 0, z: 0.4473236, w: 0.89437217}
-      length: 1.6279447
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4278195199
-    spriteOutline:
-    - outline:
-      - {x: 1.5, y: 1.5}
-      - {x: -1.5, y: 1.5}
-      - {x: -1.5, y: -1.5}
-      - {x: 1.5, y: -1.5}
-    vertices:
-    - position: {x: 3, y: 3}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 3}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 3, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    spritePhysicsOutline: []
-    indices: 000000000300000001000000010000000300000002000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 3}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
-    tessellationDetail: 0
-    uvTransform: {x: 43, y: 37}
-    spritePosition: {x: 17, y: 0}
-  - name: Front Body
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 20
-      width: 6
-      height: 9
-    spriteID: 3e2b482ba2a8a7645863df9c1d2f964b
-    spriteBone:
-    - name: Neck
-      guid: e5ca556cdcedc4f4bb80a582546faea5
-      position: {x: -0.7987723, y: -0.93711704, z: 0}
-      rotation: {x: 0, y: 0, z: -0.94709265, w: 0.32096025}
-      length: 2.9960232
-      parentId: 1
-      color:
-        serializedVersion: 2
-        rgba: 4278251775
-    - name: Body
-      guid: 965e0ccbf372b184ebe81a635f814ade
-      position: {x: 1.3561783, y: 3.577654, z: 0}
-      rotation: {x: 0, y: 0, z: -0.99997747, w: 0.0067105545}
-      length: 2.536064
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4278255392
-    spriteOutline:
-    - outline:
-      - {x: 3, y: 4.5}
-      - {x: -3, y: 4.5}
-      - {x: -3, y: -4.5}
-      - {x: 3, y: -4.5}
-    vertices:
-    - position: {x: 5, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 5, y: 5.585}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 5, y: 9}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 9}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 4.3689137}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    spritePhysicsOutline: []
-    indices: 000000000400000001000000000000000500000004000000010000000300000002000000010000000400000003000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 5}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
-    - {x: 3, y: 4}
-    - {x: 4, y: 5}
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 20}
-    spritePosition: {x: 16, y: 3}
-  - name: Middle Body
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 39
+      x: 49
       y: 4
-      width: 7
-      height: 8
-    spriteID: e79d75d973ee20342a47f3665733844c
-    spriteBone:
-    - name: Torso
-      guid: 1d79ca9eabc214f44a89d564efba9951
-      position: {x: 3.820343, y: 3.5436244, z: 0}
-      rotation: {x: 0, y: 0, z: -0.9999985, w: -0.0017220713}
-      length: 4.935542
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4278255615
-    spriteOutline:
-    - outline:
-      - {x: 3.5, y: 4}
-      - {x: -3.5, y: 4}
-      - {x: -3.5, y: -4}
-      - {x: 3.5, y: -4}
-    vertices:
-    - position: {x: 7, y: 8}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 2.176, y: 7.558}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 6}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 5, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 7, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
+      width: 4
+      height: 4
+    spriteID: f1281b19dd255b845b84cf05461ed1e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
     spritePhysicsOutline: []
-    indices: 000000000400000001000000000000000500000004000000010000000400000002000000020000000400000003000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 5}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
-    - {x: 3, y: 4}
-    - {x: 4, y: 5}
+    indices: 
+    edges: []
     tessellationDetail: 0
-    uvTransform: {x: 39, y: 4}
-    spritePosition: {x: 11, y: 3}
-  - name: Butt
+    uvTransform: {x: 49, y: 4}
+    spritePosition: {x: 16, y: 0}
+  - name: Front Body
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -852,109 +242,61 @@ ScriptedImporter:
       serializedVersion: 2
       x: 22
       y: 4
-      width: 9
-      height: 7
-    spriteID: 550e339d1b16e5e43b573a08400b03f2
-    spriteBone:
-    - name: Butt
-      guid: edfb6e9bf4ba6f346bd0f3dea2656c2b
-      position: {x: 4.8848305, y: 3.5606232, z: 0}
-      rotation: {x: 0, y: 0, z: -0.9999859, w: 0.0053179245}
-      length: 3.1997561
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4278255360
-    spriteOutline:
-    - outline:
-      - {x: 4.5, y: -2.5}
-      - {x: 4.5, y: 3.5}
-      - {x: -4.5, y: 3.5}
-      - {x: -4.5, y: -3.5}
-      - {x: 3.5, y: -3.5}
-    vertices:
-    - position: {x: 8.677, y: 1.122}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 9, y: 6}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 8, y: 7}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 7}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0.28399992, y: 2.063}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 1, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 8, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
+      width: 5
+      height: 9
+    spriteID: 0299bdb7927729f499e1a515feb11b84
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
     spritePhysicsOutline: []
-    indices: 000000000200000001000000000000000400000002000000000000000600000004000000020000000400000003000000040000000600000005000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 6}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
-    - {x: 3, y: 4}
-    - {x: 4, y: 5}
-    - {x: 5, y: 6}
+    indices: 
+    edges: []
     tessellationDetail: 0
     uvTransform: {x: 22, y: 4}
+    spritePosition: {x: 16, y: 3}
+  - name: Middle Body
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 36
+      width: 7
+      height: 8
+    spriteID: d636b655e654e054780d522a7900751e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 36}
+    spritePosition: {x: 11, y: 3}
+  - name: Butt
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 21
+      width: 9
+      height: 7
+    spriteID: 263babe8fc2b1754c9742cb395216b72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 21}
     spritePosition: {x: 5, y: 3}
   - name: Head
     originalName: 
@@ -967,131 +309,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 10
-      height: 8
-    spriteID: 24d1486354c265a4780e3cead6999f89
-    spriteBone:
-    - name: Head
-      guid: 3742c3027514c9647925a52350cf63b3
-      position: {x: 2.9960237, y: 0.00000045026414, z: 0}
-      rotation: {x: 0, y: 0, z: 0.43973166, w: 0.8981293}
-      length: 2.487709
-      parentId: 1
-      color:
-        serializedVersion: 2
-        rgba: 4293198079
-    - name: Neck
-      guid: e5ca556cdcedc4f4bb80a582546faea5
-      position: {x: 0.14230156, y: 0.5254092, z: 0}
-      rotation: {x: 0, y: 0, z: -0.32730857, w: -0.94491756}
-      length: 2.996023
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4278251775
-    spriteOutline:
-    - outline:
-      - {x: 5, y: 1}
-      - {x: 2, y: 4}
-      - {x: -5, y: 4}
-      - {x: -5, y: -4}
-      - {x: 5, y: -4}
-    vertices:
-    - position: {x: 10, y: 5}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 6.023, y: 7.372}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 1.244, y: 8}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0.31500006, y: 4.61}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0.24399996, y: 0.7579999}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 1.978, y: 0.25399995}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 10, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    spritePhysicsOutline: []
-    indices: 000000000500000001000000000000000600000005000000010000000300000002000000010000000500000003000000030000000500000004000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 6}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
-    - {x: 3, y: 4}
-    - {x: 4, y: 5}
-    - {x: 5, y: 6}
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 18, y: 7}
-  - name: Neck
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 59
-      y: 20
-      width: 0
-      height: 0
-    spriteID: 69157a0bd43bcea4c9608ae487231738
+      height: 9
+    spriteID: 675b9f3204f543b47925f439a328c35b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -1099,8 +318,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 59, y: 20}
-    spritePosition: {x: 0, y: 16}
+    uvTransform: {x: -4, y: -1}
+    spritePosition: {x: 18, y: 6}
   - name: BL Leg
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1109,97 +328,19 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 4
-      y: 37
+      x: 35
+      y: 28
       width: 6
       height: 4
-    spriteID: 5b7b0bdc45664f640975639ecfb97dbd
-    spriteBone:
-    - name: BR Leg
-      guid: 0f22c11c390f31842a6b01fafad1b0f2
-      position: {x: 2.674127, y: 2.1765442, z: 0}
-      rotation: {x: 0, y: 0, z: -0.9104565, w: 0.41360486}
-      length: 3.6799033
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4279894271
-    - name: BL Leg
-      guid: da5f726c6cd831b4f95b007d230cdc63
-      position: {x: 3.160717, y: 2.007038, z: 0}
-      rotation: {x: 0, y: 0, z: -0.9155941, w: 0.4021038}
-      length: 3.420784
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4294902784
-    spriteOutline:
-    - outline:
-      - {x: 3, y: 2}
-      - {x: -3, y: 2}
-      - {x: -3, y: -2}
-      - {x: 3, y: -2}
-    vertices:
-    - position: {x: 6, y: 4}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 1.002, y: 4}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0.19499993, y: 1.954}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 6, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
+    spriteID: 616658d297454984b96d70a753793656
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
     spritePhysicsOutline: []
-    indices: 000000000400000001000000010000000400000002000000020000000400000003000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 4}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
-    - {x: 3, y: 4}
+    indices: 
+    edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 37}
+    uvTransform: {x: 35, y: 28}
     spritePosition: {x: 5, y: 6}
   - name: BL Knee
     originalName: 
@@ -1209,77 +350,19 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 16
+      x: 22
       y: 49
       width: 4
-      height: 5
-    spriteID: 45aaa0945504f1f4a9b86b429591bcaf
-    spriteBone:
-    - name: BL Knee
-      guid: 6896749fc69447f46ab6d25a6a1fdda2
-      position: {x: 0.84612846, y: 3.4882202, z: 0}
-      rotation: {x: 0, y: 0, z: -0.557211, w: 0.83037096}
-      length: 4.9840426
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4294901760
-    spriteOutline:
-    - outline:
-      - {x: 2, y: 2.5}
-      - {x: -2, y: 2.5}
-      - {x: -2, y: -2.5}
-      - {x: 2, y: -2.5}
-    vertices:
-    - position: {x: 4, y: 1}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 4, y: 5}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 4}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
+      height: 6
+    spriteID: c9eaad2b1e75be644815107b0197d795
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
     spritePhysicsOutline: []
-    indices: 000000000200000001000000000000000300000002000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 3}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
+    indices: 
+    edges: []
     tessellationDetail: 0
-    uvTransform: {x: 16, y: 49}
+    uvTransform: {x: 22, y: 49}
     spritePosition: {x: 5, y: 2}
   - name: BL Foot
     originalName: 
@@ -1289,78 +372,20 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 54
-      y: 37
-      width: 3
-      height: 3
-    spriteID: 7eeed96631c544949a83150c9896c8b5
-    spriteBone:
-    - name: BL Foot
-      guid: 4abef85d4abf1574cabc58465fce131f
-      position: {x: 0.73524094, y: 0.8760681, z: 0}
-      rotation: {x: 0, y: 0, z: 0.43915147, w: 0.8984131}
-      length: 0.9735697
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4294904832
-    spriteOutline:
-    - outline:
-      - {x: 1.5, y: 1.5}
-      - {x: -1.5, y: 1.5}
-      - {x: -1.5, y: -1.5}
-      - {x: 1.5, y: -1.5}
-    vertices:
-    - position: {x: 3, y: 3}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 3}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 3, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
+      x: 49
+      y: 16
+      width: 4
+      height: 4
+    spriteID: f59e4f3e1007da74f99696cc16baffe3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
     spritePhysicsOutline: []
-    indices: 000000000300000001000000010000000300000002000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 3}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
+    indices: 
+    edges: []
     tessellationDetail: 0
-    uvTransform: {x: 54, y: 37}
-    spritePosition: {x: 7, y: 0}
+    uvTransform: {x: 49, y: 16}
+    spritePosition: {x: 6, y: 0}
   - name: FL Leg
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1369,97 +394,19 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 18
-      y: 37
+      x: 35
+      y: 40
       width: 6
       height: 4
-    spriteID: 6b4663d94aab6da448ba60c1d798dfaf
-    spriteBone:
-    - name: Body
-      guid: 965e0ccbf372b184ebe81a635f814ade
-      position: {x: 2.3561783, y: 0.577652, z: 0}
-      rotation: {x: 0, y: 0, z: -0.99997747, w: 0.0067105545}
-      length: 2.536064
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4278255392
-    - name: FL Leg
-      guid: 148da7c1ab6a93145ab1b274182a2e66
-      position: {x: -0.85196066, y: -1.7244453, z: 0}
-      rotation: {x: 0, y: 0, z: 0.4094533, w: 0.9123311}
-      length: 4.029811
-      parentId: 0
-      color:
-        serializedVersion: 2
-        rgba: 4294905088
-    spriteOutline:
-    - outline:
-      - {x: 3, y: 2}
-      - {x: -3, y: 2}
-      - {x: -3, y: -2}
-      - {x: 3, y: -2}
-    vertices:
-    - position: {x: 6, y: 4}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 1.002, y: 4}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0.19499993, y: 1.954}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 6, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
+    spriteID: 6706b3f62d3c5f84999e08766188b6b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
     spritePhysicsOutline: []
-    indices: 000000000400000001000000010000000400000002000000020000000400000003000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 4}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
-    - {x: 3, y: 4}
+    indices: 
+    edges: []
     tessellationDetail: 0
-    uvTransform: {x: 18, y: 37}
+    uvTransform: {x: 35, y: 40}
     spritePosition: {x: 15, y: 6}
   - name: FL Knee
     originalName: 
@@ -1469,86 +416,19 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 18
-      y: 20
+      x: 22
+      y: 21
       width: 5
-      height: 5
-    spriteID: ac4ec564165f49d4ea15539e2cd0082b
-    spriteBone:
-    - name: Body
-      guid: 965e0ccbf372b184ebe81a635f814ade
-      position: {x: 2.3561783, y: 4.577654, z: 0}
-      rotation: {x: 0, y: 0, z: -0.99997747, w: 0.0067105545}
-      length: 2.536064
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4278255392
-    - name: FL Knee
-      guid: a3555090e09a88745856969772b96f78
-      position: {x: 0.54696655, y: 3.2669697, z: 0}
-      rotation: {x: 0, y: 0, z: -0.48632067, w: 0.8737804}
-      length: 5.587062
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4294905344
-    spriteOutline:
-    - outline:
-      - {x: 2.5, y: 2.5}
-      - {x: -2.5, y: 2.5}
-      - {x: -2.5, y: -2.5}
-      - {x: 2.5, y: -2.5}
-    vertices:
-    - position: {x: 5, y: 5}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 5}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 5, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 1
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
+      height: 6
+    spriteID: f671996a1228a0b44b9318892ca12791
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
     spritePhysicsOutline: []
-    indices: 000000000300000001000000010000000300000002000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 3}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
+    indices: 
+    edges: []
     tessellationDetail: 0
-    uvTransform: {x: 18, y: 20}
+    uvTransform: {x: 22, y: 21}
     spritePosition: {x: 15, y: 2}
   - name: FL Foot
     originalName: 
@@ -1558,78 +438,20 @@ ScriptedImporter:
     customData: 
     rect:
       serializedVersion: 2
-      x: 28
-      y: 49
-      width: 3
-      height: 3
-    spriteID: e1ebe133872de5c4ab67b90db4c79c22
-    spriteBone:
-    - name: FL Foot
-      guid: c22432062c1a108449ec827e8a251489
-      position: {x: 0.49125862, y: 0.5186653, z: 0}
-      rotation: {x: 0, y: 0, z: 0.43743524, w: 0.89925}
-      length: 1.5013467
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4294907136
-    spriteOutline:
-    - outline:
-      - {x: 1.5, y: 1.5}
-      - {x: -1.5, y: 1.5}
-      - {x: -1.5, y: -1.5}
-      - {x: 1.5, y: -1.5}
-    vertices:
-    - position: {x: 3, y: 3}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 3}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 0, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
-    - position: {x: 3, y: 0}
-      boneWeight:
-        weight0: 1
-        weight1: 0
-        weight2: 0
-        weight3: 0
-        boneIndex0: 0
-        boneIndex1: 0
-        boneIndex2: 0
-        boneIndex3: 0
+      x: 49
+      y: 28
+      width: 4
+      height: 4
+    spriteID: e32f4e04d3ea1ff4e81eada2071add87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
     spritePhysicsOutline: []
-    indices: 000000000300000001000000010000000300000002000000
-    edges:
-    - {x: 0, y: 1}
-    - {x: 0, y: 3}
-    - {x: 1, y: 2}
-    - {x: 2, y: 3}
+    indices: 
+    edges: []
     tessellationDetail: 0
-    uvTransform: {x: 28, y: 49}
-    spritePosition: {x: 18, y: 0}
+    uvTransform: {x: 49, y: 28}
+    spritePosition: {x: 17, y: 0}
   spriteImportData: []
   rigSpriteImportData: []
   sharedRigSpriteImportData: []
@@ -2025,9 +847,9 @@ ScriptedImporter:
     spriteName: BR Leg
     isGroup: 0
     parentIndex: 0
-    spriteID: 9a36e945b61066b4b86cf5ff25b94e1c
-    layerID: -1108048850
-    mosaicPosition: {x: 31, y: 20}
+    spriteID: effa554506998e54ab2e69433987d314
+    layerID: 6
+    mosaicPosition: {x: 35, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -2035,9 +857,9 @@ ScriptedImporter:
     spriteName: BR Knee
     isGroup: 0
     parentIndex: 0
-    spriteID: 72041245c01cee448b686cb9c5c59184
-    layerID: -1000419479
-    mosaicPosition: {x: 4, y: 49}
+    spriteID: fb30c7a7448a2074eb8d6528ddcc3629
+    layerID: 8
+    mosaicPosition: {x: 22, y: 35}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -2045,9 +867,9 @@ ScriptedImporter:
     spriteName: BR Foot
     isGroup: 0
     parentIndex: 0
-    spriteID: f897ee9f258560a4d96c978d88e1bf0a
-    layerID: -415824782
-    mosaicPosition: {x: 32, y: 37}
+    spriteID: ab940fe4fca575e48810feb5e73d9f70
+    layerID: 11
+    mosaicPosition: {x: 35, y: 52}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -2065,9 +887,9 @@ ScriptedImporter:
     spriteName: FR Leg
     isGroup: 0
     parentIndex: 4
-    spriteID: 7b453216fa9b2d641bc6c6f23de0f61b
-    layerID: -1352393990
-    mosaicPosition: {x: 45, y: 20}
+    spriteID: 04756369bcdf46640888a6beaf247c1f
+    layerID: 13
+    mosaicPosition: {x: 35, y: 16}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -2075,9 +897,9 @@ ScriptedImporter:
     spriteName: FR Knee
     isGroup: 0
     parentIndex: 4
-    spriteID: 3a18eee7ba5696e4f96777ef75736728
-    layerID: -1000562971
-    mosaicPosition: {x: 54, y: 4}
+    spriteID: 36e68b11411fa5948b3cbaf91d51e6db
+    layerID: 15
+    mosaicPosition: {x: 4, y: 52}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -2085,9 +907,9 @@ ScriptedImporter:
     spriteName: FR Foot
     isGroup: 0
     parentIndex: 4
-    spriteID: 08234d20570feab48a04a2f388f3500e
-    layerID: -415968274
-    mosaicPosition: {x: 43, y: 37}
+    spriteID: f1281b19dd255b845b84cf05461ed1e3
+    layerID: 17
+    mosaicPosition: {x: 49, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -2105,9 +927,9 @@ ScriptedImporter:
     spriteName: Front Body
     isGroup: 0
     parentIndex: 8
-    spriteID: 3e2b482ba2a8a7645863df9c1d2f964b
-    layerID: -467912119
-    mosaicPosition: {x: 4, y: 20}
+    spriteID: 0299bdb7927729f499e1a515feb11b84
+    layerID: 29
+    mosaicPosition: {x: 22, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -2115,9 +937,9 @@ ScriptedImporter:
     spriteName: Middle Body
     isGroup: 0
     parentIndex: 8
-    spriteID: e79d75d973ee20342a47f3665733844c
-    layerID: 1265193773
-    mosaicPosition: {x: 39, y: 4}
+    spriteID: d636b655e654e054780d522a7900751e
+    layerID: 21
+    mosaicPosition: {x: 4, y: 36}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -2125,9 +947,9 @@ ScriptedImporter:
     spriteName: Butt
     isGroup: 0
     parentIndex: 8
-    spriteID: 550e339d1b16e5e43b573a08400b03f2
-    layerID: -1482651033
-    mosaicPosition: {x: 22, y: 4}
+    spriteID: 263babe8fc2b1754c9742cb395216b72
+    layerID: 24
+    mosaicPosition: {x: 4, y: 21}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -2135,19 +957,9 @@ ScriptedImporter:
     spriteName: Head
     isGroup: 0
     parentIndex: 8
-    spriteID: 24d1486354c265a4780e3cead6999f89
-    layerID: -158744160
+    spriteID: 675b9f3204f543b47925f439a328c35b
+    layerID: 31
     mosaicPosition: {x: 4, y: 4}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Neck
-    spriteName: Neck
-    isGroup: 0
-    parentIndex: 8
-    spriteID: 69157a0bd43bcea4c9608ae487231738
-    layerID: -2081058657
-    mosaicPosition: {x: 59, y: 20}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -2164,30 +976,30 @@ ScriptedImporter:
   - name: BL Leg
     spriteName: BL Leg
     isGroup: 0
-    parentIndex: 14
-    spriteID: 5b7b0bdc45664f640975639ecfb97dbd
-    layerID: 1226025884
-    mosaicPosition: {x: 4, y: 37}
+    parentIndex: 13
+    spriteID: 616658d297454984b96d70a753793656
+    layerID: 35
+    mosaicPosition: {x: 35, y: 28}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: BL Knee
     spriteName: BL Knee
     isGroup: 0
-    parentIndex: 14
-    spriteID: 45aaa0945504f1f4a9b86b429591bcaf
-    layerID: 1340732367
-    mosaicPosition: {x: 16, y: 49}
+    parentIndex: 13
+    spriteID: c9eaad2b1e75be644815107b0197d795
+    layerID: 36
+    mosaicPosition: {x: 22, y: 49}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: BL Foot
     spriteName: BL Foot
     isGroup: 0
-    parentIndex: 14
-    spriteID: 7eeed96631c544949a83150c9896c8b5
-    layerID: 473812764
-    mosaicPosition: {x: 54, y: 37}
+    parentIndex: 13
+    spriteID: f59e4f3e1007da74f99696cc16baffe3
+    layerID: 37
+    mosaicPosition: {x: 49, y: 16}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -2204,30 +1016,30 @@ ScriptedImporter:
   - name: FL Leg
     spriteName: FL Leg
     isGroup: 0
-    parentIndex: 18
-    spriteID: 6b4663d94aab6da448ba60c1d798dfaf
-    layerID: 1225882392
-    mosaicPosition: {x: 18, y: 37}
+    parentIndex: 17
+    spriteID: 6706b3f62d3c5f84999e08766188b6b3
+    layerID: 41
+    mosaicPosition: {x: 35, y: 40}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: FL Knee
     spriteName: FL Knee
     isGroup: 0
-    parentIndex: 18
-    spriteID: ac4ec564165f49d4ea15539e2cd0082b
-    layerID: 1340588875
-    mosaicPosition: {x: 18, y: 20}
+    parentIndex: 17
+    spriteID: f671996a1228a0b44b9318892ca12791
+    layerID: 42
+    mosaicPosition: {x: 22, y: 21}
     flatten: 0
     isImported: 1
     isVisible: 1
   - name: FL Foot
     spriteName: FL Foot
     isGroup: 0
-    parentIndex: 18
-    spriteID: e1ebe133872de5c4ab67b90db4c79c22
-    layerID: 473669272
-    mosaicPosition: {x: 28, y: 49}
+    parentIndex: 17
+    spriteID: e32f4e04d3ea1ff4e81eada2071add87
+    layerID: 43
+    mosaicPosition: {x: 49, y: 28}
     flatten: 0
     isImported: 1
     isVisible: 1

@@ -11,7 +11,7 @@
 	"iid": "df53a4d0-73f0-11ef-88b7-97b2dde06c63",
 	"jsonVersion": "1.5.3",
 	"appBuildId": 473703,
-	"nextUid": 440,
+	"nextUid": 441,
 	"identifierStyle": "Capitalize",
 	"toc": [],
 	"worldLayout": "Free",
@@ -3541,9 +3541,17 @@
 			"enumTags": [],
 			"customData": [],
 			"savedSelections": [],
-			"cachedPixelData": { "opaqueTiles": "00", "averageColors": "13247886" }
+			"cachedPixelData": { "opaqueTiles": "00", "averageColors": "2213a775" }
 		}
-	], "enums": [{ "identifier": "Biome", "uid": 32, "values": [ { "id": "Grass", "tileRect": { "tilesetUid": 33, "x": 0, "y": 112, "w": 16, "h": 16 }, "color": 3128898 }, { "id": "DarkForest", "tileRect": { "tilesetUid": 33, "x": 112, "y": 160, "w": 16, "h": 16 }, "color": 12470831 } ], "iconTilesetUid": 33, "externalRelPath": null, "externalFileChecksum": null, "tags": [] }], "externalEnums": [], "levelFields": [
+	], "enums": [
+		{ "identifier": "Biome", "uid": 32, "values": [ { "id": "Grass", "tileRect": { "tilesetUid": 33, "x": 0, "y": 112, "w": 16, "h": 16 }, "color": 3128898 }, { "id": "DarkForest", "tileRect": { "tilesetUid": 33, "x": 112, "y": 160, "w": 16, "h": 16 }, "color": 12470831 } ], "iconTilesetUid": 33, "externalRelPath": null, "externalFileChecksum": null, "tags": [] },
+		{ "identifier": "Scanlines", "uid": 440, "values": [
+			{ "id": "Low", "tileRect": { "tilesetUid": 33, "x": 384, "y": 0, "w": 16, "h": 16 }, "color": 16777215 },
+			{ "id": "Mid", "tileRect": { "tilesetUid": 33, "x": 384, "y": 256, "w": 16, "h": 16 }, "color": 11053224 },
+			{ "id": "High", "tileRect": { "tilesetUid": 33, "x": 384, "y": 224, "w": 16, "h": 16 }, "color": 6316128 },
+			{ "id": "VERY_HIGH", "tileRect": { "tilesetUid": 33, "x": 368, "y": 32, "w": 16, "h": 16 }, "color": 4013373 }
+		], "iconTilesetUid": 33, "externalRelPath": null, "externalFileChecksum": null, "tags": [] }
+	], "externalEnums": [], "levelFields": [
 		{
 			"identifier": "Biome",
 			"doc": null,
