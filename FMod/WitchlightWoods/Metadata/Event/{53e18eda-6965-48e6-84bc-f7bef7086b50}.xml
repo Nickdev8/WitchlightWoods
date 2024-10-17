@@ -100,6 +100,13 @@
 	</object>
 	<object class="MultiSound" id="{2d19a410-e3ed-43a1-b9b4-a96933962506}" />
 	<object class="SingleSound" id="{a823722f-e51f-436f-8cff-77d612cc2c5f}">
+		<property name="pitch">
+			<value>1.20000005</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{e7e7de58-10e2-4013-b534-4aec4a1f7afe}</destination>
+			<destination>{5550b003-99fe-46af-884d-8f658e261a5e}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{5f14cfe1-1e45-453b-9173-ccfd7704feba}</destination>
 		</relationship>
@@ -111,6 +118,13 @@
 		<property name="volume">
 			<value>-3</value>
 		</property>
+		<property name="pitch">
+			<value>3</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{12afcd17-2358-4c69-8acf-95f45bc689d6}</destination>
+			<destination>{2e8b14ef-40e8-4237-87c6-1cbe06974a89}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{6919320d-2293-443c-b9a4-4cb65ad1e3fc}</destination>
 		</relationship>
@@ -127,6 +141,38 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d1d7977d-6ebb-4e16-a935-0599ef1ed5c8}" />
+	<object class="RandomizerModulator" id="{e7e7de58-10e2-4013-b534-4aec4a1f7afe}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>12.5</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{5550b003-99fe-46af-884d-8f658e261a5e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>3</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{12afcd17-2358-4c69-8acf-95f45bc689d6}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>8.5</value>
+		</property>
+	</object>
+	<object class="RandomizerModulator" id="{2e8b14ef-40e8-4237-87c6-1cbe06974a89}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>7</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{90677f8b-8748-4eec-ae2f-b2ae7fae0054}" />
 	<object class="MixerBusFader" id="{c183352a-61f5-4b7d-aaf9-178cd7b2352f}" />
 </objects>

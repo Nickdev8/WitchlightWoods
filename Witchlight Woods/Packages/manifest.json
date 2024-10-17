@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.cammin.ldtkunity": "6.4.5",
     "com.crashkonijn.goap": "3.0.17-beta",
     "com.cysharp.unitask": "2.5.7",
     "com.unity.addressables": "2.2.2",
