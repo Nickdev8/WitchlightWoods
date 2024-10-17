@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31471dfd53d5490a956a89a1b2d11ad9, type: 3}
   m_Name: Climbable
   m_EditorClassIdentifier: 
-  _colliderType: 1
-  _customPhysicsSprite: {fileID: -4228433619289634418, guid: 4250eb3a8b440a74bb1ac81f0abf683f, type: 3}
+  _colliderType: 2
+  _customPhysicsSprite: {fileID: 0}
   _tilemapTag: Untagged
-  _tilemapLayerMask: 7
+  _tilemapLayerMask: 8
   _physicsMaterial: {fileID: 0}
   _gameObject: {fileID: 0}

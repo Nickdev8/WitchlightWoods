@@ -1,4 +1,4 @@
-{
+﻿{
   "Rects": [
     {
       "x": 96,
@@ -51,7 +51,7 @@
     "enumTags": [
 
     ],
-    "identifier": "Witchscene2",
+    "identifier": "WitchsceneTileset",
     "padding": 0,
     "pxHei": 288,
     "pxWid": 256,

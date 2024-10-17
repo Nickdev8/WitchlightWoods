@@ -48,6 +48,7 @@ namespace WitchlightWoods
         private Collider2D _collider;
         public Rigidbody2D Rigidbody2D { get; protected set; }
         public bool JumpAscendingPhase { get; protected set; }
+        public float Speed { get; protected set; }
 
         private float _colliderLowestYPointOffset;
         private float _colliderHighestYPointOffset;
@@ -326,6 +327,7 @@ namespace WitchlightWoods
                 }
                 
                 velocityY = Mathf.Max(velocityY, -config.descendLimit);
+                Speed = velocityX * controlFactor;
                 var velocity = new Vector2(velocityX, velocityY);
                 
                 Debug.DrawRay(position, velocity, Color.magenta, Time.fixedDeltaTime);

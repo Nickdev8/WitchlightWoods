@@ -25,7 +25,7 @@ MonoBehaviour:
       useOutsideNormalAngle: 0
       layerMask:
         serializedVersion: 2
-        m_Bits: 129
+        m_Bits: 257
       minDepth: 0
       maxDepth: 0
       minNormalAngle: 0
@@ -39,7 +39,7 @@ MonoBehaviour:
       useOutsideNormalAngle: 0
       layerMask:
         serializedVersion: 2
-        m_Bits: 129
+        m_Bits: 257
       minDepth: 0
       maxDepth: 0
       minNormalAngle: 0
@@ -53,7 +53,7 @@ MonoBehaviour:
       useOutsideNormalAngle: 0
       layerMask:
         serializedVersion: 2
-        m_Bits: 128
+        m_Bits: 256
       minDepth: 0
       maxDepth: 0
       minNormalAngle: 0

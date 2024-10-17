@@ -338,13 +338,13 @@ namespace Pathfinding {
 		public ContactFilter2D groundLayers = new ContactFilter2D()
         {
             useLayerMask = true,
-            layerMask = LayerMask.GetMask("Default", "Climbable Wall")
+            layerMask = LayerMask.GetMask("Default", "Climbable")
         };
 
         public ContactFilter2D wallClimbLayers = new ContactFilter2D()
         {
             useLayerMask = true,
-            layerMask = LayerMask.GetMask("Climbable Wall")
+            layerMask = LayerMask.GetMask("Climbable")
         };
 
         private RaycastHit2D[] _resultBuffer = new RaycastHit2D[6];

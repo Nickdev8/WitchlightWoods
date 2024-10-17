@@ -1,5 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7341574357281175237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Player Jump
+  Guid:
+    Data1: -1697558342
+    Data2: 1100915217
+    Data3: -1492893254
+    Data4: -1596075724
+  Banks:
+  - {fileID: 8549671795852504970}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6446508065693923104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Player Footsteps
+  Guid:
+    Data1: 1407291098
+    Data2: 1223059813
+    Data3: -1091060604
+    Data4: 1349191927
+  Banks:
+  - {fileID: 8549671795852504970}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4281794235416475119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,11 +69,38 @@ MonoBehaviour:
   Path: ../FMod/WitchlightWoods/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638637627247020024
+  lastModified: 638647623924471937
   FileSizes:
   - Name: Desktop
-    Value: 712
+    Value: 812
   Exists: 1
+--- !u!114 &-2089871956697699924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Player Footsteps
+  Guid:
+    Data1: 1407291098
+    Data2: 1223059813
+    Data3: -1091060604
+    Data4: 1349191927
+  Banks:
+  - {fileID: 8549671795852504970}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,14 +116,43 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -4281794235416475119}
   - {fileID: 8549671795852504970}
-  EditorEvents: []
+  EditorEvents:
+  - {fileID: -7341574357281175237}
+  - {fileID: -2089871956697699924}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8549671795852504970}
   StringsBanks:
   - {fileID: -4281794235416475119}
-  cacheTime: 638637627247020024
+  cacheTime: 638647623924622489
   cacheVersion: 131620
+--- !u!114 &4509947586151006896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Player Jump
+  Guid:
+    Data1: -1697558342
+    Data2: 1100915217
+    Data3: -1492893254
+    Data4: -1596075724
+  Banks:
+  - {fileID: 8549671795852504970}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8549671795852504970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58,8 +168,8 @@ MonoBehaviour:
   Path: ../FMod/WitchlightWoods/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638637627247006761
+  lastModified: 638647623924622489
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 2756
   Exists: 1

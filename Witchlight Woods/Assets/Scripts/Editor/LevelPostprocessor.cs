@@ -10,9 +10,9 @@ namespace Editor
 {
     public class LevelPostprocessor : LDtkPostprocessor
     {
-        protected override void OnPostprocessLevel(GameObject root, LdtkJson projectJson)
+        protected override void OnPostprocessLevel(GameObject root, LdtkJson _)
         {
-            if (AstarPath.active == null) return;
+            if (AstarPath.active == null || AstarPath.active.data == null) return;
             var level = root.GetComponent<LDtkComponentLevel>();
             var graphIndex = Array.FindIndex(AstarPath.active.data.graphs, graph => graph is CustomGridLevelGraph levelGraph && levelGraph.ParentGuid == level.Identifier);
             CustomGridLevelGraph graph;
@@ -36,7 +36,7 @@ namespace Editor
             graph.erodeIterations = 0;
             graph.collision.collisionCheck = true;
             graph.collision.diameter = 0.49f;
-            graph.collision.mask = LayerMask.GetMask("Default", "Climbable Wall");
+            graph.collision.mask = LayerMask.GetMask("Default", "Climbable");
 
             graph.showMeshOutline = false;
             graph.showMeshSurface = false;
