@@ -16,7 +16,7 @@ namespace WitchlightWoods
         public float groundCheckRadius;
         
         public bool Grounded => (FrameTimer - LastGroundedFrame) <= Config.coyoteFrames;
-        public event Action<int> OnJump = _ => {};
+        public event Action<bool, int> OnJump = (_, _) => {};
         
         protected float PreviousMoveInput;
         protected float MoveInput;
@@ -193,7 +193,7 @@ namespace WitchlightWoods
                     velocityY = config.wallJumpForce.y;
                     velocityX *= MoveInput;
                     gravity = config.ascendGravityMultiplier;
-                    OnJump(0);
+                    OnJump(true, 0);
                     JumpCount = 1;
                 }else if (config.canJump &&
                           FrameTimer - JumpFrame > config.minJumpFrames &&
@@ -208,7 +208,7 @@ namespace WitchlightWoods
                     JumpFrame = FrameTimer;
                     velocityY = config.jumpForce;
                     gravity = config.ascendGravityMultiplier;
-                    OnJump(JumpCount);
+                    OnJump(false, JumpCount);
                     JumpCount++;
                 }
                 

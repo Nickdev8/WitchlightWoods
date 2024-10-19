@@ -1167,7 +1167,7 @@ namespace Pathfinding {
 				node.Penalty = initialPenalty;
 
 				// Calculate a penalty based on the y coordinate of the node
-				if (penaltyRaycastPosition)
+				if (false && penaltyRaycastPosition)
                 {
                     var groundHits = Physics2D.Raycast(position, Vector2.down, groundLayers, _resultBuffer, 1f);
                     if (groundHits != 0)

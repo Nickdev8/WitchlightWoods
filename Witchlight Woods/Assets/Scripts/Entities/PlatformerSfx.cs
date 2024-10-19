@@ -36,7 +36,7 @@ namespace WitchlightWoods
             _footstepsInstance.release();
         }
 
-        private void PlayJumpSfx(int jumpCount)
+        private void PlayJumpSfx(bool isWallJump, int jumpCount)
         {
             RuntimeManager.PlayOneShotAttached(jump, gameObject);
         }

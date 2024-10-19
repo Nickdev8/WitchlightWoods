@@ -12,6 +12,7 @@ namespace Editor
     {
         protected override void OnPostprocessLevel(GameObject root, LdtkJson _)
         {
+	    return;
             if (AstarPath.active == null || AstarPath.active.data == null) return;
             var level = root.GetComponent<LDtkComponentLevel>();
             var graphIndex = Array.FindIndex(AstarPath.active.data.graphs, graph => graph is CustomGridLevelGraph levelGraph && levelGraph.ParentGuid == level.Identifier);
@@ -58,6 +59,7 @@ namespace Editor
 
         protected override void OnPostprocessProject(GameObject root)
         {
+	    return;
             // var serializationSettings = new Pathfinding.Serialization.SerializeSettings();
             // serializationSettings.nodes = true;
             // var script = AstarPath.active;
