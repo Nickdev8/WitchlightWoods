@@ -19634,11 +19634,6 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.size
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3797580224331408476, guid: 485e485db170fe7488c39aa485f5819a,
-        type: 3}
-      propertyPath: m_ColliderPaths.Array.data[0].m_Collider
-      value: 
-      objectReference: {fileID: 1573236326}
     - target: {fileID: 4024376737165342641, guid: 485e485db170fe7488c39aa485f5819a,
         type: 3}
       propertyPath: m_ColliderPaths.Array.size
@@ -20444,11 +20439,6 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.size
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5283254407401062979, guid: 485e485db170fe7488c39aa485f5819a,
-        type: 3}
-      propertyPath: m_ColliderPaths.Array.data[0].m_Collider
-      value: 
-      objectReference: {fileID: 1573236322}
     - target: {fileID: 5365479837655048456, guid: 485e485db170fe7488c39aa485f5819a,
         type: 3}
       propertyPath: m_TileMatrixArray.Array.size
