@@ -13,7 +13,7 @@ ScriptedImporter:
   _pixelsPerUnit: 16
   _customLevelPrefab: {fileID: 7937702671330385618, guid: 2d324d04478b2d54ea8a9da42438ebf4, type: 3}
   _intGridValueColorsVisible: 0
-  _useCompositeCollider: 1
+  _useCompositeCollider: 0
   _geometryType: 1
   _createBackgroundColor: 0
   _createLevelBoundsTrigger: 1

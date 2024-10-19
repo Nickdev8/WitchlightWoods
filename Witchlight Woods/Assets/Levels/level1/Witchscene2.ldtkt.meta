@@ -24,7 +24,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: ee3fa179595ec89438085a2707b785a8
+    spriteID: bf20f9201f0a6ce4c98abb1ae60df792
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_1
@@ -39,7 +39,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: f9f5490cdb7cda94ea8cba7e1e7900d8
+    spriteID: 1a73a243435039b49a188f2bc6b2da54
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_2
@@ -54,7 +54,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: 19d97f0842ef0a14b92a11ac9a429f61
+    spriteID: 7fd9a1f55220b854fb10422d5d69f2f5
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_3
@@ -69,7 +69,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: ef36ebb9ffa51044bb0e3c635f88e9d3
+    spriteID: 409f1003cd0bfbb4594ded922c508f2b
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_4
@@ -84,7 +84,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: 288db8ed36b88df44a6d2b200e706ed7
+    spriteID: 1c25b7a0dbfd36140972d607d5c25a4d
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_5
@@ -99,7 +99,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: 5635516a03b94db4aadada8ca028969a
+    spriteID: f5d37c85589ee594f9866390cfa752bd
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_6
@@ -114,7 +114,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: 257ea7e3d0b83b04982db545b2b80620
+    spriteID: 7043643c66c545d4eb845c885e79c8a8
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_7
@@ -129,7 +129,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: 0db857159700be144b5775686ee7ef39
+    spriteID: 6779319c1fff68d4095da3462cb144c2
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_8
@@ -144,7 +144,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: 3424ae23f571573439f444f62ec8f9e8
+    spriteID: 23ba5de32d2b11a4a9c66cbe92f7dcfb
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_9
@@ -159,7 +159,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: b3fb83c7c3d44da4a9ba37ea9cf685f2
+    spriteID: 68a27ba11e30c33489027c10fdf80be2
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_10
@@ -174,7 +174,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: ed6ff8f344ddb444b9b19fa919f094d8
+    spriteID: 19032c0e50a3dfd4fa28290f3c39c7bb
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_11
@@ -189,7 +189,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: d514c8235de480144aef5496a92b3644
+    spriteID: 269f0a9d8c2bd7f41bcc66ebf112f7c0
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_12
@@ -204,7 +204,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: 3f77771fd913f9a42bc3b41a61519908
+    spriteID: 665694f960693bc4baae2223d4d67ec5
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_13
@@ -219,7 +219,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: 13820a88e8ca9214c8e4b31547a437de
+    spriteID: 7e16e4575df6fba49b247d67e269277e
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_14
@@ -234,7 +234,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: 2d56122bbb7b5a140b12c3f62d6651e8
+    spriteID: 4c47007026f58774c9718031573b700d
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_15
@@ -249,7 +249,7 @@ ScriptedImporter:
       y: 272
       width: 16
       height: 16
-    spriteID: 5bce80723e1f9314fb22bf173b72bc33
+    spriteID: ef299d22096a02b4ca937b2db6510b83
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_16
@@ -264,7 +264,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: 8e40dad31e72e78419b1b7e032d81475
+    spriteID: 05822336f2b1c55428bb0edfc13f7e8e
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_17
@@ -279,7 +279,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: e91ee46873f752e40bcac81b1693c919
+    spriteID: a8ef1214a991954408589e139ff34cbe
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_18
@@ -294,7 +294,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: 2600ea44bb0aec247a5e596138c1239e
+    spriteID: 95b4011bc193fe741b98de9b452cc303
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_19
@@ -309,7 +309,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: 5331f80c48e4f2f44b4a55e5d8cfc36d
+    spriteID: 1e63e79bc097aa74fb952436abbc7f06
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_20
@@ -324,7 +324,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: 6b2aef0e49eccc942914c789c53f1522
+    spriteID: 13734d1c7eec1ce4fa72b53c30fa9f3f
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_21
@@ -339,7 +339,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: dddbba7aa33acc046b938657d355a286
+    spriteID: baee534494a326640b7d5178dd47a84a
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_22
@@ -354,7 +354,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: 14c99dc98f293fe48bd1eb1e04bedf72
+    spriteID: dd01263a62baf4d4b84067478ca2721d
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_23
@@ -369,7 +369,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: f433f4d7b0ca89940abeab221332183d
+    spriteID: 6cd1084efdb80514eba0153c83338f33
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_24
@@ -384,7 +384,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: 75b8cce364646a243822758e7ff41d7d
+    spriteID: eac7a0ba54224fb45b3ec247adc6d773
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_25
@@ -399,7 +399,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: 3197a5cd10b400146ad0a0db2603b4a2
+    spriteID: e96fdc589c9d0d844a90ba90b4c09ff9
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_26
@@ -414,7 +414,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: 1e28859134cc5ee4fb117667fb31d31d
+    spriteID: 09436dfb5c42dc0449838eea29aac351
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_27
@@ -429,7 +429,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: 9856952586f6ba7498795ac7f429d45a
+    spriteID: da990f4f1ced8eb43a2e17bf577fa0e3
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_28
@@ -444,7 +444,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: 296c9f723e6db8f4a916e90f4a4dd8e1
+    spriteID: 12e886402843507489d821668d981103
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_29
@@ -459,7 +459,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: b9685957ac7846e42a3969694f885493
+    spriteID: 09668405b379850488ed16673a5c1352
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_30
@@ -474,7 +474,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: 370cf857b86f90540b31160262841914
+    spriteID: 8c286246b7468dc42bd399574eac2130
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_31
@@ -489,7 +489,7 @@ ScriptedImporter:
       y: 256
       width: 16
       height: 16
-    spriteID: 650e486372a3ca240af72a2111a19ec0
+    spriteID: d7b51285ccd87904bb98b73952a402ee
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_32
@@ -504,7 +504,7 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: 417fdb94cac33c246861ab31300350d3
+    spriteID: a6a3c3e0aba0f64449c9924be31d5797
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_33
@@ -519,7 +519,7 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: 1fa76fc6c98095e41b30d208f20a3b66
+    spriteID: ed53e7cedc51c674ab31f846ff80b335
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_34
@@ -534,7 +534,7 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: fbebcf97615597d4fa4d7223272a78fb
+    spriteID: 9221df032f2195742a754f7a4d6a5122
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_35
@@ -549,7 +549,7 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: 7a058d63d8cece14cb5b2807fcabcb63
+    spriteID: 31bf0efb3b3bd854a81fe3fc1d62d670
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_36
@@ -564,7 +564,7 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: 4329e123862e8984485719da31d09853
+    spriteID: ed5940cf9da1a0b4bac458d481876785
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_37
@@ -579,7 +579,7 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: 3f679282b5da8e8428a15b47adb2fe50
+    spriteID: 5b30cbf6d276ee34ea9a72e948797c11
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_38
@@ -594,7 +594,7 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: 4b2c23baeb92ff347b3908774ef6525d
+    spriteID: ca17760c9b712484c99ac35765deead6
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_39
@@ -609,7 +609,7 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: ea03c7f6834cfba4793ba4b81fd6d7db
+    spriteID: b62e57d063fe714428d3669fd1342195
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_40
@@ -624,7 +624,7 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: 63a731b9342269b4f8a44a2138f05f40
+    spriteID: b5706b64aa92e3d48963caf27c026a3e
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_41
@@ -639,7 +639,7 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: 63ff59bf2e1ff3e4d85725d447ea254b
+    spriteID: fd9c7386a3aa0bb419d6d8da51625911
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_42
@@ -654,7 +654,7 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: 6d6554e18bf750b458a330471f771a82
+    spriteID: 36d91545972b4c649a2674a9e5e54867
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_43
@@ -669,7 +669,7 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: 7cf4f34e4e99fb94e920895c887ca32a
+    spriteID: 20efc484406a7cf49b06b301e2d6be69
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_44
@@ -684,13 +684,8 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: e6bb1b468a30f8c4bb18d5073de1d6e8
-    spriteOutline:
-    - shape:
-      - {x: -6, y: -8}
-      - {x: 8, y: -8}
-      - {x: 8, y: 5}
-      - {x: -6, y: 5}
+    spriteID: 51ba8980b478f5e49be3291dbf82ae4a
+    spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_45
     originalName: 
@@ -704,13 +699,8 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: 62b6274e7dd35994facba16da9564555
-    spriteOutline:
-    - shape:
-      - {x: -8, y: -8}
-      - {x: 8, y: -8}
-      - {x: 8, y: 5}
-      - {x: -8, y: 5}
+    spriteID: cb40a3fdfef124f4693775b054e518c4
+    spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_46
     originalName: 
@@ -724,13 +714,8 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: 4c04986898c03474eba86ed1a87ba039
-    spriteOutline:
-    - shape:
-      - {x: -8, y: -8}
-      - {x: 5, y: -8}
-      - {x: 5, y: 5}
-      - {x: -8, y: 5}
+    spriteID: 66d5e71c3a3132e4e8f5d7e4795cd4ac
+    spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_47
     originalName: 
@@ -744,7 +729,7 @@ ScriptedImporter:
       y: 240
       width: 16
       height: 16
-    spriteID: 22b0b0b401c93a842bf70672aff14e50
+    spriteID: 11a1fafb0f521434abbd6ed8ee2f9ec6
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_48
@@ -759,7 +744,7 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: d059aca7d5f58c74484c5a9244163b66
+    spriteID: c65799e93fed6e941890ec9651b5aedb
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_49
@@ -774,7 +759,7 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: b52883684e90fe347b84008c00330074
+    spriteID: da3d79a10f8f6ec42af7a951f2ea6736
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_50
@@ -789,7 +774,7 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: 95e31f67dec48db4b9f993ace2a5a42d
+    spriteID: 40d9889dffcc390428dabf57a7ad7b79
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_51
@@ -804,7 +789,7 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: dad8616a086944c41b11756b685fadab
+    spriteID: 01925d4eb04a5fe44bb6c7efcf0fe33f
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_52
@@ -819,7 +804,7 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: 39042a4e35dcb1845a0f4f18c06d2db6
+    spriteID: 960e0e29a1f91ce4796febb0fb2a2581
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_53
@@ -834,7 +819,7 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: 2945fd70932de944fbf6f061285723bf
+    spriteID: 50d2033df69cc2346a118157b80559c2
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_54
@@ -849,7 +834,7 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: 7866c0f8ea97e20449cbb00a7c6ab043
+    spriteID: f7c015851f5cde84f81d9bada1d8f1e9
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_55
@@ -864,7 +849,7 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: bb4bcfe9d290b2443b6a9435cc36e1b0
+    spriteID: 7653f2353d96a4f4f89d98e044ccf30d
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_56
@@ -879,7 +864,7 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: dd99ce700ab1a4940af23675391f1e0f
+    spriteID: dadf4b7c66a58bf4092891764bb2ccdb
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_57
@@ -894,7 +879,7 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: 6292eaee38f70834f94e95ddfd3daed9
+    spriteID: 48ceb8c902bcd3a478c57829755e991d
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_58
@@ -909,7 +894,7 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: ad378419454a8394ca4c4d6425825418
+    spriteID: 5af2524c201a4c64393aaa16f2e83eed
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_59
@@ -924,7 +909,7 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: 36e61841bfeae5c4b87c661ac0da2305
+    spriteID: dcda22d0f727a8f40bb31b5f70d01331
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_60
@@ -939,13 +924,8 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: 47fa9c40d1d1b794194c15b6ae2fe9ba
-    spriteOutline:
-    - shape:
-      - {x: -6, y: -8}
-      - {x: 8, y: -8}
-      - {x: 8, y: 8}
-      - {x: -6, y: 8}
+    spriteID: a66f761dd556a7344955679d284fdd84
+    spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_61
     originalName: 
@@ -959,7 +939,7 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: dc5e0759f005dea43a3f5aae9e32ad72
+    spriteID: 96da6689bb503de42a149ceec13fa404
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_62
@@ -974,13 +954,8 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: 337663d64c6a343418c2b49a6d7a94a3
-    spriteOutline:
-    - shape:
-      - {x: -8, y: -8}
-      - {x: 5, y: -8}
-      - {x: 5, y: 8}
-      - {x: -8, y: 8}
+    spriteID: 01a8aa68b17410347b786c154d6af658
+    spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_63
     originalName: 
@@ -994,7 +969,7 @@ ScriptedImporter:
       y: 224
       width: 16
       height: 16
-    spriteID: 230646be1028d5f4a8b5bc19b608ce9a
+    spriteID: de85c7f0b23485e4ab2bf0e16c8e1337
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_64
@@ -1009,7 +984,7 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: 317fa91731243b5468213e2359fc4376
+    spriteID: 32188c33044e5094592ad6ce6a5153d6
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_65
@@ -1024,7 +999,7 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: 33dc70d1b745b6144a647cbf82a15b8a
+    spriteID: cf6a0c339828f4246b5ac8689ba19d23
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_66
@@ -1039,7 +1014,7 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: e36bf21dedd98c34c8888f81af43a841
+    spriteID: f69d9c117429eb148ad7ebc40c975208
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_67
@@ -1054,7 +1029,7 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: 163940593864ea94e90163f1b2920513
+    spriteID: 1b588f132272b2f4ba032c8b3a2b544d
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_68
@@ -1069,7 +1044,7 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: 39f6b485904df4643a880c4e5496c39e
+    spriteID: b3919ffbbee86cf4687b411a6799f098
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_69
@@ -1084,7 +1059,7 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: dd039fd039a043f4faecde50ef5c47e5
+    spriteID: 0ba9b5b0611fa584dacb4450415e604e
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_70
@@ -1099,7 +1074,7 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: ebefb13fee7e1784d9c21543bff89db0
+    spriteID: 3b0948850e90b5245ac0df4620da481d
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_71
@@ -1114,7 +1089,7 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: b40e2d13295f4d84390189cc5c15898b
+    spriteID: a5a161ab9a5d78f40b26e03d9696ff5e
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_72
@@ -1129,7 +1104,7 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: 8f34f43e5516ce143bb194994ceb8747
+    spriteID: 2975410b53f789e40bd03a2fdbc829de
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_73
@@ -1144,7 +1119,7 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: 7c72757c47e2b7b43bbb251b3a6802f3
+    spriteID: 5c37b005102316c47ba02cd7a3abba67
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_74
@@ -1159,7 +1134,7 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: 07c6e7811c9c2264996826002acc44a3
+    spriteID: 1ca3b1947157c824e9407d07f42a0b8f
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_75
@@ -1174,7 +1149,7 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: ecc5a0afe31a05a4aa0dca4973eec872
+    spriteID: ba21947cf40137f4db164e49ccc89ebd
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_76
@@ -1189,13 +1164,8 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: 46cf913161cbaea47b2f350c454b4689
-    spriteOutline:
-    - shape:
-      - {x: -6, y: -5}
-      - {x: 8, y: -5}
-      - {x: 8, y: 8}
-      - {x: -6, y: 8}
+    spriteID: f9f3090f1a0841049b7064d7fb218528
+    spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_77
     originalName: 
@@ -1209,13 +1179,8 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: 02b43efe155d50d4cb73f3f93a739475
-    spriteOutline:
-    - shape:
-      - {x: -8, y: -5}
-      - {x: 8, y: -5}
-      - {x: 8, y: 8}
-      - {x: -8, y: 8}
+    spriteID: fec15471138b9fa46869912ea4b210bf
+    spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_78
     originalName: 
@@ -1229,13 +1194,8 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: bd1fcfc06c3295d4dae9efd419abddae
-    spriteOutline:
-    - shape:
-      - {x: -8, y: -5}
-      - {x: 5, y: -5}
-      - {x: 5, y: 8}
-      - {x: -8, y: 8}
+    spriteID: ae64edd8ff8f2d1488d9644a99779770
+    spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_79
     originalName: 
@@ -1249,7 +1209,7 @@ ScriptedImporter:
       y: 208
       width: 16
       height: 16
-    spriteID: 3be1e94f2192dcd458adfe360826c34d
+    spriteID: 98281860318146847b7093e4be273e1a
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_80
@@ -1264,7 +1224,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: da9b5ee3c92bfc245ae6c2f0fcd748f6
+    spriteID: f3690187d47db1447a89f2cb455ec55b
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_81
@@ -1279,7 +1239,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: 31b422d3b7d884b488325d725311b8f3
+    spriteID: 1220717e6d869854fbfe64674a095adc
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_82
@@ -1294,7 +1254,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: 93311b3c48aa38c4fb048586ef6da9ce
+    spriteID: af2d0cda8a60639469b47b81182553fb
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_83
@@ -1309,7 +1269,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: 0b0cab5cb8e215c4389f26bca371b3d2
+    spriteID: c1749d62bf5a8054086bd1f24edc5138
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_84
@@ -1324,7 +1284,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: 24487329b4132b64cbda84940bdfadab
+    spriteID: d494a599288a68d489daf29d12087cf1
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_85
@@ -1339,7 +1299,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: d3686af77728a404fa8a8eba265b93f3
+    spriteID: 8ae05f229e8302b47b4712ba6b13ead2
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_86
@@ -1354,7 +1314,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: 7364fc365f7b13f4b889b235928d0d84
+    spriteID: 8dfedb84d4502e64d82bb732c2fbd41a
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_87
@@ -1369,7 +1329,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: f6e0156fbd634dd41a0b24b9dd732ce6
+    spriteID: 48131f8bda8b06d499183021377cf99a
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_88
@@ -1384,7 +1344,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: ee18ca87e3643494ca617daca9f9739b
+    spriteID: 76b7663217050aa48aec195c95c602e0
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_89
@@ -1399,7 +1359,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: 481427ec7984e614d8bc00c2e55f5535
+    spriteID: b03ae4998ca35d34d9a12f17a67476d3
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_90
@@ -1414,7 +1374,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: 31dac716cf1955844be3da38b04d1d5e
+    spriteID: 88df947f64e8a6942a99c803ba14eeb1
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_91
@@ -1429,7 +1389,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: 355a1d0e26b4184439f01098cca1536f
+    spriteID: 4e2af96c149a4614998dd777a67c9c44
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_92
@@ -1444,7 +1404,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: 1aa8d6775efe88540994a0173aafc443
+    spriteID: 386c914732a898947b7d92c216315cd8
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_93
@@ -1459,7 +1419,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: eac3f7aba8b881a4aaf9bb1bb39ae85f
+    spriteID: 115feba0d74fbcd4b89e79c8323bdde9
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_94
@@ -1474,7 +1434,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: d23f99e9bed36c046a0584edb1eba123
+    spriteID: 944ecd312c7ea714e89c0136b9f3bc7a
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_95
@@ -1489,7 +1449,7 @@ ScriptedImporter:
       y: 192
       width: 16
       height: 16
-    spriteID: 67bfdaab526f66c4cad987a4019b4907
+    spriteID: c071d8b615aef9c41aebb77687e313bc
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_96
@@ -1504,7 +1464,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: 87ebd9f1bee22cc4eb072d3d2d9c62e3
+    spriteID: ce769d1324741904ca25d4b43dc30fe8
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_97
@@ -1519,7 +1479,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: 38c157ecea270a84592b927f5818bc24
+    spriteID: dd0663fc04fbce142a3c15d1e1d377c3
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_98
@@ -1534,7 +1494,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: ae796a952fe21c4428dff20256ac4545
+    spriteID: b6738f137cd93ab419be0b230f385126
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_99
@@ -1549,7 +1509,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: 4de700a8e2f9d724a879ba566a6e8360
+    spriteID: 583f6a2c6c189a34ba9de0be44add383
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_100
@@ -1564,7 +1524,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: 086a760eb5033e14b99b57e2800af047
+    spriteID: 6239240614e80ba449cfed6810f296bd
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_101
@@ -1579,7 +1539,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: 67a2d8c0bde1e484683cd5088a79f20b
+    spriteID: 533692f8f7995d9479e0083c76017722
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_102
@@ -1594,7 +1554,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: afc90d18ff5f3314b9799578c71cba46
+    spriteID: 5caa33fc99e43a546ae9237b71ebfa04
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_103
@@ -1609,7 +1569,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: 59bcc8d6889354e488d6e0bf8dd95f37
+    spriteID: 63f9d8031db248349a5a6bbbd47d5f14
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_104
@@ -1624,7 +1584,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: 27a81178daeb5054d89e98b03202f6be
+    spriteID: eea245e99ac872941a9d23588666a605
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_105
@@ -1639,7 +1599,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: ecfe224d53a93294499626703cd7b0ba
+    spriteID: a6c6ccaddb5a6064b891d56df20afa2c
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_106
@@ -1654,7 +1614,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: 18ff765ae2fe6b040a7429f3557a1720
+    spriteID: f3be5baa5d2165a468c25bcfd945e78c
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_107
@@ -1669,7 +1629,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: 5b42fdfa01866a544b3d34c9520bf23a
+    spriteID: 38342ebee9c12644d958d13e8fd02d3a
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_108
@@ -1684,7 +1644,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: 3a2da28b47a93d84e9dd480346eee23f
+    spriteID: 91ede25b303e5284ba8769a5b61dd984
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_109
@@ -1699,7 +1659,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: 9010a89f32ecd03428c00eaea082e700
+    spriteID: 1468af43830670147b73dc822f25fd19
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_110
@@ -1714,7 +1674,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: fa5c7556df2a08c48a86c77722cbaf94
+    spriteID: 9d47d27a974c30a4bafba73df6582ff9
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_111
@@ -1729,7 +1689,7 @@ ScriptedImporter:
       y: 176
       width: 16
       height: 16
-    spriteID: 2d09f3bea8807bc47884776d01228fd2
+    spriteID: ba25f7b2a17a09e43894c52d46332604
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_112
@@ -1744,7 +1704,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: 8d26fe64b356836488fa1a74cfbc0c99
+    spriteID: 67f0059405742414caec0839ff8987e6
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_113
@@ -1759,7 +1719,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: 6d311deff06ad5849a5f85178d20ca9e
+    spriteID: c5f14b1a0c2f6654d929e57b9d954a2e
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_114
@@ -1774,7 +1734,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: 975696c860622064b82610e474138f23
+    spriteID: 6a9e89c33d2504345bd7a9a29076b79b
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_115
@@ -1789,7 +1749,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: 5925ee13117e1534583e6996b9508f5b
+    spriteID: 056302f4bf461ef44b412c1f233db8f9
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_116
@@ -1804,7 +1764,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: a38abc7b69c41fb49ba6b99056b7629a
+    spriteID: 53418e4ee435aec48b7ef5bee8c559eb
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_117
@@ -1819,7 +1779,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: f1e58f955680b9f4d97709b70d945f61
+    spriteID: 64583e9601a75ab49a8946b7a2dd02cb
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_118
@@ -1834,7 +1794,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: ea00f20d8496923489f5c37d63b75860
+    spriteID: ee82d075afa166340a488a3b87012881
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_119
@@ -1849,7 +1809,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: eaa913e103dadee41ade13640e78bab7
+    spriteID: 63b05b46819f1944d9a140484acb598d
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_120
@@ -1864,7 +1824,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: 1757d888e605b694bbb856291985f91e
+    spriteID: 13bf07a6b1f6b294fae2ef0c57df3e45
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_121
@@ -1879,7 +1839,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: c801c0452d07e0e43b11348e79806011
+    spriteID: 83ac16dd44af88a468c65f942ee6c3ed
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_122
@@ -1894,7 +1854,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: 7255a7d19bad9234baa720f177698fb5
+    spriteID: 8244127c4d337a44bad9c1fe0783ec38
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_123
@@ -1909,7 +1869,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: f1827094f75e6a8419f4e9a3dbed2c82
+    spriteID: dc5b4e07f90808b4b818f63911c368da
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_124
@@ -1924,7 +1884,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: 18e8849d772bc564cb810ea1d48bee1d
+    spriteID: fac875e5c10178a46beadc4c1a914238
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_125
@@ -1939,7 +1899,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: 28af3f7980f2e7e4d8e919458d4608e2
+    spriteID: 472e28501cdb04f409807ef0118c739a
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_126
@@ -1954,7 +1914,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: 47f70878adffd6f469585820479e1dab
+    spriteID: 8fb13851a0263ef43808e8b89a2735be
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_127
@@ -1969,7 +1929,7 @@ ScriptedImporter:
       y: 160
       width: 16
       height: 16
-    spriteID: d48be0a7329aafd43b3611a2fdc02cbd
+    spriteID: e2c98563fe1d14d4f8c25db1f5cdefe3
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_128
@@ -1984,7 +1944,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: f73997241ce24d448bc8c75ac8738a02
+    spriteID: b43b86048b75be44ba889972a1ffdb03
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_129
@@ -1999,7 +1959,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: 7257469bb4d1e6d4eb8943026a45bfae
+    spriteID: 9e3185e99c55e174c873ab6c12789463
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_130
@@ -2014,7 +1974,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: 752b6663d866d2743a303388afb7b5d5
+    spriteID: 2130992007aed434f8b88dbcdcb47681
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_131
@@ -2029,7 +1989,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: c95e492420a01c34db1a64de3824db4b
+    spriteID: a05dad495532b1447996d290209cfcfb
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_132
@@ -2044,7 +2004,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: f5667b86f091b4f46ab7f3006819b3bc
+    spriteID: 9b8693304aef119429e86c584b4de51c
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_133
@@ -2059,7 +2019,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: a77653b97ef2b3949930955e586d0455
+    spriteID: fe7c1922271935849a2a66d8a55420a6
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_134
@@ -2074,7 +2034,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: 2754ed87e729c6d46b5df58d22870d95
+    spriteID: 887d5554efe0e5f4490c5d2087650f2e
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_135
@@ -2089,7 +2049,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: 3b98dc961f67bb344afa0539dc0ef1e3
+    spriteID: 470fbed3300fb5a478898cc245df505e
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_136
@@ -2104,7 +2064,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: c83f76e08bf26f94586bd3d523c8f9b4
+    spriteID: 27e8c4e479fa1004499e6803677d19bd
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_137
@@ -2119,7 +2079,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: ad81b530439d36d4ea8ac8de64fcebf0
+    spriteID: 725e703755d09a148a1959d46787ac1c
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_138
@@ -2134,7 +2094,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: b62310fce19eb024ba31514efded0c9a
+    spriteID: a98917b9afb0c7f47b6475b9948e46b9
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_139
@@ -2149,7 +2109,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: 43da04db175b0794e84acfca81fe1706
+    spriteID: 1419b908efd8f4e4db86d27d51ce93db
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_140
@@ -2164,7 +2124,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: b536ee7b9cbedf847bd8ee59106ec690
+    spriteID: 321d1e24e023efd418fb4db0b92c89b7
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_141
@@ -2179,7 +2139,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: 8a494196a96f65243a0e26ae0f926af9
+    spriteID: 8b4cffedc1379084db9c1504da6387bd
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_142
@@ -2194,7 +2154,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: 2b505f840746cb8419a9565604ec3ae9
+    spriteID: 7529d486f86376e49858e3f457b3eb41
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_143
@@ -2209,7 +2169,7 @@ ScriptedImporter:
       y: 144
       width: 16
       height: 16
-    spriteID: 52912b36952669a4f91b1822b0d1f637
+    spriteID: ec2ce7fd37fd8bd49a5793c51e249324
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_144
@@ -2224,7 +2184,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: 22de90d59f6445f48b133e3e59d6d74e
+    spriteID: ca1c4492689fa31448aee213324a1e74
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_145
@@ -2239,7 +2199,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: 87d69fdb8310ca048815ba1e7489c529
+    spriteID: 1b5e3475e391635498392fcb800b99eb
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_146
@@ -2254,7 +2214,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: dee585f080ef54c4ebdcfc093517bfdd
+    spriteID: 1249b1bd50e342346b29a3e9fe970620
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_147
@@ -2269,7 +2229,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: 373ec5736ba4aec4aa6dfb4143668445
+    spriteID: 5370ead50025e884680e988cda8f163c
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_148
@@ -2284,7 +2244,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: 636e207c21592d14299af41d41dda472
+    spriteID: 25644729985b3064cb515eb752641a00
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_149
@@ -2299,7 +2259,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: 506a58f31c6effd4399acd43ecbba6c3
+    spriteID: 7d4f4187c14ea534c8c30ca86f8d99ba
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_150
@@ -2314,7 +2274,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: 4b19b015bc384ca4188f99dca7dece4d
+    spriteID: 8f93aeda817d61e4688272e70955bdff
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_151
@@ -2329,7 +2289,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: 5be470300b7001a409756ffd2490c55b
+    spriteID: 29866e130a320514892ecd57b9f42df1
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_152
@@ -2344,7 +2304,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: 22879e92ddc42854099fadc73cb5eedc
+    spriteID: d218437bc64cc50469c3b2b30a47cac4
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_153
@@ -2359,7 +2319,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: d4690a31bb635c6498b0ba8f4618d332
+    spriteID: 5ce8c1224b6064f458652f65fe71afc2
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_154
@@ -2374,7 +2334,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: 118ad2d1846ee18458ec20e0cf6e7b63
+    spriteID: 5acfafbc0052a6d4ea8b5c4bb0368b4b
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_155
@@ -2389,7 +2349,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: c0ea678cc7df4ce4d8115aa155b0be23
+    spriteID: 80797928f5aca55458f872660deb9bf2
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_156
@@ -2404,7 +2364,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: 81e8420f88ca5044e8c940cf78ffdc30
+    spriteID: 49b3344495eb25949a1aa2c206118ecc
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_157
@@ -2419,7 +2379,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: 70abcf4c8ac0d8a4db375754ec2526f1
+    spriteID: 7005fb980173b1a47a3e05a6523ef048
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_158
@@ -2434,7 +2394,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: b46c3fe1b46c9a1409ccc28593030df4
+    spriteID: 357711034d93352489207113c584fa74
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_159
@@ -2449,7 +2409,7 @@ ScriptedImporter:
       y: 128
       width: 16
       height: 16
-    spriteID: f7c95bfde704edc4189bd720c379c723
+    spriteID: 959b102b6e101da429748b2e343cfa69
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_160
@@ -2464,7 +2424,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 3df64cca5538c04458c0d2f39e7c1295
+    spriteID: 39af65eec2a2a1840a6d695521014a99
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_161
@@ -2479,7 +2439,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: de0de3a7c495a37479a2c1fb41736a5b
+    spriteID: 281b63a843c47634e9e26993a8c865eb
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_162
@@ -2494,7 +2454,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: bdf8ff5bbfad19b4f993c8906169be74
+    spriteID: 2787390c4c3d662428a5cfc4057d416c
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_163
@@ -2509,7 +2469,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: ea0cf95f4ffcdb249bb0b0d9e54ac7c4
+    spriteID: 268305533cc62cc40bc042c3844dcc26
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_164
@@ -2524,7 +2484,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 1f8159f2bbf581a49b7069102395ebfe
+    spriteID: 068a97a4f2b68374b810c34015402395
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_165
@@ -2539,7 +2499,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 923964d5c938fa44ebd7bb9d6edc050a
+    spriteID: 0708a13ca50a853479fb1f28f7e182c9
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_166
@@ -2554,7 +2514,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: b8e6aefcbbf6e1b48b5d76a2a1e06b58
+    spriteID: 2469fd562dad2ac43a589808350247f4
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_167
@@ -2569,7 +2529,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 8f9e05b61ee99e944ab40e2bedd49c0f
+    spriteID: b834ab26741d6de4e923a3871e14461d
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_168
@@ -2584,7 +2544,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 91eaddb37c4859f4cbcb54c8ded86893
+    spriteID: 05288af4dc8aecc43a6ae0199a19f3ed
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_169
@@ -2599,7 +2559,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: b630e848385154b4d9ec377056c7a475
+    spriteID: bb4b3263d1d2a084894375a0cbbc3589
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_170
@@ -2614,7 +2574,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 865e3bf3286471f4c9e13e84b9127a97
+    spriteID: 8587da4130e259449abe9d88a3996680
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_171
@@ -2629,7 +2589,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 4a1d1b220bb3ee44599a7f6688517b68
+    spriteID: f90ff34bc03834d45bd9003241ebc1f2
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_172
@@ -2644,7 +2604,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: d64e2897d427fb6448abf815b82e9ff7
+    spriteID: 840852927419b644a80560165a452101
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_173
@@ -2659,7 +2619,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 11ba5f4f098d8984bb7217366e4fb066
+    spriteID: d3b127940491ebd4aa7cc0ae3bc33075
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_174
@@ -2674,7 +2634,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 5dbb5434e5237ab4f8b27aa78767fa3d
+    spriteID: 783b4d462d6be244d8edc1bb97a3f0c6
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_175
@@ -2689,7 +2649,7 @@ ScriptedImporter:
       y: 112
       width: 16
       height: 16
-    spriteID: 8095258103ae199418cde153ad97a03a
+    spriteID: 46e17b931a091064d9713b5d68ea658e
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_176
@@ -2704,7 +2664,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: 804b681491fec4e4db39eea59c3b747a
+    spriteID: 357e11c5b5403af44a8950fa5c86dd77
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_177
@@ -2719,7 +2679,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: a31d0b396f903e8408a8a826dbe0900d
+    spriteID: ecc6921732db02f4aaaa53b7f09c8d7c
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_178
@@ -2734,7 +2694,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: b48add65e72f5b744b8a77dfad212a53
+    spriteID: 041399b9498b72548b52b24e7f6d31cc
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_179
@@ -2749,7 +2709,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: d49975e86b0e7884f9c285ce90bca8d5
+    spriteID: 41faf7cbaa61b244486752a742d6fd77
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_180
@@ -2764,7 +2724,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: 441b342b71b532240b6ed6e4b8bbc3d5
+    spriteID: 9a671fa4c2cb9134eaf6c7e732cf524e
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_181
@@ -2779,7 +2739,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: 7e0bda68e131fae4f9af4d902fb2684e
+    spriteID: 0efcf68f9a0798a4db3e045db4c0ea40
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_182
@@ -2794,7 +2754,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: 2fc22df6bd545914ba4bbcc69422e96a
+    spriteID: ca69740bc40567349b4c87d5a1b14f47
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_183
@@ -2809,7 +2769,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: 8c80c4b72f9dfa94ea02c59e9b7614fd
+    spriteID: 9358bb093084d3d459a7f7dbc7bef745
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_184
@@ -2824,7 +2784,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: 8619a9265fc832344a2feb50dd6932c3
+    spriteID: ce1f6cdbf366ba8488528f7c9f102130
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_185
@@ -2839,7 +2799,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: 5dad3e1f624467a45a30463bb6e57385
+    spriteID: b4dce8df1e2e4c647a71871ca9a9246a
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_186
@@ -2854,7 +2814,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: 03abd065b5b7f484589d461308a42a6b
+    spriteID: 7d0710028850ff64fa258a91e7cac1be
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_187
@@ -2869,7 +2829,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: 1544384482125db40bf1cb62e1fbe23e
+    spriteID: 69c42186470e32f4abad40c39a72c438
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_188
@@ -2884,7 +2844,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: a25ae786bbe532e4d864794e6111088a
+    spriteID: b12cf03e2f9f88743ad25837eea360e3
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_189
@@ -2899,7 +2859,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: fe5835f064f26c24489d9632a4436668
+    spriteID: 70f6db25a6892a54c8b288edf3188132
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_190
@@ -2914,7 +2874,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: 20825d94c1261694e956cbe47d84eba7
+    spriteID: abc48cfdcf04ac64691b62f1c4d7eeb8
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_191
@@ -2929,7 +2889,7 @@ ScriptedImporter:
       y: 96
       width: 16
       height: 16
-    spriteID: 3a82226f07ae29a439a267cc48f85bb6
+    spriteID: 6023af6dd13b14144a6d7bf00a0b7dba
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_192
@@ -2944,7 +2904,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 1be49ef472958864192d51ead29272a7
+    spriteID: bf86ab558b66af74691a948c052e191a
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_193
@@ -2959,7 +2919,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: d92c3730fe1e6e740ad2bb53bc9f005b
+    spriteID: b1be909a85af87849bfcdafd916c0672
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_194
@@ -2974,7 +2934,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 3a1ca69fd8cdd884cb4fbe75467bbffd
+    spriteID: a702efe9ee358d64392253fb265151de
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_195
@@ -2989,7 +2949,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: cd8ffa36c38c5f94fa021a697c75ec39
+    spriteID: 511a08f7e6a13ab48a27bbaef05844e9
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_196
@@ -3004,7 +2964,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: e0a100dc52ce5f94298cca13bfcb7cca
+    spriteID: f3b745a8148d42f469433fab8b603c84
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_197
@@ -3019,7 +2979,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: b5470185d223bb246929fc6c3b2c6c7c
+    spriteID: 2fd43ea8103b92e46b9b61fa1c62ef38
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_198
@@ -3034,7 +2994,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 6495328e3ccf9ac45bab44b1619d1527
+    spriteID: 661cd94e3c8f4d34d82183a9ded0a7a3
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_199
@@ -3049,7 +3009,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 3ba655179c450ef47ac9b3d215501b35
+    spriteID: 49e3c3786109b7744a45cacdddb447be
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_200
@@ -3064,7 +3024,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 54b8fef43c2a85c4c9e7bb36e740525e
+    spriteID: 601feb4973986884589a5572efd691ea
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_201
@@ -3079,7 +3039,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: a348a926bf0523342bc9d74af0086e41
+    spriteID: b7cde685e4e34e04d8041661fb0e8b88
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_202
@@ -3094,7 +3054,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 5317bfc6a04eee54c91c91001d0d0259
+    spriteID: cd216bc83a2d9f7408132f31707004ff
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_203
@@ -3109,7 +3069,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 51d0b41d73f349e4b9bc2e0312ce2b19
+    spriteID: 1d469be28f4acbd4eb2c780f8464dd4b
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_204
@@ -3124,7 +3084,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: c64345c06a2ebbe45bed85fcd503c321
+    spriteID: 620c2b9ca9910f241abdbc4e1b590cf6
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_205
@@ -3139,7 +3099,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 67cd2475a91960346b87f0d0ce504700
+    spriteID: 5d95ce67f249a604b8088b470239da5a
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_206
@@ -3154,7 +3114,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: 1bdaa5078f45c664fa424c3c5664efb2
+    spriteID: daf54dd1691a51549a7518396de91d26
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_207
@@ -3169,7 +3129,7 @@ ScriptedImporter:
       y: 80
       width: 16
       height: 16
-    spriteID: f9f7e48cfac8a5a42a9489a91b6ad2ed
+    spriteID: a78091b03354d3e4887d59cb24406b64
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_208
@@ -3184,7 +3144,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 88117c8673834594cb5a72797020ff73
+    spriteID: 409980b67a1b90a4f88abf5720e1a85f
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_209
@@ -3199,7 +3159,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: b711a1e700a18764da91fb8b444c405c
+    spriteID: 0f43b9b193175e045b15025389424ccc
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_210
@@ -3214,7 +3174,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 16e86da5ccefacf46982bb3f3f0bc8a7
+    spriteID: b44774da99ab8214abe599d2cb76f3c8
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_211
@@ -3229,7 +3189,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: b816ae937f396b34389a6a77e80d7bef
+    spriteID: 58581792ddac0894db595fe413a09760
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_212
@@ -3244,7 +3204,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 9ef3eaba3c60b3b41803dd1af905547b
+    spriteID: 1140656b28dbef646b8035bb1cf86f5e
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_213
@@ -3259,7 +3219,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 579e0d8e4ef702449b819a6ee9aa5a61
+    spriteID: 5d80cfe12566a474b9ec75f23de841b5
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_214
@@ -3274,7 +3234,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 2407367018e6a6143861d8a88d15ffa4
+    spriteID: 74d0a1d05085f2c4191fece205baa1ee
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_215
@@ -3289,7 +3249,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 27873bba7390c0343a987a15f8dd82a6
+    spriteID: 8b1bf2e1f889e84418fae845d9f867f0
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_216
@@ -3304,7 +3264,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 784a9845dba24364cb47414b29579578
+    spriteID: f0b47ce5e8f26fe47a286af14aa32cfc
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_217
@@ -3319,7 +3279,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: cb322fdebf34af440a8d138b24726776
+    spriteID: 4a1987c150ed9564f977fc82242e560c
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_218
@@ -3334,7 +3294,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: e1b57adbc5bebec4e98c655b3e46a57f
+    spriteID: d9693987d9877da4fadd9f7998720841
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_219
@@ -3349,7 +3309,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: e90755dfc306c4c4ea99fd9f6eda941e
+    spriteID: 0731de5334457da43ba49ca07023d36e
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_220
@@ -3364,7 +3324,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: ebf0158bd4d39f844b858f2a6959d0d4
+    spriteID: e0f4335343d65314091001713e12177f
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_221
@@ -3379,7 +3339,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: ab86f74cc6563824eadc9331ff784582
+    spriteID: 72ccfd603b6b8c543b4a73a811d43303
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_222
@@ -3394,7 +3354,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 44a93270b90247e4a8320c990b0e34a8
+    spriteID: 4f6750f2e26faf8409945a9c88d6e4a7
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_223
@@ -3409,7 +3369,7 @@ ScriptedImporter:
       y: 64
       width: 16
       height: 16
-    spriteID: 45284c036b21441408559f93b7cfc446
+    spriteID: d8a8c1079e60b9c4db30f0fb87577f82
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_224
@@ -3424,7 +3384,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 4138511f63a566e4583edcdeb9794fde
+    spriteID: de5f430b1725cac4cb7498ad4b3e4bed
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_225
@@ -3439,7 +3399,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: a1ab0425a1b44ef4ea404ba9d77ebd10
+    spriteID: 74c2240b357faf049a7e149ff2ec7405
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_226
@@ -3454,7 +3414,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 23802a62095b21d47b92817c969d338e
+    spriteID: c5e978784ba33da47a67ab61881edbb9
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_227
@@ -3469,7 +3429,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: f0e9f03c63f55c7499328a1a6550665e
+    spriteID: 39d97ce9f1210d44db9bb7906046a548
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_228
@@ -3484,7 +3444,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 21eda08a3eae5f14caffdaab4ad7fdad
+    spriteID: cd3a5bd37d0544942b1627a6e9797c09
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_229
@@ -3499,7 +3459,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: cf1d46425c31ade4aaa7ce7c75a3f98d
+    spriteID: adea16b60922edf49bf608235f29ec39
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_230
@@ -3514,7 +3474,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: eaa115bdd8bd30549b77f9326bd92c30
+    spriteID: c6bce86a940a68f4fb491adf10fd9511
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_231
@@ -3529,7 +3489,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 35fa9fd33765198478d2eb3d993e286c
+    spriteID: 089304294c61d1e4fa7addd738659a69
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_232
@@ -3544,7 +3504,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: ea5c5409dfefc454dab16622ac2f5f0b
+    spriteID: a24af570ef7818947930ac1bcf92a35d
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_233
@@ -3559,7 +3519,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 4a222003422c93540aa8f65315fb238b
+    spriteID: 5817e27b75515234c8c716e0baa9ae19
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_234
@@ -3574,7 +3534,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 1629837327cc90c438681d3468f1e26f
+    spriteID: c8009b30335b67b4888f97c3eabbdcd6
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_235
@@ -3589,7 +3549,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 908c630c5f938f44abada259863cdd95
+    spriteID: f5f5429aafb25914f8d02a0bcace57cd
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_236
@@ -3604,7 +3564,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 2ffb6def47e18e5429fdbd2e7dac518e
+    spriteID: 97612a8f196b85141b9af1b55c9f8928
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_237
@@ -3619,7 +3579,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: ec2f208fa99f156438bae9ae9002f09b
+    spriteID: 5781e7ea9b10f7949b3b1f685465eb2b
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_238
@@ -3634,7 +3594,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: eba8153cb61f0c84db6f777dff4d349f
+    spriteID: 1dd71201f9b47824794a6e4406735c4f
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_239
@@ -3649,7 +3609,7 @@ ScriptedImporter:
       y: 48
       width: 16
       height: 16
-    spriteID: 80a21304b2fce0a4198922632267c12e
+    spriteID: 1ab0a53c7c11f774ab9c954f1900197c
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_240
@@ -3664,7 +3624,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: ccd057cbf8b3bfd4bb969b62fae0b2ae
+    spriteID: a9c0aa0a516706c45ae73d374e2f8b8e
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_241
@@ -3679,7 +3639,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 57349fdb4bc18304db6a5d2282ed6765
+    spriteID: 216ecdbff9adce44eb60950dc9064fa7
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_242
@@ -3694,7 +3654,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 451ad22482baf1642a39fd3790b2b693
+    spriteID: e1690a493b261dc41938b8520b27b753
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_243
@@ -3709,7 +3669,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 0fd137aa1377caf4083517fe0535af76
+    spriteID: 03ee5fec022f4f14bb3bfbf5c4f0cd67
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_244
@@ -3724,7 +3684,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 16c13eb29dc1c2a4dbea8e02ad82e496
+    spriteID: a456aa5374324da4197ef960a1d0b1a1
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_245
@@ -3739,7 +3699,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 8e95e4a6447977a43ae54e81524ac864
+    spriteID: bf659a070b5807a4eaf8dd40c5a3e9c4
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_246
@@ -3754,7 +3714,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 0b16dd9a19743e44487e6ae7972f7675
+    spriteID: 869c321517edd314489fe2003a973a3f
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_247
@@ -3769,7 +3729,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 2b6646c57ff09f642974e8ce4e46811d
+    spriteID: 01c50dc82feb15d4082108671e7e3986
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_248
@@ -3784,7 +3744,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: ee1cc3d9947267b43a53eb75ccc8f2f6
+    spriteID: 1a45dcb56618ab2459a40dc9c729e3bc
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_249
@@ -3799,7 +3759,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 4b5d542c33c29bd4cbe7ccfce716e6c1
+    spriteID: 0c1ba1b4b0e966940bd53a94407f4a06
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_250
@@ -3814,7 +3774,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 69957214ca4214c42aaf8a04f17c3d7e
+    spriteID: 8f5d32d3699554c4da61a1888ebe6980
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_251
@@ -3829,7 +3789,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: d7e874070be914c4b842df4378cb8c34
+    spriteID: 04527f918cf50ce46a25b8a22d0fb997
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_252
@@ -3844,7 +3804,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: b6074a4e46e11b54488f5d35655f7120
+    spriteID: 13663548becc3ac4d98a1e26fb79a1cf
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_253
@@ -3859,7 +3819,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 78501f7e695f1e941ad6f2881634ba23
+    spriteID: d7d8f4fae8f1424458f71056d974c05c
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_254
@@ -3874,7 +3834,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: 3cf56bf7e48fb224fabdcb71c010de1e
+    spriteID: 6c724bf28182959448fe4b318ed0b692
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_255
@@ -3889,7 +3849,7 @@ ScriptedImporter:
       y: 32
       width: 16
       height: 16
-    spriteID: c73c996383bc43f43b5d69ee22798981
+    spriteID: 102704e2a3fbfb0459898b3cdfc46850
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_256
@@ -3904,7 +3864,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: ad84f63730609ca49a9f2a52c3091219
+    spriteID: 66899d38665955d40bc669705e23c473
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_257
@@ -3919,7 +3879,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 16f6864cb2cdb434eb4b165e64dde89b
+    spriteID: df3a10036331687459124635c16a2e6e
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_258
@@ -3934,7 +3894,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 66fb814aa6613b049afda1fcb8549393
+    spriteID: 3fd7820720913cb4bb663edfc0695f3a
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_259
@@ -3949,7 +3909,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 3f399ebe2a00a38408309335c2e4d3a1
+    spriteID: 1aec93c477f7dc1428985eea25044816
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_260
@@ -3964,7 +3924,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 1da140917dc81dd44adad3cb24be7859
+    spriteID: 8184f61ddf75865489fc5e77e987472d
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_261
@@ -3979,7 +3939,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: dd4590d68d2bc674cad6008d3c152be4
+    spriteID: f7209cfab25a501488ea0f6b6af498bc
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_262
@@ -3994,7 +3954,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 841028eb3dde317469fde61868128779
+    spriteID: ac4f1e36828e7344e9dd014eb84572ed
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_263
@@ -4009,7 +3969,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 94a4e8b7c1da8744e87b439b44964679
+    spriteID: d9bafcc342eed6f4fadeefbc227da497
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_264
@@ -4024,7 +3984,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 03d2d4bd93301194bb1419e230a0d126
+    spriteID: 6e613b910a13b1c4daf51c948b5270de
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_265
@@ -4039,7 +3999,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 9b50cfa9f6fcaff45bc1c9b3764849b4
+    spriteID: 4aa96c3af85e1ea4496d6bc897b2dcda
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_266
@@ -4054,7 +4014,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: eca055c3f5aae9f49bec62ce6afd2f90
+    spriteID: e45c968fb9e202d4491c1a71ffe89773
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_267
@@ -4069,7 +4029,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 36fc8e4dbb1fe624991e5c2aec903f25
+    spriteID: 857c1b53e4ba86746baa5a8c1cc5cf86
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_268
@@ -4084,7 +4044,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 1a081282a73467f4ba13f08446a3872d
+    spriteID: 9c3d6d7df45fb7246be7b15cd37b6964
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_269
@@ -4099,7 +4059,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: daf9361975361124ab51c79071aaabb5
+    spriteID: c312e4b34787a3943883bae4b44c2201
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_270
@@ -4114,7 +4074,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 3c8e0481680e11641943f3a7be58f2d0
+    spriteID: 4d96c178558faf343b1035f22ab394d4
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_271
@@ -4129,7 +4089,7 @@ ScriptedImporter:
       y: 16
       width: 16
       height: 16
-    spriteID: 542318c21419d9643a8af26e2ffa33c0
+    spriteID: 75243456a969dde4ea701394dbbb458a
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_272
@@ -4144,7 +4104,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 9f52908dc11e1e64fb1fb9adff4afb19
+    spriteID: d69367a4876127d48ad2f74656afa35a
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_273
@@ -4159,7 +4119,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 12dfc4e0e26e893409a151dddddf49e6
+    spriteID: 438f26f47de15484a8d93ac750b877fb
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_274
@@ -4174,7 +4134,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 5c19fd5e1edfd174cb7d18d9a0e979cd
+    spriteID: 66168c3daaa4a9c4a9c30f84bbabdc45
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_275
@@ -4189,7 +4149,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 8a6da1207ba265a4ba06aab7d70219c9
+    spriteID: 3d9eb5a57d85820489f8466dbaf9ff24
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_276
@@ -4204,7 +4164,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 1e6748ff65cd8de42a9a1a21ead69e59
+    spriteID: 9830d4da425163c43b53f402533d434b
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_277
@@ -4219,7 +4179,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 3a88e93f045b3464092cfb0ed4e8f2eb
+    spriteID: 3fc3316f6a3e1644ba456b7d8888c0c7
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_278
@@ -4234,7 +4194,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: ae530e2d65dfd3046b9bc46e9c7d6e32
+    spriteID: b36ded0beb7037c41a45c5b54007762b
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_279
@@ -4249,7 +4209,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 852830d3340f7194b93e910533529703
+    spriteID: 38fc55a457520e649a484725d30db617
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_280
@@ -4264,7 +4224,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: ed30d3afc94337943bdf21c6638f9f31
+    spriteID: fb962c98199c73f459e145e7650c9487
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_281
@@ -4279,7 +4239,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: d8b041c6f45d54f44827138a2f663f4f
+    spriteID: 04a0bc369b90f504da11a155b84cdbc2
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_282
@@ -4294,7 +4254,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 6e1324080d172e5409781173881f49e6
+    spriteID: dab3f5589b6c67a43abad96a44667cf1
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_283
@@ -4309,7 +4269,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: 6f53144085f20b342b95b8c743293163
+    spriteID: 84f72b75443a3be4182836fa9020354f
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_284
@@ -4324,7 +4284,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: f713a3babb8c41e4cb60a74d40b397ed
+    spriteID: 046f39142ca95764ab98a3ef04d2ff51
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_285
@@ -4339,7 +4299,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: ceceafaff22dc924fa79c87ed4a498fc
+    spriteID: a99d0843368ae5f48aee15c4cfabfcba
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_286
@@ -4354,7 +4314,7 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: a94dabac61a3ebd4b97470523dcd6b55
+    spriteID: cf18f4ff98c37e148a0f2337c42ca8c4
     spriteOutline: []
     tessellationDetail: 0
   - name: Witchscene2_287
@@ -4369,8 +4329,8 @@ ScriptedImporter:
       y: 0
       width: 16
       height: 16
-    spriteID: f48afb521dce3e3469b8a9ba8d548407
+    spriteID: 27ce5d60fc599f342b09b294d6b48823
     spriteOutline: []
     tessellationDetail: 0
   _secondaryTextures: []
-  _artifacts: {fileID: -2988177865379244337, guid: 8f5e06f051101ab49b588bb05ca6f0e6, type: 3}
+  _artifacts: {instanceID: 0}
