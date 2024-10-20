@@ -43,7 +43,7 @@ namespace WitchlightWoods
 
         private void Update()
         {
-            if (_platformerAgent.LastMoveInput != 0)
+            if (_platformerAgent.LastMoveInput != 0 && _platformerAgent.Grounded)
             {
                 var currentFootstepsInterval = footstepsInterval.Get(_platformerAgent.Speed);
                 _footstepTimer += Time.deltaTime;
