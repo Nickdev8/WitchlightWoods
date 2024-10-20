@@ -150,7 +150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5628555139814084566}
   - component: {fileID: -2963051442234149390}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Level Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,8 +186,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7b284571c014ee28e4270912e59801a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  biome: 0
-  postProcessProfile: 0
   postProcessProfiles:
     _serializedList:
     - Key: 0
@@ -212,6 +210,10 @@ MonoBehaviour:
   follower: {fileID: 7709237816130577495}
   confiner: {fileID: 8725960353531318332}
   scanLinesVolume: {fileID: 4121137787973046746}
+  biome: 0
+  postProcessProfile: 0
+  lightLevel: 0
+  lightIntensity: 1
 --- !u!1 &8595124788190448215
 GameObject:
   m_ObjectHideFlags: 0

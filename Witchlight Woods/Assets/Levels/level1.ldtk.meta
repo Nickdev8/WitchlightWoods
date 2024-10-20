@@ -13,8 +13,8 @@ ScriptedImporter:
   _pixelsPerUnit: 16
   _customLevelPrefab: {fileID: 7937702671330385618, guid: 2d324d04478b2d54ea8a9da42438ebf4, type: 3}
   _intGridValueColorsVisible: 0
-  _useCompositeCollider: 0
-  _geometryType: 1
+  _useCompositeCollider: 1
+  _geometryType: 0
   _createBackgroundColor: 0
   _createLevelBoundsTrigger: 1
   _useParallax: 1
@@ -24,7 +24,7 @@ ScriptedImporter:
   - _key: ForGround_2
     _asset: {instanceID: 0}
   - _key: Main_1
-    _asset: {fileID: 11400000, guid: a41948f7cb1f42542b05f88fa0fb719c, type: 2}
+    _asset: {instanceID: 0}
   - _key: Main_4
     _asset: {fileID: 11400000, guid: 2a71c4e8ade299b45ab56ea9217c5beb, type: 2}
   - _key: Main_3

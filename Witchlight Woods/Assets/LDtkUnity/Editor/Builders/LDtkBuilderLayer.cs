@@ -69,6 +69,7 @@ namespace LDtkUnity.Editor
             }
             
             TilemapCollider2D collider = tilemapGameObject.AddComponent<TilemapCollider2D>();
+            collider.ProcessTilemapChanges();
             ConfigureTilemapCollider(collider);
         }
 

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
+using Cysharp.Threading.Tasks.Triggers;
 using UnityEngine;
 
 namespace WitchlightWoods
@@ -11,14 +12,30 @@ namespace WitchlightWoods
         private static GameObject _poolParent;
         public static PrefabPool GetOrCreate(GameObject prefab)
         {
+            if (_poolParent == null)
+            {
+                _pools.Clear();
+                _poolParent = new GameObject("Object Pooling");
+                _poolParent.OnDestroyAsync().ContinueWith(() =>
+                {
+                    foreach (var (_, pool) in _pools)
+                    {
+                        pool.Clear();
+                        pool.Dispose();
+                    }
+                    _pools.Clear();
+                });
+            }
+            
             if (_pools.TryGetValue(prefab, out var value))
                 return value;
-            if (_poolParent == null)
-                _poolParent = new GameObject("Object Pooling");
+
             var pool = new PrefabPool(prefab, _poolParent.transform);
             _pools.Add(prefab, pool);
             return pool;
         }
+
+        public static PrefabPool Get(GameObject prefab) => _pools.TryGetValue(prefab, out var pool) ? pool : null;
 
         public static async UniTask TimedRelease(this (GameObject instance, PrefabPool pool) pair, TimeSpan time, DelayType delayType = DelayType.DeltaTime)
         {

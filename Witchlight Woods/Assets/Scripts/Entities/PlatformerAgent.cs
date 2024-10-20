@@ -17,6 +17,7 @@ namespace WitchlightWoods
         
         public bool Grounded => (FrameTimer - LastGroundedFrame) <= Config.coyoteFrames;
         public event Action<bool, int> OnJump = (_, _) => {};
+        public event Action<float> OnLand = (_) => {};
         
         protected float PreviousMoveInput;
         protected float MoveInput;
@@ -56,6 +57,7 @@ namespace WitchlightWoods
         private Bounds _colliderBounds;
         private readonly RaycastHit2D[] _wallHitBuffer = new RaycastHit2D[6];
         private readonly Collider2D[] _groundCheckCollisionBuffer = new Collider2D[6];
+        private Vector2 _lastFrameVelocity;
 
         private void Awake()
         {
@@ -118,6 +120,8 @@ namespace WitchlightWoods
             if (Physics2D.OverlapCircle(position + new Vector2(0, (_colliderLowestYPointOffset - groundCheckRadius)), groundCheckRadius, config.groundCheckFilter, _groundCheckCollisionBuffer) > 0)
             {
                 //On Grounded
+                if (LastGroundedFrame != FrameTimer - 1)
+                    OnLand((FrameTimer - LastGroundedFrame) / 50f);
                 LastGroundedFrame = FrameTimer;
                 JumpCount = 0;
             }
@@ -339,6 +343,7 @@ namespace WitchlightWoods
             
             //todo: crouch
             //todo: slope friction
+            _lastFrameVelocity = rigidbodyVelocity;
             FrameTimer++;
         }
 
