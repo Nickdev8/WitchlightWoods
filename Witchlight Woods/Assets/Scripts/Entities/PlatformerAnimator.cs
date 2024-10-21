@@ -55,6 +55,7 @@ namespace WitchlightWoods
             animator.SetFloat("velocityX", rb.linearVelocityX);
             animator.SetFloat("velocityY", rb.linearVelocityY);
             animator.SetBool("grounded", _agent.Grounded);
+            animator.SetBool("onWall", _agent.OnClimbableWall);
         }
     }
 }
