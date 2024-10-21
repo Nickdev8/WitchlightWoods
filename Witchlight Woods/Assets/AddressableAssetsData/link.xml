@@ -1,0 +1,157 @@
+<linker>
+  <assembly fullname="FMODUnity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="FMODUnity.StudioListener" preserve="all" />
+    <type fullname="FMOD.GUID" preserve="nothing" serialized="true" />
+    <type fullname="FMODUnity.EventReference" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="LDtkUnity.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="LDtkUnity.LDtkArtifactAssets" preserve="all" />
+    <type fullname="LDtkUnity.LDtkComponentEntity" preserve="all" />
+    <type fullname="LDtkUnity.LDtkComponentLayer" preserve="all" />
+    <type fullname="LDtkUnity.LDtkComponentLayerIntGridValues" preserve="all" />
+    <type fullname="LDtkUnity.LDtkComponentLayerParallax" preserve="all" />
+    <type fullname="LDtkUnity.LDtkComponentLayerTilesetTiles" preserve="all" />
+    <type fullname="LDtkUnity.LDtkComponentLevel" preserve="all" />
+    <type fullname="LDtkUnity.LDtkComponentProject" preserve="all" />
+    <type fullname="LDtkUnity.LDtkComponentWorld" preserve="all" />
+    <type fullname="LDtkUnity.LDtkDefinitionObjectAutoLayerRule" preserve="all" />
+    <type fullname="LDtkUnity.LDtkDefinitionObjectAutoLayerRuleGroup" preserve="all" />
+    <type fullname="LDtkUnity.LDtkDefinitionObjectEntity" preserve="all" />
+    <type fullname="LDtkUnity.LDtkDefinitionObjectEnum" preserve="all" />
+    <type fullname="LDtkUnity.LDtkDefinitionObjectField" preserve="all" />
+    <type fullname="LDtkUnity.LDtkDefinitionObjectLayer" preserve="all" />
+    <type fullname="LDtkUnity.LDtkDefinitionObjectTileset" preserve="all" />
+    <type fullname="LDtkUnity.LDtkEntityDrawerComponent" preserve="all" />
+    <type fullname="LDtkUnity.LDtkFields" preserve="all" />
+    <type fullname="LDtkUnity.LDtkIid" preserve="all" />
+    <type fullname="LDtkUnity.LDtkIntGridTile" preserve="all" />
+    <type fullname="LDtkUnity.LDtkProjectFile" preserve="all" />
+    <type fullname="LDtkUnity.LDtkTilesetTile" preserve="all" />
+    <type fullname="LDtkUnity.LDtkComponentLayerIntGridValues/IntGridValuePositions" preserve="nothing" serialized="true" />
+    <type fullname="LDtkUnity.LDtkDefinitionObjectCommand" preserve="nothing" serialized="true" />
+    <type fullname="LDtkUnity.LDtkDefinitionObjectEnumValue" preserve="nothing" serialized="true" />
+    <type fullname="LDtkUnity.LDtkDefinitionObjectIntGridValue" preserve="nothing" serialized="true" />
+    <type fullname="LDtkUnity.LDtkEntityDrawerData" preserve="nothing" serialized="true" />
+    <type fullname="LDtkUnity.LDtkField" preserve="nothing" serialized="true" />
+    <type fullname="LDtkUnity.LDtkFieldElement" preserve="nothing" serialized="true" />
+    <type fullname="LDtkUnity.LDtkNeighbour" preserve="nothing" serialized="true" />
+    <type fullname="LDtkUnity.LDtkReferenceToAnEntityInstance" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Unity.Cinemachine.CinemachineBrain" preserve="all" />
+    <type fullname="Unity.Cinemachine.CinemachineCamera" preserve="all" />
+    <type fullname="Unity.Cinemachine.CinemachineConfiner2D" preserve="all" />
+    <type fullname="Unity.Cinemachine.CinemachinePixelPerfect" preserve="all" />
+    <type fullname="Unity.Cinemachine.CinemachinePositionComposer" preserve="all" />
+    <type fullname="Unity.Cinemachine.CameraTarget" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.CinemachineBlendDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.CinemachineBrain/LensModeOverrideSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.CinemachineConfiner2D/OversizeWindowSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.LensSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.LensSettings/PhysicalSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.LookaheadSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.PrioritySettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.ScreenComposerSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.ScreenComposerSettings/DeadZoneSettings" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.ScreenComposerSettings/HardLimitSettings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.InputSystem, Version=1.11.1.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.InputActionReference" preserve="all" />
+    <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Core.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Volume" preserve="all" />
+    <type fullname="UnityEngine.Rendering.VolumeProfile" preserve="all" />
+    <type fullname="UnityEngine.Rendering.ClampedFloatParameter" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.2D.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.PixelPerfectCamera" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AnimationClip" preserve="all" />
+    <type fullname="UnityEngine.Animator" preserve="all" />
+    <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.GridModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Grid" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.CapsuleCollider2D" preserve="all" />
+    <type fullname="UnityEngine.CompositeCollider2D" preserve="all" />
+    <type fullname="UnityEngine.DistanceJoint2D" preserve="all" />
+    <type fullname="UnityEngine.PhysicsMaterial2D" preserve="all" />
+    <type fullname="UnityEngine.PolygonCollider2D" preserve="all" />
+    <type fullname="UnityEngine.RelativeJoint2D" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
+    <type fullname="UnityEngine.SpringJoint2D" preserve="all" />
+    <type fullname="UnityEngine.ContactFilter2D" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TilemapModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Tilemaps.Tilemap" preserve="all" />
+    <type fullname="UnityEngine.Tilemaps.TilemapCollider2D" preserve="all" />
+    <type fullname="UnityEngine.Tilemaps.TilemapRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+  </assembly>
+  <assembly fullname="WitchlightWoods, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ScanLinesVolumeComponent" preserve="all" />
+    <type fullname="WitchlightWoods.InteractionAgent" preserve="all" />
+    <type fullname="WitchlightWoods.Levels.CustomLevel" preserve="all" />
+    <type fullname="WitchlightWoods.Objects.ObjectFollower" preserve="all" />
+    <type fullname="WitchlightWoods.PlatformerAgent" preserve="all" />
+    <type fullname="WitchlightWoods.PlatformerAgentConfigBox" preserve="all" />
+    <type fullname="WitchlightWoods.PlatformerAgentExtrasConfig" preserve="all" />
+    <type fullname="WitchlightWoods.PlatformerAnimator" preserve="all" />
+    <type fullname="WitchlightWoods.PlatformerSfx" preserve="all" />
+    <type fullname="WitchlightWoods.PlatformerVfx" preserve="all" />
+    <type fullname="WitchlightWoods.Player" preserve="all" />
+    <type fullname="WitchlightWoods.TooltipController" preserve="all" />
+    <type fullname=".Light" preserve="nothing" serialized="true" />
+    <type fullname=".PostProcessProfile" preserve="nothing" serialized="true" />
+    <type fullname="WitchlightWoods.AnimatedVisualEffect" preserve="nothing" serialized="true" />
+    <type fullname="WitchlightWoods.PlatformerAgentConfig" preserve="nothing" serialized="true" />
+    <type fullname="WitchlightWoods.RemapFloat" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="AYellowpaper.SerializedCollections">
+    <type fullname="AYellowpaper.SerializedCollections.SerializedDictionary`2" preserve="nothing" serialized="true" />
+    <type fullname="AYellowpaper.SerializedCollections.SerializedKeyValuePair`2" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>

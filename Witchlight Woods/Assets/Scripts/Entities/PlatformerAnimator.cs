@@ -7,7 +7,10 @@ namespace WitchlightWoods
     public class PlatformerAnimator : MonoBehaviour
     {
         [SerializeField] private Animator animator;
+        [SerializeField] private bool useTransformFlip;
+        [SerializeField] private Transform transformFlipRoot;
         private PlatformerAgent _agent;
+        private bool _facingRight = true;
 
         private void Awake()
         {
@@ -39,7 +42,14 @@ namespace WitchlightWoods
         private void Update()
         {
             animator.SetFloat("control", 1f - _agent.Config.stunFactor);
-            animator.SetFloat("facingDir", _agent.LastMoveInput);
+            var lastMoveInput = _agent.LastMoveInput;
+            if (lastMoveInput != 0)
+            {
+                _facingRight = lastMoveInput > 0;
+                animator.SetFloat("facingDir", lastMoveInput);
+                if (useTransformFlip)
+                    transformFlipRoot.localScale = new Vector3(_facingRight ? 1 : -1, 1, 1);
+            }
             var rb = _agent.Rigidbody2D;
             animator.SetFloat("speed", Mathf.Abs(rb.linearVelocityX));
             animator.SetFloat("velocityX", rb.linearVelocityX);
