@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using AYellowpaper.SerializedCollections;
+using Cysharp.Threading.Tasks;
+using DG.Tweening;
 using LDtkUnity;
 using Unity.Cinemachine;
 using UnityEngine;
@@ -25,9 +27,14 @@ namespace WitchlightWoods.Levels
         public PostProcessProfile postProcessProfile;
         public Light lightLevel;
         public float lightIntensity = 1f;
+
+        public int levelIndex = -1;
         
         public static GameObject Player;
         public static Light2D MainLight;
+
+        public static List<CustomLevel> levels = new ();
+        private static int _activeCameraIndex = -1;
         
         public void OnLDtkImportFields(LDtkFields fields)
         {
@@ -50,20 +57,41 @@ namespace WitchlightWoods.Levels
             lightLevels.TryGetValue(lightLevel, out lightIntensity);
         }
 
-        private void OnTriggerExit2D(Collider2D other)
-        {
-            if (other.CompareTag("Player"))
-            {
-                follower.Priority.Value = 10;
-            }
-        }
-
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.CompareTag("Player"))
             {
-                follower.Priority.Value = 11;
+                
             }
+        }
+
+        public void Prioritize()
+        {
+            if(_activeCameraIndex >= 0 && levels.Count > _activeCameraIndex)
+                levels[_activeCameraIndex].follower.Priority.Value = 10;
+            _activeCameraIndex = levels.IndexOf(this);
+            follower.Priority.Value = 11;
+
+            if(Time.timeSinceLevelLoad > 1f && Application.isPlaying)
+                Transition().Forget();
+        }
+
+        private async UniTaskVoid Transition()
+        {
+            var rb = Player.GetComponent<Rigidbody2D>();
+            var position = rb.position;
+            var normal = ((Vector2)collider.bounds.center - position).normalized;
+            // rb.MovePosition(collider.ClosestPoint(position) + (normal * 0.5f));
+            // await UniTask.Yield(PlayerLoopTiming.Update);
+            // Physics2D.simulationMode = SimulationMode2D.Script;
+            // if (!Physics2D.Simulate(0.15f)) throw new Exception("Physics can't be simulated from physics callback");
+            // Physics2D.simulationMode = SimulationMode2D.FixedUpdate;
+            // await UniTask.Yield(PlayerLoopTiming.LastFixedUpdate);
+            // await UniTask.Yield(PlayerLoopTiming.LastFixedUpdate);
+            // await UniTask.Yield(PlayerLoopTiming.LastFixedUpdate);
+            Time.timeScale = 0f;
+            var cancelled = await UniTask.Delay(600, cancellationToken: destroyCancellationToken, ignoreTimeScale: true).SuppressCancellationThrow();
+            Time.timeScale = 1f;
         }
 
         private void OnTriggerStay2D(Collider2D other)
@@ -71,11 +99,21 @@ namespace WitchlightWoods.Levels
             if (other.CompareTag("Player"))
             {
                 MainLight.intensity = Mathf.Lerp(MainLight.intensity, lightIntensity, Time.deltaTime);
+
+                //if fully contains player and is inactive
+                if (_activeCameraIndex != levelIndex &&
+                    collider.bounds.Contains(other.bounds.min) &&
+                    collider.bounds.Contains(other.bounds.max))
+                {
+                    Prioritize();
+                }
             }
         }
 
         private void OnEnable()
         {
+            levelIndex = levels.Count;
+            levels.Add(this);
             if(Player == null)
                 Player = GameObject.FindWithTag("Player");
             if(MainLight == null)
@@ -83,6 +121,11 @@ namespace WitchlightWoods.Levels
             if (Player != null) 
                 follower.Target.TrackingTarget = Player.transform;
             confiner.InvalidateBoundingShapeCache();
+        }
+
+        private void OnDisable()
+        {
+            levels.Remove(this);
         }
     }
 }
