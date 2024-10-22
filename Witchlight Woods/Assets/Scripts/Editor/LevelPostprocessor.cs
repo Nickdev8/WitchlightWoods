@@ -58,17 +58,6 @@ namespace Editor
 
         protected override void OnPostprocessProject(GameObject root)
         {
-            // var serializationSettings = new Pathfinding.Serialization.SerializeSettings();
-            // serializationSettings.nodes = true;
-            // var script = AstarPath.active;
-            //
-            // script.Scan();
-            //
-            // var bytes = script.data.SerializeGraphs(serializationSettings);
-            //
-            // script.data.file_cachedStartup = AstarPathEditor.SaveGraphData(bytes, script.data.file_cachedStartup, false);
-            // script.data.cacheStartup = true;
-
             var player = root.GetComponentInChildren<Player>();
             if (player != null)
             {
@@ -78,7 +67,8 @@ namespace Editor
                     level.follower.Priority.Enabled = true;
                     level.follower.Priority.Value = 10;
                 }
-                player.GetComponentInParent<CustomLevel>().follower.Priority.Value = 11;
+
+                player.GetComponentInParent<CustomLevel>().Prioritize();
             }
         }
     }
